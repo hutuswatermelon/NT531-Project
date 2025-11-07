@@ -80,15 +80,18 @@ def start_iperf_server_in_new_window():
         )
         os.system(cmd)
     else:
+        os.makedirs(BASE / "server_json", exist_ok=True)
+        print("Chạy iperf3 server nền trong container (không cần gnome-terminal).")
         subprocess.Popen(
             [
-                "gnome-terminal", "--", "bash", "-c",
-                f'mkdir -p {BASE}/server_json; i=1; while true; do '
+                "bash", "-c",
+                f'i=1; while true; do '
                 f'echo "[SERVER] Waiting $i..."; '
                 f'iperf3 -s -1 -J > {BASE}/server_json/session_$i.json; '
                 f'echo "[SERVER] Session $i done."; sleep 3; i=$((i+1)); done'
             ]
         )
+
 
 # ---------------- Client -----------------
 def client_run(run_dir):
