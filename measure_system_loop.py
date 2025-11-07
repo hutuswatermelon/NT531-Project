@@ -29,15 +29,15 @@ def apply_qos():
         return
 
     # Xóa QoS cũ nếu có
-    subprocess.run(["sudo", "tc", "qdisc", "del", "dev", args.iface, "root"], stderr=subprocess.DEVNULL)
+    subprocess.run(["tc", "qdisc", "del", "dev", args.iface, "root"], stderr=subprocess.DEVNULL)
 
     # Chọn loại QoS
     if args.qos == "qos1":
-        cmd = f"sudo tc qdisc add dev {args.iface} root tbf rate 40mbit burst 32kbit latency 400ms"
+        cmd = f"tc qdisc add dev {args.iface} root tbf rate 40mbit burst 32kbit latency 400ms"
     elif args.qos == "qos2":
-        cmd = f"sudo tc qdisc add dev {args.iface} root netem delay 25ms"
+        cmd = f"tc qdisc add dev {args.iface} root netem delay 25ms"
     elif args.qos == "qos3":
-        cmd = f"sudo tc qdisc add dev {args.iface} root netem delay 25ms loss 1%"
+        cmd = f"tc qdisc add dev {args.iface} root netem delay 25ms loss 1%"
     else:
         print("QoS: không áp dụng (noqos).")
         return
