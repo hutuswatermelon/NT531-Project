@@ -27,6 +27,13 @@ df["direction"] = df["direction"].fillna("NONE").astype(str).str.lower().str.str
 if "pod_config" not in df.columns:
     df["pod_config"] = "NONE"
 
+# Bổ sung: gán nic_mode cho K8S = "K8S_<số pod>"
+mask_k8s = df["env"].str.contains("K8S|KUBERNETES", na=False)
+df.loc[mask_k8s, "nic_mode"] = df.loc[mask_k8s, "pod_config"].apply(
+    lambda x: f"K8S_{x.upper()}" if isinstance(x, str) and x != "NONE" else "K8S_UNKNOWN"
+)
+
+
 # ---------------- LỌC BẢN GHI KHÔNG HỢP LỆ ----------------
 # Loại bỏ các bản ghi có throughput hoặc cpu_mean rỗng hoặc bằng 0
 invalid_mask = (
@@ -77,6 +84,17 @@ def classify_fair(row):
     return False
 
 df["is_fair"] = df.apply(classify_fair, axis=1)
+
+# ---------------- CHUẨN HÓA NIC CHO K8S ----------------
+mask_k8s = df["env"].str.contains("K8S|KUBERNETES", na=False)
+
+# Chuẩn hóa cột pod_config: viết hoa, bỏ khoảng trắng
+df["pod_config"] = df["pod_config"].astype(str).str.upper().str.strip()
+
+# Gán lại nic_mode = K8S_<POD_CONFIG> (nếu có), ngược lại K8S_UNKNOWN
+df.loc[mask_k8s, "nic_mode"] = df.loc[mask_k8s, "pod_config"].apply(
+    lambda x: f"K8S_{x}" if pd.notna(x) and x not in ["NONE", "NAN", ""] else "K8S_UNKNOWN"
+)
 
 # ---------------- GROUP ----------------
 agg_cols = ["throughput_mbps","latency_ms","packet_loss_pct","jitter_ms","cpu_mean","ram_mean"]
@@ -214,3 +232,44 @@ except Exception as e:
 # ---------------- XUẤT CSV ----------------
 agg_df.to_csv("summary_full_grouped.csv",index=False)
 print(f"Đã sinh biểu đồ đầy đủ tại: {OUT_DIR.resolve()}")
+
+# ---------------- BẢNG GỘP SO SÁNH TỔNG HỢP ----------------
+summary_tables = []
+
+# So sánh ENV (NOQOS, FAIR only)
+env_summary = (
+    agg_df[(agg_df["qos"]=="NOQOS") & (agg_df["is_fair"])]
+    .groupby("env")[["throughput_mbps_mean","latency_ms_mean","cpu_mean_mean","jitter_ms_mean"]]
+    .mean()
+    .reset_index()
+)
+env_summary["category"] = "ENV_FAIR"
+summary_tables.append(env_summary)
+
+# So sánh ảnh hưởng QoS normalized
+qos_summary = (
+    agg_df.groupby(["env","qos"])[["throughput_norm","latency_ms_mean","jitter_ms_mean","cpu_mean_mean"]]
+    .mean()
+    .reset_index()
+)
+qos_summary["category"] = "QOS_EFFECT"
+summary_tables.append(qos_summary)
+
+# So sánh K8S theo Pod (chỉ nếu có)
+k8s_summary = agg_df[agg_df["env"].str.contains("K8S|KUBERNETES",na=False)]
+if not k8s_summary.empty:
+    k8s_summary = (
+        k8s_summary.groupby("pod_config")[["throughput_mbps_mean","latency_ms_mean","cpu_mean_mean","jitter_ms_mean"]]
+        .mean()
+        .reset_index()
+    )
+    k8s_summary["category"] = "K8S_POD_SCALING"
+    summary_tables.append(k8s_summary)
+
+# Gộp tất cả
+if summary_tables:
+    summary_combined = pd.concat(summary_tables, ignore_index=True)
+    summary_combined.to_csv("summary_comparison.csv", index=False)
+    print(f"Đã xuất bảng tổng hợp so sánh → summary_comparison.csv ({len(summary_combined)} dòng)")
+else:
+    print("Không có dữ liệu để xuất summary_comparison.csv")

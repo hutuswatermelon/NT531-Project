@@ -1,9 +1,9 @@
 role=client
 server_ip=127.0.0.1
 duration=30
-timestamp_start=2025-11-06 10:26:33
-timestamp_end=2025-11-06 10:28:44
+timestamp_start=2025-11-06 12:22:35
+timestamp_end=2025-11-06 12:24:46
 platform=Linux
 repeat_index=run_06
 qos=noqos
-direction=cs
+direction=sc
