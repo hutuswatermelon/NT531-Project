@@ -1,0 +1,7 @@
+role=client
+server_ip=10.244.1.19
+duration=30
+timestamp=2025-11-08 02:12:53
+platform=Linux
+qos=qos2
+direction=cs

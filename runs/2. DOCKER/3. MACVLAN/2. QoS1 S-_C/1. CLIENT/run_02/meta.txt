@@ -1,0 +1,8 @@
+role=client
+server_ip=192.168.1.3
+duration=30
+timestamp=2025-11-09 14:37:19
+platform=Linux
+repeat_index=run_02
+qos=qos2
+direction=sc

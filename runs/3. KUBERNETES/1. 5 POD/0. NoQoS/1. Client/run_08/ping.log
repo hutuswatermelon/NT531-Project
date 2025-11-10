@@ -1,0 +1,107 @@
+PING 10.244.1.22 (10.244.1.22) 56(84) bytes of data.
+64 bytes from 10.244.1.22: icmp_seq=1 ttl=62 time=63.3 ms
+64 bytes from 10.244.1.22: icmp_seq=2 ttl=62 time=60.6 ms
+64 bytes from 10.244.1.22: icmp_seq=3 ttl=62 time=4.57 ms
+64 bytes from 10.244.1.22: icmp_seq=4 ttl=62 time=15.7 ms
+64 bytes from 10.244.1.22: icmp_seq=5 ttl=62 time=5.38 ms
+64 bytes from 10.244.1.22: icmp_seq=6 ttl=62 time=4.93 ms
+64 bytes from 10.244.1.22: icmp_seq=7 ttl=62 time=5.91 ms
+64 bytes from 10.244.1.22: icmp_seq=8 ttl=62 time=5.14 ms
+64 bytes from 10.244.1.22: icmp_seq=9 ttl=62 time=11.1 ms
+64 bytes from 10.244.1.22: icmp_seq=11 ttl=62 time=6.07 ms
+64 bytes from 10.244.1.22: icmp_seq=12 ttl=62 time=5.01 ms
+64 bytes from 10.244.1.22: icmp_seq=13 ttl=62 time=5.14 ms
+64 bytes from 10.244.1.22: icmp_seq=14 ttl=62 time=8.09 ms
+64 bytes from 10.244.1.22: icmp_seq=15 ttl=62 time=24.8 ms
+64 bytes from 10.244.1.22: icmp_seq=16 ttl=62 time=13.1 ms
+64 bytes from 10.244.1.22: icmp_seq=17 ttl=62 time=6.48 ms
+64 bytes from 10.244.1.22: icmp_seq=18 ttl=62 time=17.8 ms
+64 bytes from 10.244.1.22: icmp_seq=19 ttl=62 time=5.98 ms
+64 bytes from 10.244.1.22: icmp_seq=20 ttl=62 time=4.91 ms
+64 bytes from 10.244.1.22: icmp_seq=21 ttl=62 time=4.70 ms
+64 bytes from 10.244.1.22: icmp_seq=22 ttl=62 time=5.43 ms
+64 bytes from 10.244.1.22: icmp_seq=23 ttl=62 time=11.1 ms
+64 bytes from 10.244.1.22: icmp_seq=24 ttl=62 time=5.74 ms
+64 bytes from 10.244.1.22: icmp_seq=25 ttl=62 time=9.75 ms
+64 bytes from 10.244.1.22: icmp_seq=26 ttl=62 time=10.7 ms
+64 bytes from 10.244.1.22: icmp_seq=27 ttl=62 time=4.74 ms
+64 bytes from 10.244.1.22: icmp_seq=28 ttl=62 time=6.91 ms
+64 bytes from 10.244.1.22: icmp_seq=29 ttl=62 time=5.05 ms
+64 bytes from 10.244.1.22: icmp_seq=30 ttl=62 time=17.6 ms
+64 bytes from 10.244.1.22: icmp_seq=31 ttl=62 time=525 ms
+64 bytes from 10.244.1.22: icmp_seq=32 ttl=62 time=1559 ms
+64 bytes from 10.244.1.22: icmp_seq=33 ttl=62 time=653 ms
+64 bytes from 10.244.1.22: icmp_seq=34 ttl=62 time=5258 ms
+64 bytes from 10.244.1.22: icmp_seq=35 ttl=62 time=6360 ms
+64 bytes from 10.244.1.22: icmp_seq=36 ttl=62 time=5576 ms
+64 bytes from 10.244.1.22: icmp_seq=37 ttl=62 time=5536 ms
+64 bytes from 10.244.1.22: icmp_seq=38 ttl=62 time=4779 ms
+64 bytes from 10.244.1.22: icmp_seq=39 ttl=62 time=3778 ms
+64 bytes from 10.244.1.22: icmp_seq=40 ttl=62 time=2810 ms
+64 bytes from 10.244.1.22: icmp_seq=41 ttl=62 time=1763 ms
+64 bytes from 10.244.1.22: icmp_seq=42 ttl=62 time=1445 ms
+64 bytes from 10.244.1.22: icmp_seq=43 ttl=62 time=893 ms
+64 bytes from 10.244.1.22: icmp_seq=44 ttl=62 time=1398 ms
+64 bytes from 10.244.1.22: icmp_seq=45 ttl=62 time=6503 ms
+64 bytes from 10.244.1.22: icmp_seq=46 ttl=62 time=5768 ms
+64 bytes from 10.244.1.22: icmp_seq=47 ttl=62 time=4873 ms
+64 bytes from 10.244.1.22: icmp_seq=48 ttl=62 time=3849 ms
+64 bytes from 10.244.1.22: icmp_seq=49 ttl=62 time=2825 ms
+64 bytes from 10.244.1.22: icmp_seq=50 ttl=62 time=1906 ms
+64 bytes from 10.244.1.22: icmp_seq=51 ttl=62 time=944 ms
+64 bytes from 10.244.1.22: icmp_seq=52 ttl=62 time=252 ms
+64 bytes from 10.244.1.22: icmp_seq=53 ttl=62 time=1302 ms
+64 bytes from 10.244.1.22: icmp_seq=54 ttl=62 time=1512 ms
+64 bytes from 10.244.1.22: icmp_seq=55 ttl=62 time=776 ms
+64 bytes from 10.244.1.22: icmp_seq=56 ttl=62 time=938 ms
+64 bytes from 10.244.1.22: icmp_seq=57 ttl=62 time=881 ms
+64 bytes from 10.244.1.22: icmp_seq=58 ttl=62 time=1074 ms
+64 bytes from 10.244.1.22: icmp_seq=59 ttl=62 time=896 ms
+64 bytes from 10.244.1.22: icmp_seq=60 ttl=62 time=647 ms
+64 bytes from 10.244.1.22: icmp_seq=61 ttl=62 time=590 ms
+64 bytes from 10.244.1.22: icmp_seq=62 ttl=62 time=4.39 ms
+64 bytes from 10.244.1.22: icmp_seq=63 ttl=62 time=4.45 ms
+64 bytes from 10.244.1.22: icmp_seq=64 ttl=62 time=5.18 ms
+64 bytes from 10.244.1.22: icmp_seq=65 ttl=62 time=6.98 ms
+64 bytes from 10.244.1.22: icmp_seq=66 ttl=62 time=5.27 ms
+64 bytes from 10.244.1.22: icmp_seq=67 ttl=62 time=6.22 ms
+64 bytes from 10.244.1.22: icmp_seq=68 ttl=62 time=5.22 ms
+64 bytes from 10.244.1.22: icmp_seq=69 ttl=62 time=84.6 ms
+64 bytes from 10.244.1.22: icmp_seq=70 ttl=62 time=3276 ms
+64 bytes from 10.244.1.22: icmp_seq=71 ttl=62 time=2807 ms
+64 bytes from 10.244.1.22: icmp_seq=72 ttl=62 time=2023 ms
+64 bytes from 10.244.1.22: icmp_seq=73 ttl=62 time=999 ms
+64 bytes from 10.244.1.22: icmp_seq=74 ttl=62 time=278 ms
+64 bytes from 10.244.1.22: icmp_seq=75 ttl=62 time=1157 ms
+64 bytes from 10.244.1.22: icmp_seq=76 ttl=62 time=373 ms
+64 bytes from 10.244.1.22: icmp_seq=77 ttl=62 time=125 ms
+64 bytes from 10.244.1.22: icmp_seq=80 ttl=62 time=33.1 ms
+64 bytes from 10.244.1.22: icmp_seq=81 ttl=62 time=1902 ms
+64 bytes from 10.244.1.22: icmp_seq=82 ttl=62 time=3692 ms
+64 bytes from 10.244.1.22: icmp_seq=83 ttl=62 time=5135 ms
+64 bytes from 10.244.1.22: icmp_seq=86 ttl=62 time=4513 ms
+64 bytes from 10.244.1.22: icmp_seq=87 ttl=62 time=3466 ms
+64 bytes from 10.244.1.22: icmp_seq=89 ttl=62 time=1771 ms
+64 bytes from 10.244.1.22: icmp_seq=90 ttl=62 time=1046 ms
+64 bytes from 10.244.1.22: icmp_seq=92 ttl=62 time=417 ms
+64 bytes from 10.244.1.22: icmp_seq=93 ttl=62 time=625 ms
+64 bytes from 10.244.1.22: icmp_seq=94 ttl=62 time=219 ms
+64 bytes from 10.244.1.22: icmp_seq=95 ttl=62 time=160 ms
+64 bytes from 10.244.1.22: icmp_seq=96 ttl=62 time=301 ms
+64 bytes from 10.244.1.22: icmp_seq=97 ttl=62 time=884 ms
+64 bytes from 10.244.1.22: icmp_seq=98 ttl=62 time=365 ms
+64 bytes from 10.244.1.22: icmp_seq=99 ttl=62 time=215 ms
+64 bytes from 10.244.1.22: icmp_seq=100 ttl=62 time=8.26 ms
+
+--- 10.244.1.22 ping statistics ---
+100 packets transmitted, 93 received, 7% packet loss, time 100019ms
+rtt min/avg/max/mdev = 4.393/1227.289/6502.687/1761.879 ms, pipe 7
+ms
+64 bytes from 10.244.1.22: icmp_seq=99 ttl=62 time=755 ms
+64 bytes from 10.244.1.22: icmp_seq=100 ttl=62 time=45.7 ms
+
+--- 10.244.1.22 ping statistics ---
+100 packets transmitted, 98 received, 2% packet loss, time 99846ms
+rtt min/avg/max/mdev = 4.418/1207.598/6798.510/1657.168 ms, pipe 7
+t min/avg/max/mdev = 4.684/1285.916/6551.680/1716.778 ms, pipe 7
+n/avg/max/mdev = 4.508/1325.673/6487.579/1775.448 ms, pipe 7

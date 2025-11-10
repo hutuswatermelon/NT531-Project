@@ -1,0 +1,23 @@
+{
+	"start":	{
+		"connected":	[],
+		"version":	"iperf 3.18",
+		"system_info":	"Linux iperf-client-10-pfpzk 6.8.0-87-generic #88~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Tue Oct 14 14:03:14 UTC 2 x86_64",
+		"timestamp":	{
+			"time":	"Sat, 08 Nov 2025 09:15:31 GMT",
+			"timesecs":	1762593331
+		},
+		"connecting_to":	{
+			"host":	"10.244.1.29",
+			"port":	5201
+		},
+		"cookie":	"vvyjcafiyqysu77tg7urkleb7p5n72wa7x6n",
+		"tcp_mss_default":	1398,
+		"target_bitrate":	0,
+		"fq_rate":	0
+	},
+	"intervals":	[],
+	"end":	{
+	},
+	"error":	"control socket has closed unexpectedly"
+}

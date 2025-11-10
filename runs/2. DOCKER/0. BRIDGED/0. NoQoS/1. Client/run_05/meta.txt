@@ -1,0 +1,9 @@
+role=client
+server_ip=server
+duration=30
+timestamp_start=2025-11-06 05:50:47
+timestamp_end=2025-11-06 05:52:59
+platform=Linux
+repeat_index=run_05
+qos=noqos
+direction=cs

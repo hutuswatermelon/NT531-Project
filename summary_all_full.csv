@@ -1,0 +1,819 @@
+env,nic_mode,qos,direction,pod_config,role,throughput_mbps,retransmits,cpu_mean,ram_mean,path,latency_ms,packet_loss_pct,jitter_ms
+NATIVE,NATIVE,NOQOS,none,none,server,0.0,,12.257411273486431,13646.73260960334,runs\0. NATIVE\0. NATIVE\0. SERVER\server_json\session_%1.json,,,
+NATIVE,NATIVE,NOQOS,none,none,server,0.0,,12.257411273486431,13646.73260960334,runs\0. NATIVE\0. NATIVE\0. SERVER\server_json\session_%10.json,,,
+NATIVE,NATIVE,NOQOS,none,none,server,0.0,,12.257411273486431,13646.73260960334,runs\0. NATIVE\0. NATIVE\0. SERVER\server_json\session_%2.json,,,
+NATIVE,NATIVE,NOQOS,none,none,server,0.0,,12.257411273486431,13646.73260960334,runs\0. NATIVE\0. NATIVE\0. SERVER\server_json\session_%3.json,,,
+NATIVE,NATIVE,NOQOS,none,none,server,0.0,,12.257411273486431,13646.73260960334,runs\0. NATIVE\0. NATIVE\0. SERVER\server_json\session_%4.json,,,
+NATIVE,NATIVE,NOQOS,none,none,server,0.0,,12.257411273486431,13646.73260960334,runs\0. NATIVE\0. NATIVE\0. SERVER\server_json\session_%5.json,,,
+NATIVE,NATIVE,NOQOS,none,none,server,0.0,,12.257411273486431,13646.73260960334,runs\0. NATIVE\0. NATIVE\0. SERVER\server_json\session_%6.json,,,
+NATIVE,NATIVE,NOQOS,none,none,server,0.0,,12.257411273486431,13646.73260960334,runs\0. NATIVE\0. NATIVE\0. SERVER\server_json\session_%7.json,,,
+NATIVE,NATIVE,NOQOS,none,none,server,0.0,,12.257411273486431,13646.73260960334,runs\0. NATIVE\0. NATIVE\0. SERVER\server_json\session_%8.json,,,
+NATIVE,NATIVE,NOQOS,none,none,server,0.0,,12.257411273486431,13646.73260960334,runs\0. NATIVE\0. NATIVE\0. SERVER\server_json\session_%9.json,,,
+VM,CROSS-HOSTS,NOQOS,none,none,server,0.0,,6.490012406947891,2432.42246898263,runs\1. VM\0. CROSS-HOSTS\0. NoQoS\0. SERVER\server_json\session_1.json,,,
+VM,CROSS-HOSTS,NOQOS,none,none,server,0.0,,6.490012406947891,2432.42246898263,runs\1. VM\0. CROSS-HOSTS\0. NoQoS\0. SERVER\server_json\session_10.json,,,
+VM,CROSS-HOSTS,NOQOS,none,none,server,0.0,,6.490012406947891,2432.42246898263,runs\1. VM\0. CROSS-HOSTS\0. NoQoS\0. SERVER\server_json\session_2.json,,,
+VM,CROSS-HOSTS,NOQOS,none,none,server,0.0,,6.490012406947891,2432.42246898263,runs\1. VM\0. CROSS-HOSTS\0. NoQoS\0. SERVER\server_json\session_3.json,,,
+VM,CROSS-HOSTS,NOQOS,none,none,server,0.0,,6.490012406947891,2432.42246898263,runs\1. VM\0. CROSS-HOSTS\0. NoQoS\0. SERVER\server_json\session_4.json,,,
+VM,CROSS-HOSTS,NOQOS,none,none,server,0.0,,6.490012406947891,2432.42246898263,runs\1. VM\0. CROSS-HOSTS\0. NoQoS\0. SERVER\server_json\session_5.json,,,
+VM,CROSS-HOSTS,NOQOS,none,none,server,0.0,,6.490012406947891,2432.42246898263,runs\1. VM\0. CROSS-HOSTS\0. NoQoS\0. SERVER\server_json\session_6.json,,,
+VM,CROSS-HOSTS,NOQOS,none,none,server,0.0,,6.490012406947891,2432.42246898263,runs\1. VM\0. CROSS-HOSTS\0. NoQoS\0. SERVER\server_json\session_7.json,,,
+VM,CROSS-HOSTS,NOQOS,none,none,server,0.0,,6.490012406947891,2432.42246898263,runs\1. VM\0. CROSS-HOSTS\0. NoQoS\0. SERVER\server_json\session_8.json,,,
+VM,CROSS-HOSTS,NOQOS,none,none,server,0.0,,6.490012406947891,2432.42246898263,runs\1. VM\0. CROSS-HOSTS\0. NoQoS\0. SERVER\server_json\session_9.json,,,
+VM,CROSS-HOSTS,QOS3,none,none,server,0.0,,15.159776902887138,2676.767657480315,runs\1. VM\0. CROSS-HOSTS\1. QoS3\0. SERVER\server_json\session_1.json,,,
+VM,CROSS-HOSTS,QOS3,none,none,server,0.0,,15.159776902887138,2676.767657480315,runs\1. VM\0. CROSS-HOSTS\1. QoS3\0. SERVER\server_json\session_10.json,,,
+VM,CROSS-HOSTS,QOS3,none,none,server,0.0,,15.159776902887138,2676.767657480315,runs\1. VM\0. CROSS-HOSTS\1. QoS3\0. SERVER\server_json\session_2.json,,,
+VM,CROSS-HOSTS,QOS3,none,none,server,0.0,,15.159776902887138,2676.767657480315,runs\1. VM\0. CROSS-HOSTS\1. QoS3\0. SERVER\server_json\session_3.json,,,
+VM,CROSS-HOSTS,QOS3,none,none,server,0.0,,15.159776902887138,2676.767657480315,runs\1. VM\0. CROSS-HOSTS\1. QoS3\0. SERVER\server_json\session_4.json,,,
+VM,CROSS-HOSTS,QOS3,none,none,server,0.0,,15.159776902887138,2676.767657480315,runs\1. VM\0. CROSS-HOSTS\1. QoS3\0. SERVER\server_json\session_5.json,,,
+VM,CROSS-HOSTS,QOS3,none,none,server,0.0,,15.159776902887138,2676.767657480315,runs\1. VM\0. CROSS-HOSTS\1. QoS3\0. SERVER\server_json\session_6.json,,,
+VM,CROSS-HOSTS,QOS3,none,none,server,0.0,,15.159776902887138,2676.767657480315,runs\1. VM\0. CROSS-HOSTS\1. QoS3\0. SERVER\server_json\session_7.json,,,
+VM,CROSS-HOSTS,QOS3,none,none,server,0.0,,15.159776902887138,2676.767657480315,runs\1. VM\0. CROSS-HOSTS\1. QoS3\0. SERVER\server_json\session_8.json,,,
+VM,CROSS-HOSTS,QOS3,none,none,server,0.0,,15.159776902887138,2676.767657480315,runs\1. VM\0. CROSS-HOSTS\1. QoS3\0. SERVER\server_json\session_9.json,,,
+VM,BRIDGED_LOCAL,NOQOS,none,none,server,0.0,,14.646454131424854,1098.9992973324659,runs\1. VM\1. BRIDGED_LOCAL\0. noQoS\0. Server\server_json\session_1.json,,,
+VM,BRIDGED_LOCAL,NOQOS,none,none,server,0.0,,14.646454131424854,1098.9992973324659,runs\1. VM\1. BRIDGED_LOCAL\0. noQoS\0. Server\server_json\session_10.json,,,
+VM,BRIDGED_LOCAL,NOQOS,none,none,server,0.0,,14.646454131424854,1098.9992973324659,runs\1. VM\1. BRIDGED_LOCAL\0. noQoS\0. Server\server_json\session_2.json,,,
+VM,BRIDGED_LOCAL,NOQOS,none,none,server,0.0,,14.646454131424854,1098.9992973324659,runs\1. VM\1. BRIDGED_LOCAL\0. noQoS\0. Server\server_json\session_3.json,,,
+VM,BRIDGED_LOCAL,NOQOS,none,none,server,0.0,,14.646454131424854,1098.9992973324659,runs\1. VM\1. BRIDGED_LOCAL\0. noQoS\0. Server\server_json\session_4.json,,,
+VM,BRIDGED_LOCAL,NOQOS,none,none,server,0.0,,14.646454131424854,1098.9992973324659,runs\1. VM\1. BRIDGED_LOCAL\0. noQoS\0. Server\server_json\session_5.json,,,
+VM,BRIDGED_LOCAL,NOQOS,none,none,server,0.0,,14.646454131424854,1098.9992973324659,runs\1. VM\1. BRIDGED_LOCAL\0. noQoS\0. Server\server_json\session_6.json,,,
+VM,BRIDGED_LOCAL,NOQOS,none,none,server,0.0,,14.646454131424854,1098.9992973324659,runs\1. VM\1. BRIDGED_LOCAL\0. noQoS\0. Server\server_json\session_7.json,,,
+VM,BRIDGED_LOCAL,NOQOS,none,none,server,0.0,,14.646454131424854,1098.9992973324659,runs\1. VM\1. BRIDGED_LOCAL\0. noQoS\0. Server\server_json\session_8.json,,,
+VM,BRIDGED_LOCAL,NOQOS,none,none,server,0.0,,14.646454131424854,1098.9992973324659,runs\1. VM\1. BRIDGED_LOCAL\0. noQoS\0. Server\server_json\session_9.json,,,
+VM,BRIDGED_LOCAL,QOS1 C-_S,cs,none,server,0.0,,1.6187760778859526,1267.3748400556328,runs\1. VM\1. BRIDGED_LOCAL\1. QoS1 C-_S\0. Server\server_json\session_1.json,,,
+VM,BRIDGED_LOCAL,QOS1 C-_S,cs,none,server,0.0,,1.6187760778859526,1267.3748400556328,runs\1. VM\1. BRIDGED_LOCAL\1. QoS1 C-_S\0. Server\server_json\session_10.json,,,
+VM,BRIDGED_LOCAL,QOS1 C-_S,cs,none,server,0.0,,1.6187760778859526,1267.3748400556328,runs\1. VM\1. BRIDGED_LOCAL\1. QoS1 C-_S\0. Server\server_json\session_2.json,,,
+VM,BRIDGED_LOCAL,QOS1 C-_S,cs,none,server,0.0,,1.6187760778859526,1267.3748400556328,runs\1. VM\1. BRIDGED_LOCAL\1. QoS1 C-_S\0. Server\server_json\session_3.json,,,
+VM,BRIDGED_LOCAL,QOS1 C-_S,cs,none,server,0.0,,1.6187760778859526,1267.3748400556328,runs\1. VM\1. BRIDGED_LOCAL\1. QoS1 C-_S\0. Server\server_json\session_4.json,,,
+VM,BRIDGED_LOCAL,QOS1 C-_S,cs,none,server,0.0,,1.6187760778859526,1267.3748400556328,runs\1. VM\1. BRIDGED_LOCAL\1. QoS1 C-_S\0. Server\server_json\session_5.json,,,
+VM,BRIDGED_LOCAL,QOS1 C-_S,cs,none,server,0.0,,1.6187760778859526,1267.3748400556328,runs\1. VM\1. BRIDGED_LOCAL\1. QoS1 C-_S\0. Server\server_json\session_6.json,,,
+VM,BRIDGED_LOCAL,QOS1 C-_S,cs,none,server,0.0,,1.6187760778859526,1267.3748400556328,runs\1. VM\1. BRIDGED_LOCAL\1. QoS1 C-_S\0. Server\server_json\session_7.json,,,
+VM,BRIDGED_LOCAL,QOS1 C-_S,cs,none,server,0.0,,1.6187760778859526,1267.3748400556328,runs\1. VM\1. BRIDGED_LOCAL\1. QoS1 C-_S\0. Server\server_json\session_8.json,,,
+VM,BRIDGED_LOCAL,QOS1 C-_S,cs,none,server,0.0,,1.6187760778859526,1267.3748400556328,runs\1. VM\1. BRIDGED_LOCAL\1. QoS1 C-_S\0. Server\server_json\session_9.json,,,
+VM,BRIDGED_LOCAL,QOS2 C-_S,cs,none,server,0.0,,4.746304485154769,1337.1007327858497,runs\1. VM\1. BRIDGED_LOCAL\2. QoS2 C-_S\0. Server\server_json\session_1.json,,,
+VM,BRIDGED_LOCAL,QOS2 C-_S,cs,none,server,0.0,,4.746304485154769,1337.1007327858497,runs\1. VM\1. BRIDGED_LOCAL\2. QoS2 C-_S\0. Server\server_json\session_10.json,,,
+VM,BRIDGED_LOCAL,QOS2 C-_S,cs,none,server,0.0,,4.746304485154769,1337.1007327858497,runs\1. VM\1. BRIDGED_LOCAL\2. QoS2 C-_S\0. Server\server_json\session_2.json,,,
+VM,BRIDGED_LOCAL,QOS2 C-_S,cs,none,server,0.0,,4.746304485154769,1337.1007327858497,runs\1. VM\1. BRIDGED_LOCAL\2. QoS2 C-_S\0. Server\server_json\session_3.json,,,
+VM,BRIDGED_LOCAL,QOS2 C-_S,cs,none,server,0.0,,4.746304485154769,1337.1007327858497,runs\1. VM\1. BRIDGED_LOCAL\2. QoS2 C-_S\0. Server\server_json\session_4.json,,,
+VM,BRIDGED_LOCAL,QOS2 C-_S,cs,none,server,0.0,,4.746304485154769,1337.1007327858497,runs\1. VM\1. BRIDGED_LOCAL\2. QoS2 C-_S\0. Server\server_json\session_5.json,,,
+VM,BRIDGED_LOCAL,QOS2 C-_S,cs,none,server,0.0,,4.746304485154769,1337.1007327858497,runs\1. VM\1. BRIDGED_LOCAL\2. QoS2 C-_S\0. Server\server_json\session_6.json,,,
+VM,BRIDGED_LOCAL,QOS2 C-_S,cs,none,server,0.0,,4.746304485154769,1337.1007327858497,runs\1. VM\1. BRIDGED_LOCAL\2. QoS2 C-_S\0. Server\server_json\session_7.json,,,
+VM,BRIDGED_LOCAL,QOS2 C-_S,cs,none,server,0.0,,4.746304485154769,1337.1007327858497,runs\1. VM\1. BRIDGED_LOCAL\2. QoS2 C-_S\0. Server\server_json\session_8.json,,,
+VM,BRIDGED_LOCAL,QOS2 C-_S,cs,none,server,0.0,,4.746304485154769,1337.1007327858497,runs\1. VM\1. BRIDGED_LOCAL\2. QoS2 C-_S\0. Server\server_json\session_9.json,,,
+VM,BRIDGED_LOCAL,QOS1 S-_C,sc,none,server,38.609276339096596,0.0,1.7916844349680172,1376.5154513148545,runs\1. VM\1. BRIDGED_LOCAL\3. QoS1 S-_C\0. Server\server_json\session_1.json,,,
+VM,BRIDGED_LOCAL,QOS1 S-_C,sc,none,server,38.741761931682866,0.0,1.7916844349680172,1376.5154513148545,runs\1. VM\1. BRIDGED_LOCAL\3. QoS1 S-_C\0. Server\server_json\session_10.json,,,
+VM,BRIDGED_LOCAL,QOS1 S-_C,sc,none,server,38.9524348156989,0.0,1.7916844349680172,1376.5154513148545,runs\1. VM\1. BRIDGED_LOCAL\3. QoS1 S-_C\0. Server\server_json\session_2.json,,,
+VM,BRIDGED_LOCAL,QOS1 S-_C,sc,none,server,39.1465420835208,0.0,1.7916844349680172,1376.5154513148545,runs\1. VM\1. BRIDGED_LOCAL\3. QoS1 S-_C\0. Server\server_json\session_3.json,,,
+VM,BRIDGED_LOCAL,QOS1 S-_C,sc,none,server,38.87357258652547,0.0,1.7916844349680172,1376.5154513148545,runs\1. VM\1. BRIDGED_LOCAL\3. QoS1 S-_C\0. Server\server_json\session_4.json,,,
+VM,BRIDGED_LOCAL,QOS1 S-_C,sc,none,server,38.8882676597368,0.0,1.7916844349680172,1376.5154513148545,runs\1. VM\1. BRIDGED_LOCAL\3. QoS1 S-_C\0. Server\server_json\session_5.json,,,
+VM,BRIDGED_LOCAL,QOS1 S-_C,sc,none,server,39.07802785200827,0.0,1.7916844349680172,1376.5154513148545,runs\1. VM\1. BRIDGED_LOCAL\3. QoS1 S-_C\0. Server\server_json\session_6.json,,,
+VM,BRIDGED_LOCAL,QOS1 S-_C,sc,none,server,39.0111063332965,0.0,1.7916844349680172,1376.5154513148545,runs\1. VM\1. BRIDGED_LOCAL\3. QoS1 S-_C\0. Server\server_json\session_7.json,,,
+VM,BRIDGED_LOCAL,QOS1 S-_C,sc,none,server,35.295398313178374,0.0,1.7916844349680172,1376.5154513148545,runs\1. VM\1. BRIDGED_LOCAL\3. QoS1 S-_C\0. Server\server_json\session_8.json,,,
+VM,BRIDGED_LOCAL,QOS1 S-_C,sc,none,server,39.19028209865112,0.0,1.7916844349680172,1376.5154513148545,runs\1. VM\1. BRIDGED_LOCAL\3. QoS1 S-_C\0. Server\server_json\session_9.json,,,
+VM,BRIDGED_LOCAL,QOS2 S-_C,sc,none,server,1559.8778233778169,6111.0,2.144982698961938,1370.5638546712803,runs\1. VM\1. BRIDGED_LOCAL\4. QoS2 S-_C\0. Server\server_json\session_1.json,,,
+VM,BRIDGED_LOCAL,QOS2 S-_C,sc,none,server,1316.1390707794646,4639.0,2.144982698961938,1370.5638546712803,runs\1. VM\1. BRIDGED_LOCAL\4. QoS2 S-_C\0. Server\server_json\session_10.json,,,
+VM,BRIDGED_LOCAL,QOS2 S-_C,sc,none,server,1461.1395570283964,2214.0,2.144982698961938,1370.5638546712803,runs\1. VM\1. BRIDGED_LOCAL\4. QoS2 S-_C\0. Server\server_json\session_2.json,,,
+VM,BRIDGED_LOCAL,QOS2 S-_C,sc,none,server,1328.0701825499852,2593.0,2.144982698961938,1370.5638546712803,runs\1. VM\1. BRIDGED_LOCAL\4. QoS2 S-_C\0. Server\server_json\session_3.json,,,
+VM,BRIDGED_LOCAL,QOS2 S-_C,sc,none,server,1301.8137719215981,3243.0,2.144982698961938,1370.5638546712803,runs\1. VM\1. BRIDGED_LOCAL\4. QoS2 S-_C\0. Server\server_json\session_4.json,,,
+VM,BRIDGED_LOCAL,QOS2 S-_C,sc,none,server,1469.170184031766,5454.0,2.144982698961938,1370.5638546712803,runs\1. VM\1. BRIDGED_LOCAL\4. QoS2 S-_C\0. Server\server_json\session_5.json,,,
+VM,BRIDGED_LOCAL,QOS2 S-_C,sc,none,server,1540.6581575370167,3074.0,2.144982698961938,1370.5638546712803,runs\1. VM\1. BRIDGED_LOCAL\4. QoS2 S-_C\0. Server\server_json\session_6.json,,,
+VM,BRIDGED_LOCAL,QOS2 S-_C,sc,none,server,1774.34616849352,3846.0,2.144982698961938,1370.5638546712803,runs\1. VM\1. BRIDGED_LOCAL\4. QoS2 S-_C\0. Server\server_json\session_7.json,,,
+VM,BRIDGED_LOCAL,QOS2 S-_C,sc,none,server,1412.0139977792478,3505.0,2.144982698961938,1370.5638546712803,runs\1. VM\1. BRIDGED_LOCAL\4. QoS2 S-_C\0. Server\server_json\session_8.json,,,
+VM,BRIDGED_LOCAL,QOS2 S-_C,sc,none,server,1323.4298611512368,5894.0,2.144982698961938,1370.5638546712803,runs\1. VM\1. BRIDGED_LOCAL\4. QoS2 S-_C\0. Server\server_json\session_9.json,,,
+VM,NAT,NOQOS,none,none,server,0.0,,14.554885404101327,1404.0524849215924,runs\1. VM\2. NAT\0. NoQoS\0. Server\server_json\session_1.json,,,
+VM,NAT,NOQOS,none,none,server,0.0,,14.554885404101327,1404.0524849215924,runs\1. VM\2. NAT\0. NoQoS\0. Server\server_json\session_10.json,,,
+VM,NAT,NOQOS,none,none,server,0.0,,14.554885404101327,1404.0524849215924,runs\1. VM\2. NAT\0. NoQoS\0. Server\server_json\session_2.json,,,
+VM,NAT,NOQOS,none,none,server,0.0,,14.554885404101327,1404.0524849215924,runs\1. VM\2. NAT\0. NoQoS\0. Server\server_json\session_3.json,,,
+VM,NAT,NOQOS,none,none,server,0.0,,14.554885404101327,1404.0524849215924,runs\1. VM\2. NAT\0. NoQoS\0. Server\server_json\session_4.json,,,
+VM,NAT,NOQOS,none,none,server,0.0,,14.554885404101327,1404.0524849215924,runs\1. VM\2. NAT\0. NoQoS\0. Server\server_json\session_5.json,,,
+VM,NAT,NOQOS,none,none,server,0.0,,14.554885404101327,1404.0524849215924,runs\1. VM\2. NAT\0. NoQoS\0. Server\server_json\session_6.json,,,
+VM,NAT,NOQOS,none,none,server,0.0,,14.554885404101327,1404.0524849215924,runs\1. VM\2. NAT\0. NoQoS\0. Server\server_json\session_7.json,,,
+VM,NAT,NOQOS,none,none,server,0.0,,14.554885404101327,1404.0524849215924,runs\1. VM\2. NAT\0. NoQoS\0. Server\server_json\session_8.json,,,
+VM,NAT,NOQOS,none,none,server,0.0,,14.554885404101327,1404.0524849215924,runs\1. VM\2. NAT\0. NoQoS\0. Server\server_json\session_9.json,,,
+VM,NAT,QOS1 C-_S,cs,none,server,0.0,,1.2937035417577611,1113.547590730214,runs\1. VM\2. NAT\1. QoS1 C-_S\0. Server\server_json\session_1.json,,,
+VM,NAT,QOS1 C-_S,cs,none,server,0.0,,1.2937035417577611,1113.547590730214,runs\1. VM\2. NAT\1. QoS1 C-_S\0. Server\server_json\session_10.json,,,
+VM,NAT,QOS1 C-_S,cs,none,server,0.0,,1.2937035417577611,1113.547590730214,runs\1. VM\2. NAT\1. QoS1 C-_S\0. Server\server_json\session_2.json,,,
+VM,NAT,QOS1 C-_S,cs,none,server,0.0,,1.2937035417577611,1113.547590730214,runs\1. VM\2. NAT\1. QoS1 C-_S\0. Server\server_json\session_3.json,,,
+VM,NAT,QOS1 C-_S,cs,none,server,0.0,,1.2937035417577611,1113.547590730214,runs\1. VM\2. NAT\1. QoS1 C-_S\0. Server\server_json\session_4.json,,,
+VM,NAT,QOS1 C-_S,cs,none,server,0.0,,1.2937035417577611,1113.547590730214,runs\1. VM\2. NAT\1. QoS1 C-_S\0. Server\server_json\session_5.json,,,
+VM,NAT,QOS1 C-_S,cs,none,server,0.0,,1.2937035417577611,1113.547590730214,runs\1. VM\2. NAT\1. QoS1 C-_S\0. Server\server_json\session_6.json,,,
+VM,NAT,QOS1 C-_S,cs,none,server,0.0,,1.2937035417577611,1113.547590730214,runs\1. VM\2. NAT\1. QoS1 C-_S\0. Server\server_json\session_7.json,,,
+VM,NAT,QOS1 C-_S,cs,none,server,0.0,,1.2937035417577611,1113.547590730214,runs\1. VM\2. NAT\1. QoS1 C-_S\0. Server\server_json\session_8.json,,,
+VM,NAT,QOS1 C-_S,cs,none,server,0.0,,1.2937035417577611,1113.547590730214,runs\1. VM\2. NAT\1. QoS1 C-_S\0. Server\server_json\session_9.json,,,
+VM,NAT,QOS2 C-_S,cs,none,server,0.0,,4.115874730021598,1279.7430021598273,runs\1. VM\2. NAT\2. QoS2 C-_S\0. Server\server_json\session_1.json,,,
+VM,NAT,QOS2 C-_S,cs,none,server,0.0,,4.115874730021598,1279.7430021598273,runs\1. VM\2. NAT\2. QoS2 C-_S\0. Server\server_json\session_10.json,,,
+VM,NAT,QOS2 C-_S,cs,none,server,0.0,,4.115874730021598,1279.7430021598273,runs\1. VM\2. NAT\2. QoS2 C-_S\0. Server\server_json\session_2.json,,,
+VM,NAT,QOS2 C-_S,cs,none,server,0.0,,4.115874730021598,1279.7430021598273,runs\1. VM\2. NAT\2. QoS2 C-_S\0. Server\server_json\session_3.json,,,
+VM,NAT,QOS2 C-_S,cs,none,server,0.0,,4.115874730021598,1279.7430021598273,runs\1. VM\2. NAT\2. QoS2 C-_S\0. Server\server_json\session_4.json,,,
+VM,NAT,QOS2 C-_S,cs,none,server,0.0,,4.115874730021598,1279.7430021598273,runs\1. VM\2. NAT\2. QoS2 C-_S\0. Server\server_json\session_5.json,,,
+VM,NAT,QOS2 C-_S,cs,none,server,0.0,,4.115874730021598,1279.7430021598273,runs\1. VM\2. NAT\2. QoS2 C-_S\0. Server\server_json\session_6.json,,,
+VM,NAT,QOS2 C-_S,cs,none,server,0.0,,4.115874730021598,1279.7430021598273,runs\1. VM\2. NAT\2. QoS2 C-_S\0. Server\server_json\session_7.json,,,
+VM,NAT,QOS2 C-_S,cs,none,server,0.0,,4.115874730021598,1279.7430021598273,runs\1. VM\2. NAT\2. QoS2 C-_S\0. Server\server_json\session_8.json,,,
+VM,NAT,QOS2 C-_S,cs,none,server,0.0,,4.115874730021598,1279.7430021598273,runs\1. VM\2. NAT\2. QoS2 C-_S\0. Server\server_json\session_9.json,,,
+VM,NAT,QOS1 S-_C,sc,none,server,38.86741695481117,0.0,1.3518324607329844,1311.1327806864456,runs\1. VM\2. NAT\3. QoS1 S-_C\0. Server\server_json\session_1.json,,,
+VM,NAT,QOS1 S-_C,sc,none,server,38.786027323943145,0.0,1.3518324607329844,1311.1327806864456,runs\1. VM\2. NAT\3. QoS1 S-_C\0. Server\server_json\session_10.json,,,
+VM,NAT,QOS1 S-_C,sc,none,server,38.88335815310791,0.0,1.3518324607329844,1311.1327806864456,runs\1. VM\2. NAT\3. QoS1 S-_C\0. Server\server_json\session_2.json,,,
+VM,NAT,QOS1 S-_C,sc,none,server,38.873593342692466,0.0,1.3518324607329844,1311.1327806864456,runs\1. VM\2. NAT\3. QoS1 S-_C\0. Server\server_json\session_3.json,,,
+VM,NAT,QOS1 S-_C,sc,none,server,38.87759627290287,0.0,1.3518324607329844,1311.1327806864456,runs\1. VM\2. NAT\3. QoS1 S-_C\0. Server\server_json\session_4.json,,,
+VM,NAT,QOS1 S-_C,sc,none,server,39.009640221699996,0.0,1.3518324607329844,1311.1327806864456,runs\1. VM\2. NAT\3. QoS1 S-_C\0. Server\server_json\session_5.json,,,
+VM,NAT,QOS1 S-_C,sc,none,server,39.01397358894675,0.0,1.3518324607329844,1311.1327806864456,runs\1. VM\2. NAT\3. QoS1 S-_C\0. Server\server_json\session_6.json,,,
+VM,NAT,QOS1 S-_C,sc,none,server,39.31721731650609,0.0,1.3518324607329844,1311.1327806864456,runs\1. VM\2. NAT\3. QoS1 S-_C\0. Server\server_json\session_7.json,,,
+VM,NAT,QOS1 S-_C,sc,none,server,39.07368093768043,0.0,1.3518324607329844,1311.1327806864456,runs\1. VM\2. NAT\3. QoS1 S-_C\0. Server\server_json\session_8.json,,,
+VM,NAT,QOS1 S-_C,sc,none,server,38.86859134571537,0.0,1.3518324607329844,1311.1327806864456,runs\1. VM\2. NAT\3. QoS1 S-_C\0. Server\server_json\session_9.json,,,
+VM,NAT,QOS2 S-_C,sc,none,server,800.3790699022104,4976.0,8.059742734635542,1297.406893758933,runs\1. VM\2. NAT\4. QoS2 S-_C\0. Server\server_json\session_1.json,,,
+VM,NAT,QOS2 S-_C,sc,none,server,636.7874714800046,2913.0,8.059742734635542,1297.406893758933,runs\1. VM\2. NAT\4. QoS2 S-_C\0. Server\server_json\session_10.json,,,
+VM,NAT,QOS2 S-_C,sc,none,server,1656.4549561483952,2942.0,8.059742734635542,1297.406893758933,runs\1. VM\2. NAT\4. QoS2 S-_C\0. Server\server_json\session_2.json,,,
+VM,NAT,QOS2 S-_C,sc,none,server,1157.2676694761788,5837.0,8.059742734635542,1297.406893758933,runs\1. VM\2. NAT\4. QoS2 S-_C\0. Server\server_json\session_3.json,,,
+VM,NAT,QOS2 S-_C,sc,none,server,1438.321349487116,3555.0,8.059742734635542,1297.406893758933,runs\1. VM\2. NAT\4. QoS2 S-_C\0. Server\server_json\session_4.json,,,
+VM,NAT,QOS2 S-_C,sc,none,server,1570.9526137708235,4511.0,8.059742734635542,1297.406893758933,runs\1. VM\2. NAT\4. QoS2 S-_C\0. Server\server_json\session_5.json,,,
+VM,NAT,QOS2 S-_C,sc,none,server,1481.5623001197753,3240.0,8.059742734635542,1297.406893758933,runs\1. VM\2. NAT\4. QoS2 S-_C\0. Server\server_json\session_6.json,,,
+VM,NAT,QOS2 S-_C,sc,none,server,483.9449851464318,5436.0,8.059742734635542,1297.406893758933,runs\1. VM\2. NAT\4. QoS2 S-_C\0. Server\server_json\session_7.json,,,
+VM,NAT,QOS2 S-_C,sc,none,server,1140.9470364495344,4417.0,8.059742734635542,1297.406893758933,runs\1. VM\2. NAT\4. QoS2 S-_C\0. Server\server_json\session_8.json,,,
+VM,NAT,QOS2 S-_C,sc,none,server,1626.704639037667,2867.0,8.059742734635542,1297.406893758933,runs\1. VM\2. NAT\4. QoS2 S-_C\0. Server\server_json\session_9.json,,,
+VM,HOST-ONLY,NOQOS,none,none,server,0.0,,12.675892857142857,1344.1540654761905,runs\1. VM\3. HOST-ONLY\0. NoQoS\0. Server\server_json\session_1.json,,,
+VM,HOST-ONLY,NOQOS,none,none,server,0.0,,12.675892857142857,1344.1540654761905,runs\1. VM\3. HOST-ONLY\0. NoQoS\0. Server\server_json\session_10.json,,,
+VM,HOST-ONLY,NOQOS,none,none,server,0.0,,12.675892857142857,1344.1540654761905,runs\1. VM\3. HOST-ONLY\0. NoQoS\0. Server\server_json\session_2.json,,,
+VM,HOST-ONLY,NOQOS,none,none,server,0.0,,12.675892857142857,1344.1540654761905,runs\1. VM\3. HOST-ONLY\0. NoQoS\0. Server\server_json\session_3.json,,,
+VM,HOST-ONLY,NOQOS,none,none,server,0.0,,12.675892857142857,1344.1540654761905,runs\1. VM\3. HOST-ONLY\0. NoQoS\0. Server\server_json\session_4.json,,,
+VM,HOST-ONLY,NOQOS,none,none,server,0.0,,12.675892857142857,1344.1540654761905,runs\1. VM\3. HOST-ONLY\0. NoQoS\0. Server\server_json\session_5.json,,,
+VM,HOST-ONLY,NOQOS,none,none,server,0.0,,12.675892857142857,1344.1540654761905,runs\1. VM\3. HOST-ONLY\0. NoQoS\0. Server\server_json\session_6.json,,,
+VM,HOST-ONLY,NOQOS,none,none,server,0.0,,12.675892857142857,1344.1540654761905,runs\1. VM\3. HOST-ONLY\0. NoQoS\0. Server\server_json\session_7.json,,,
+VM,HOST-ONLY,NOQOS,none,none,server,0.0,,12.675892857142857,1344.1540654761905,runs\1. VM\3. HOST-ONLY\0. NoQoS\0. Server\server_json\session_8.json,,,
+VM,HOST-ONLY,NOQOS,none,none,server,0.0,,12.675892857142857,1344.1540654761905,runs\1. VM\3. HOST-ONLY\0. NoQoS\0. Server\server_json\session_9.json,,,
+VM,HOST-ONLY,QOS1 C-_S,cs,none,server,0.0,,1.5030996309963098,1368.8268265682657,runs\1. VM\3. HOST-ONLY\1. QoS1 C-_S\0. Server\server_json\session_1.json,,,
+VM,HOST-ONLY,QOS1 C-_S,cs,none,server,0.0,,1.5030996309963098,1368.8268265682657,runs\1. VM\3. HOST-ONLY\1. QoS1 C-_S\0. Server\server_json\session_10.json,,,
+VM,HOST-ONLY,QOS1 C-_S,cs,none,server,0.0,,1.5030996309963098,1368.8268265682657,runs\1. VM\3. HOST-ONLY\1. QoS1 C-_S\0. Server\server_json\session_2.json,,,
+VM,HOST-ONLY,QOS1 C-_S,cs,none,server,0.0,,1.5030996309963098,1368.8268265682657,runs\1. VM\3. HOST-ONLY\1. QoS1 C-_S\0. Server\server_json\session_3.json,,,
+VM,HOST-ONLY,QOS1 C-_S,cs,none,server,0.0,,1.5030996309963098,1368.8268265682657,runs\1. VM\3. HOST-ONLY\1. QoS1 C-_S\0. Server\server_json\session_4.json,,,
+VM,HOST-ONLY,QOS1 C-_S,cs,none,server,0.0,,1.5030996309963098,1368.8268265682657,runs\1. VM\3. HOST-ONLY\1. QoS1 C-_S\0. Server\server_json\session_5.json,,,
+VM,HOST-ONLY,QOS1 C-_S,cs,none,server,0.0,,1.5030996309963098,1368.8268265682657,runs\1. VM\3. HOST-ONLY\1. QoS1 C-_S\0. Server\server_json\session_6.json,,,
+VM,HOST-ONLY,QOS1 C-_S,cs,none,server,0.0,,1.5030996309963098,1368.8268265682657,runs\1. VM\3. HOST-ONLY\1. QoS1 C-_S\0. Server\server_json\session_7.json,,,
+VM,HOST-ONLY,QOS1 C-_S,cs,none,server,0.0,,1.5030996309963098,1368.8268265682657,runs\1. VM\3. HOST-ONLY\1. QoS1 C-_S\0. Server\server_json\session_8.json,,,
+VM,HOST-ONLY,QOS1 C-_S,cs,none,server,0.0,,1.5030996309963098,1368.8268265682657,runs\1. VM\3. HOST-ONLY\1. QoS1 C-_S\0. Server\server_json\session_9.json,,,
+VM,HOST-ONLY,QOS2 C-_S,cs,none,server,0.0,,3.766087516087516,1392.132097812098,runs\1. VM\3. HOST-ONLY\2. QoS2 C-_S\0. Server\server_json\session_1.json,,,
+VM,HOST-ONLY,QOS2 C-_S,cs,none,server,0.0,,3.766087516087516,1392.132097812098,runs\1. VM\3. HOST-ONLY\2. QoS2 C-_S\0. Server\server_json\session_10.json,,,
+VM,HOST-ONLY,QOS2 C-_S,cs,none,server,0.0,,3.766087516087516,1392.132097812098,runs\1. VM\3. HOST-ONLY\2. QoS2 C-_S\0. Server\server_json\session_2.json,,,
+VM,HOST-ONLY,QOS2 C-_S,cs,none,server,0.0,,3.766087516087516,1392.132097812098,runs\1. VM\3. HOST-ONLY\2. QoS2 C-_S\0. Server\server_json\session_3.json,,,
+VM,HOST-ONLY,QOS2 C-_S,cs,none,server,0.0,,3.766087516087516,1392.132097812098,runs\1. VM\3. HOST-ONLY\2. QoS2 C-_S\0. Server\server_json\session_4.json,,,
+VM,HOST-ONLY,QOS2 C-_S,cs,none,server,0.0,,3.766087516087516,1392.132097812098,runs\1. VM\3. HOST-ONLY\2. QoS2 C-_S\0. Server\server_json\session_5.json,,,
+VM,HOST-ONLY,QOS2 C-_S,cs,none,server,0.0,,3.766087516087516,1392.132097812098,runs\1. VM\3. HOST-ONLY\2. QoS2 C-_S\0. Server\server_json\session_6.json,,,
+VM,HOST-ONLY,QOS2 C-_S,cs,none,server,0.0,,3.766087516087516,1392.132097812098,runs\1. VM\3. HOST-ONLY\2. QoS2 C-_S\0. Server\server_json\session_7.json,,,
+VM,HOST-ONLY,QOS2 C-_S,cs,none,server,0.0,,3.766087516087516,1392.132097812098,runs\1. VM\3. HOST-ONLY\2. QoS2 C-_S\0. Server\server_json\session_8.json,,,
+VM,HOST-ONLY,QOS2 C-_S,cs,none,server,0.0,,3.766087516087516,1392.132097812098,runs\1. VM\3. HOST-ONLY\2. QoS2 C-_S\0. Server\server_json\session_9.json,,,
+VM,HOST-ONLY,QOS1 S-_C,sc,none,server,38.515101045304284,0.0,2.019893899204244,1373.5162931034486,runs\1. VM\3. HOST-ONLY\3. QoS1 S-_C\0. Server\server_json\session_1.json,,,
+VM,HOST-ONLY,QOS1 S-_C,sc,none,server,38.87204718623876,0.0,2.019893899204244,1373.5162931034486,runs\1. VM\3. HOST-ONLY\3. QoS1 S-_C\0. Server\server_json\session_10.json,,,
+VM,HOST-ONLY,QOS1 S-_C,sc,none,server,38.595963427835244,0.0,2.019893899204244,1373.5162931034486,runs\1. VM\3. HOST-ONLY\3. QoS1 S-_C\0. Server\server_json\session_2.json,,,
+VM,HOST-ONLY,QOS1 S-_C,sc,none,server,38.74516505847076,0.0,2.019893899204244,1373.5162931034486,runs\1. VM\3. HOST-ONLY\3. QoS1 S-_C\0. Server\server_json\session_3.json,,,
+VM,HOST-ONLY,QOS1 S-_C,sc,none,server,38.80383953406047,0.0,2.019893899204244,1373.5162931034486,runs\1. VM\3. HOST-ONLY\3. QoS1 S-_C\0. Server\server_json\session_4.json,,,
+VM,HOST-ONLY,QOS1 S-_C,sc,none,server,38.73537739516385,0.0,2.019893899204244,1373.5162931034486,runs\1. VM\3. HOST-ONLY\3. QoS1 S-_C\0. Server\server_json\session_5.json,,,
+VM,HOST-ONLY,QOS1 S-_C,sc,none,server,38.73013415499414,0.0,2.019893899204244,1373.5162931034486,runs\1. VM\3. HOST-ONLY\3. QoS1 S-_C\0. Server\server_json\session_6.json,,,
+VM,HOST-ONLY,QOS1 S-_C,sc,none,server,33.70470895347658,3.0,2.019893899204244,1373.5162931034486,runs\1. VM\3. HOST-ONLY\3. QoS1 S-_C\0. Server\server_json\session_7.json,,,
+VM,HOST-ONLY,QOS1 S-_C,sc,none,server,39.0457438562758,0.0,2.019893899204244,1373.5162931034486,runs\1. VM\3. HOST-ONLY\3. QoS1 S-_C\0. Server\server_json\session_8.json,,,
+VM,HOST-ONLY,QOS1 S-_C,sc,none,server,39.048951946411385,0.0,2.019893899204244,1373.5162931034486,runs\1. VM\3. HOST-ONLY\3. QoS1 S-_C\0. Server\server_json\session_9.json,,,
+VM,HOST-ONLY,QOS2 S-_C,sc,none,server,1163.0710082113985,5977.0,1.9952883263009846,1316.635,runs\1. VM\3. HOST-ONLY\4. QoS2 S-_C\0. Server\server_json\session_1.json,,,
+VM,HOST-ONLY,QOS2 S-_C,sc,none,server,1131.5682930213359,5379.0,1.9952883263009846,1316.635,runs\1. VM\3. HOST-ONLY\4. QoS2 S-_C\0. Server\server_json\session_10.json,,,
+VM,HOST-ONLY,QOS2 S-_C,sc,none,server,1279.2768166737617,9121.0,1.9952883263009846,1316.635,runs\1. VM\3. HOST-ONLY\4. QoS2 S-_C\0. Server\server_json\session_2.json,,,
+VM,HOST-ONLY,QOS2 S-_C,sc,none,server,975.9741247556519,4793.0,1.9952883263009846,1316.635,runs\1. VM\3. HOST-ONLY\4. QoS2 S-_C\0. Server\server_json\session_3.json,,,
+VM,HOST-ONLY,QOS2 S-_C,sc,none,server,1436.3465943855915,4692.0,1.9952883263009846,1316.635,runs\1. VM\3. HOST-ONLY\4. QoS2 S-_C\0. Server\server_json\session_4.json,,,
+VM,HOST-ONLY,QOS2 S-_C,sc,none,server,1681.7041434371442,2556.0,1.9952883263009846,1316.635,runs\1. VM\3. HOST-ONLY\4. QoS2 S-_C\0. Server\server_json\session_5.json,,,
+VM,HOST-ONLY,QOS2 S-_C,sc,none,server,1229.802269834255,5827.0,1.9952883263009846,1316.635,runs\1. VM\3. HOST-ONLY\4. QoS2 S-_C\0. Server\server_json\session_6.json,,,
+VM,HOST-ONLY,QOS2 S-_C,sc,none,server,1225.6499221445265,6158.0,1.9952883263009846,1316.635,runs\1. VM\3. HOST-ONLY\4. QoS2 S-_C\0. Server\server_json\session_7.json,,,
+VM,HOST-ONLY,QOS2 S-_C,sc,none,server,1352.8272636821355,9010.0,1.9952883263009846,1316.635,runs\1. VM\3. HOST-ONLY\4. QoS2 S-_C\0. Server\server_json\session_8.json,,,
+VM,HOST-ONLY,QOS2 S-_C,sc,none,server,1457.111454719813,4277.0,1.9952883263009846,1316.635,runs\1. VM\3. HOST-ONLY\4. QoS2 S-_C\0. Server\server_json\session_9.json,,,
+DOCKER,BRIDGED,NOQOS,none,none,server,0.0,,21.75827196858125,1457.6543249877268,runs\2. DOCKER\0. BRIDGED\0. NoQoS\0. Server\server_json\session_1.json,,,
+DOCKER,BRIDGED,NOQOS,none,none,server,0.0,,21.75827196858125,1457.6543249877268,runs\2. DOCKER\0. BRIDGED\0. NoQoS\0. Server\server_json\session_10.json,,,
+DOCKER,BRIDGED,NOQOS,none,none,server,0.0,,21.75827196858125,1457.6543249877268,runs\2. DOCKER\0. BRIDGED\0. NoQoS\0. Server\server_json\session_2.json,,,
+DOCKER,BRIDGED,NOQOS,none,none,server,0.0,,21.75827196858125,1457.6543249877268,runs\2. DOCKER\0. BRIDGED\0. NoQoS\0. Server\server_json\session_3.json,,,
+DOCKER,BRIDGED,NOQOS,none,none,server,0.0,,21.75827196858125,1457.6543249877268,runs\2. DOCKER\0. BRIDGED\0. NoQoS\0. Server\server_json\session_4.json,,,
+DOCKER,BRIDGED,NOQOS,none,none,server,0.0,,21.75827196858125,1457.6543249877268,runs\2. DOCKER\0. BRIDGED\0. NoQoS\0. Server\server_json\session_5.json,,,
+DOCKER,BRIDGED,NOQOS,none,none,server,0.0,,21.75827196858125,1457.6543249877268,runs\2. DOCKER\0. BRIDGED\0. NoQoS\0. Server\server_json\session_6.json,,,
+DOCKER,BRIDGED,NOQOS,none,none,server,0.0,,21.75827196858125,1457.6543249877268,runs\2. DOCKER\0. BRIDGED\0. NoQoS\0. Server\server_json\session_7.json,,,
+DOCKER,BRIDGED,NOQOS,none,none,server,0.0,,21.75827196858125,1457.6543249877268,runs\2. DOCKER\0. BRIDGED\0. NoQoS\0. Server\server_json\session_8.json,,,
+DOCKER,BRIDGED,NOQOS,none,none,server,0.0,,21.75827196858125,1457.6543249877268,runs\2. DOCKER\0. BRIDGED\0. NoQoS\0. Server\server_json\session_9.json,,,
+DOCKER,BRIDGED,QOS1 C-_S,cs,none,server,0.0,,15.853333333333335,2272.619,runs\2. DOCKER\0. BRIDGED\1. QoS1 C-_S\0. Server\server_json\session_1.json,,,
+DOCKER,BRIDGED,QOS1 C-_S,cs,none,server,0.0,,15.853333333333335,2272.619,runs\2. DOCKER\0. BRIDGED\1. QoS1 C-_S\0. Server\server_json\session_10.json,,,
+DOCKER,BRIDGED,QOS1 C-_S,cs,none,server,0.0,,15.853333333333335,2272.619,runs\2. DOCKER\0. BRIDGED\1. QoS1 C-_S\0. Server\server_json\session_2.json,,,
+DOCKER,BRIDGED,QOS1 C-_S,cs,none,server,0.0,,15.853333333333335,2272.619,runs\2. DOCKER\0. BRIDGED\1. QoS1 C-_S\0. Server\server_json\session_3.json,,,
+DOCKER,BRIDGED,QOS1 C-_S,cs,none,server,0.0,,15.853333333333335,2272.619,runs\2. DOCKER\0. BRIDGED\1. QoS1 C-_S\0. Server\server_json\session_4.json,,,
+DOCKER,BRIDGED,QOS1 C-_S,cs,none,server,0.0,,15.853333333333335,2272.619,runs\2. DOCKER\0. BRIDGED\1. QoS1 C-_S\0. Server\server_json\session_5.json,,,
+DOCKER,BRIDGED,QOS1 C-_S,cs,none,server,0.0,,15.853333333333335,2272.619,runs\2. DOCKER\0. BRIDGED\1. QoS1 C-_S\0. Server\server_json\session_6.json,,,
+DOCKER,BRIDGED,QOS1 C-_S,cs,none,server,0.0,,15.853333333333335,2272.619,runs\2. DOCKER\0. BRIDGED\1. QoS1 C-_S\0. Server\server_json\session_7.json,,,
+DOCKER,BRIDGED,QOS1 C-_S,cs,none,server,0.0,,15.853333333333335,2272.619,runs\2. DOCKER\0. BRIDGED\1. QoS1 C-_S\0. Server\server_json\session_8.json,,,
+DOCKER,BRIDGED,QOS1 C-_S,cs,none,server,0.0,,15.853333333333335,2272.619,runs\2. DOCKER\0. BRIDGED\1. QoS1 C-_S\0. Server\server_json\session_9.json,,,
+DOCKER,BRIDGED,QOS1 S-_C,sc,none,server,39.00483122800186,0.0,1.981437543614794,2416.440690858339,runs\2. DOCKER\0. BRIDGED\1. QoS1 S-_C\0. Server\server_json\session_1.json,,,
+DOCKER,BRIDGED,QOS1 S-_C,sc,none,server,39.11111300736999,0.0,1.981437543614794,2416.440690858339,runs\2. DOCKER\0. BRIDGED\1. QoS1 S-_C\0. Server\server_json\session_10.json,,,
+DOCKER,BRIDGED,QOS1 S-_C,sc,none,server,39.07529501180568,0.0,1.981437543614794,2416.440690858339,runs\2. DOCKER\0. BRIDGED\1. QoS1 S-_C\0. Server\server_json\session_2.json,,,
+DOCKER,BRIDGED,QOS1 S-_C,sc,none,server,34.32114427453592,0.0,1.981437543614794,2416.440690858339,runs\2. DOCKER\0. BRIDGED\1. QoS1 S-_C\0. Server\server_json\session_3.json,,,
+DOCKER,BRIDGED,QOS1 S-_C,sc,none,server,34.04337596784304,5.0,1.981437543614794,2416.440690858339,runs\2. DOCKER\0. BRIDGED\1. QoS1 S-_C\0. Server\server_json\session_4.json,,,
+DOCKER,BRIDGED,QOS1 S-_C,sc,none,server,37.92149893962259,0.0,1.981437543614794,2416.440690858339,runs\2. DOCKER\0. BRIDGED\1. QoS1 S-_C\0. Server\server_json\session_5.json,,,
+DOCKER,BRIDGED,QOS1 S-_C,sc,none,server,37.78322505910594,0.0,1.981437543614794,2416.440690858339,runs\2. DOCKER\0. BRIDGED\1. QoS1 S-_C\0. Server\server_json\session_6.json,,,
+DOCKER,BRIDGED,QOS1 S-_C,sc,none,server,38.41101857252214,2.0,1.981437543614794,2416.440690858339,runs\2. DOCKER\0. BRIDGED\1. QoS1 S-_C\0. Server\server_json\session_7.json,,,
+DOCKER,BRIDGED,QOS1 S-_C,sc,none,server,37.678218034319976,0.0,1.981437543614794,2416.440690858339,runs\2. DOCKER\0. BRIDGED\1. QoS1 S-_C\0. Server\server_json\session_8.json,,,
+DOCKER,BRIDGED,QOS1 S-_C,sc,none,server,39.14428251649442,0.0,1.981437543614794,2416.440690858339,runs\2. DOCKER\0. BRIDGED\1. QoS1 S-_C\0. Server\server_json\session_9.json,,,
+DOCKER,BRIDGED,QOS2 C-_S,cs,none,server,0.0,,11.826531351939108,2309.315030808264,runs\2. DOCKER\0. BRIDGED\3. QoS2 C-_S\0. Server\server_json\session_1.json,,,
+DOCKER,BRIDGED,QOS2 C-_S,cs,none,server,0.0,,11.826531351939108,2309.315030808264,runs\2. DOCKER\0. BRIDGED\3. QoS2 C-_S\0. Server\server_json\session_10.json,,,
+DOCKER,BRIDGED,QOS2 C-_S,cs,none,server,0.0,,11.826531351939108,2309.315030808264,runs\2. DOCKER\0. BRIDGED\3. QoS2 C-_S\0. Server\server_json\session_2.json,,,
+DOCKER,BRIDGED,QOS2 C-_S,cs,none,server,0.0,,11.826531351939108,2309.315030808264,runs\2. DOCKER\0. BRIDGED\3. QoS2 C-_S\0. Server\server_json\session_3.json,,,
+DOCKER,BRIDGED,QOS2 C-_S,cs,none,server,0.0,,11.826531351939108,2309.315030808264,runs\2. DOCKER\0. BRIDGED\3. QoS2 C-_S\0. Server\server_json\session_4.json,,,
+DOCKER,BRIDGED,QOS2 C-_S,cs,none,server,0.0,,11.826531351939108,2309.315030808264,runs\2. DOCKER\0. BRIDGED\3. QoS2 C-_S\0. Server\server_json\session_5.json,,,
+DOCKER,BRIDGED,QOS2 C-_S,cs,none,server,0.0,,11.826531351939108,2309.315030808264,runs\2. DOCKER\0. BRIDGED\3. QoS2 C-_S\0. Server\server_json\session_6.json,,,
+DOCKER,BRIDGED,QOS2 C-_S,cs,none,server,0.0,,11.826531351939108,2309.315030808264,runs\2. DOCKER\0. BRIDGED\3. QoS2 C-_S\0. Server\server_json\session_7.json,,,
+DOCKER,BRIDGED,QOS2 C-_S,cs,none,server,0.0,,11.826531351939108,2309.315030808264,runs\2. DOCKER\0. BRIDGED\3. QoS2 C-_S\0. Server\server_json\session_8.json,,,
+DOCKER,BRIDGED,QOS2 C-_S,cs,none,server,0.0,,11.826531351939108,2309.315030808264,runs\2. DOCKER\0. BRIDGED\3. QoS2 C-_S\0. Server\server_json\session_9.json,,,
+DOCKER,BRIDGED,QOS2 S-_C,sc,none,server,34702.16406534076,119.0,20.651629392971245,2485.5412268370605,runs\2. DOCKER\0. BRIDGED\4. QoS2 S-_C\0. Server\server_json\session_1.json,,,
+DOCKER,BRIDGED,QOS2 S-_C,sc,none,server,12347.443016684314,2166.0,20.651629392971245,2485.5412268370605,runs\2. DOCKER\0. BRIDGED\4. QoS2 S-_C\0. Server\server_json\session_10.json,,,
+DOCKER,BRIDGED,QOS2 S-_C,sc,none,server,44724.192044816,6.0,20.651629392971245,2485.5412268370605,runs\2. DOCKER\0. BRIDGED\4. QoS2 S-_C\0. Server\server_json\session_2.json,,,
+DOCKER,BRIDGED,QOS2 S-_C,sc,none,server,44402.25174330029,102.0,20.651629392971245,2485.5412268370605,runs\2. DOCKER\0. BRIDGED\4. QoS2 S-_C\0. Server\server_json\session_3.json,,,
+DOCKER,BRIDGED,QOS2 S-_C,sc,none,server,41679.22050455568,65.0,20.651629392971245,2485.5412268370605,runs\2. DOCKER\0. BRIDGED\4. QoS2 S-_C\0. Server\server_json\session_4.json,,,
+DOCKER,BRIDGED,QOS2 S-_C,sc,none,server,38801.79951237417,21.0,20.651629392971245,2485.5412268370605,runs\2. DOCKER\0. BRIDGED\4. QoS2 S-_C\0. Server\server_json\session_5.json,,,
+DOCKER,BRIDGED,QOS2 S-_C,sc,none,server,42553.93442550826,27.0,20.651629392971245,2485.5412268370605,runs\2. DOCKER\0. BRIDGED\4. QoS2 S-_C\0. Server\server_json\session_6.json,,,
+DOCKER,BRIDGED,QOS2 S-_C,sc,none,server,32272.944561459506,141.0,20.651629392971245,2485.5412268370605,runs\2. DOCKER\0. BRIDGED\4. QoS2 S-_C\0. Server\server_json\session_7.json,,,
+DOCKER,BRIDGED,QOS2 S-_C,sc,none,server,12737.504639975037,871.0,20.651629392971245,2485.5412268370605,runs\2. DOCKER\0. BRIDGED\4. QoS2 S-_C\0. Server\server_json\session_8.json,,,
+DOCKER,BRIDGED,QOS2 S-_C,sc,none,server,12668.64787609905,1212.0,20.651629392971245,2485.5412268370605,runs\2. DOCKER\0. BRIDGED\4. QoS2 S-_C\0. Server\server_json\session_9.json,,,
+DOCKER,HOST,NOQOS,none,none,server,0.0,,20.701399491094147,2500.8281870229007,runs\2. DOCKER\1. HOST\0. NoQoS\0. Server\server_json\session_1.json,,,
+DOCKER,HOST,NOQOS,none,none,server,0.0,,20.701399491094147,2500.8281870229007,runs\2. DOCKER\1. HOST\0. NoQoS\0. Server\server_json\session_10.json,,,
+DOCKER,HOST,NOQOS,none,none,server,,,20.701399491094147,2500.8281870229007,runs\2. DOCKER\1. HOST\0. NoQoS\0. Server\server_json\session_11.json,,,
+DOCKER,HOST,NOQOS,none,none,server,0.0,,20.701399491094147,2500.8281870229007,runs\2. DOCKER\1. HOST\0. NoQoS\0. Server\server_json\session_2.json,,,
+DOCKER,HOST,NOQOS,none,none,server,0.0,,20.701399491094147,2500.8281870229007,runs\2. DOCKER\1. HOST\0. NoQoS\0. Server\server_json\session_3.json,,,
+DOCKER,HOST,NOQOS,none,none,server,0.0,,20.701399491094147,2500.8281870229007,runs\2. DOCKER\1. HOST\0. NoQoS\0. Server\server_json\session_4.json,,,
+DOCKER,HOST,NOQOS,none,none,server,0.0,,20.701399491094147,2500.8281870229007,runs\2. DOCKER\1. HOST\0. NoQoS\0. Server\server_json\session_5.json,,,
+DOCKER,HOST,NOQOS,none,none,server,0.0,,20.701399491094147,2500.8281870229007,runs\2. DOCKER\1. HOST\0. NoQoS\0. Server\server_json\session_6.json,,,
+DOCKER,HOST,NOQOS,none,none,server,0.0,,20.701399491094147,2500.8281870229007,runs\2. DOCKER\1. HOST\0. NoQoS\0. Server\server_json\session_7.json,,,
+DOCKER,HOST,NOQOS,none,none,server,0.0,,20.701399491094147,2500.8281870229007,runs\2. DOCKER\1. HOST\0. NoQoS\0. Server\server_json\session_8.json,,,
+DOCKER,HOST,NOQOS,none,none,server,0.0,,20.701399491094147,2500.8281870229007,runs\2. DOCKER\1. HOST\0. NoQoS\0. Server\server_json\session_9.json,,,
+DOCKER,HOST,QOS1 C-_S,cs,none,server,0.0,,19.720674846625766,2517.636331288343,runs\2. DOCKER\1. HOST\1. QoS1 C-_S\0. Server\server_json\session_1.json,,,
+DOCKER,HOST,QOS1 C-_S,cs,none,server,0.0,,19.720674846625766,2517.636331288343,runs\2. DOCKER\1. HOST\1. QoS1 C-_S\0. Server\server_json\session_10.json,,,
+DOCKER,HOST,QOS1 C-_S,cs,none,server,,,19.720674846625766,2517.636331288343,runs\2. DOCKER\1. HOST\1. QoS1 C-_S\0. Server\server_json\session_11.json,,,
+DOCKER,HOST,QOS1 C-_S,cs,none,server,0.0,,19.720674846625766,2517.636331288343,runs\2. DOCKER\1. HOST\1. QoS1 C-_S\0. Server\server_json\session_2.json,,,
+DOCKER,HOST,QOS1 C-_S,cs,none,server,0.0,,19.720674846625766,2517.636331288343,runs\2. DOCKER\1. HOST\1. QoS1 C-_S\0. Server\server_json\session_3.json,,,
+DOCKER,HOST,QOS1 C-_S,cs,none,server,0.0,,19.720674846625766,2517.636331288343,runs\2. DOCKER\1. HOST\1. QoS1 C-_S\0. Server\server_json\session_4.json,,,
+DOCKER,HOST,QOS1 C-_S,cs,none,server,0.0,,19.720674846625766,2517.636331288343,runs\2. DOCKER\1. HOST\1. QoS1 C-_S\0. Server\server_json\session_5.json,,,
+DOCKER,HOST,QOS1 C-_S,cs,none,server,0.0,,19.720674846625766,2517.636331288343,runs\2. DOCKER\1. HOST\1. QoS1 C-_S\0. Server\server_json\session_6.json,,,
+DOCKER,HOST,QOS1 C-_S,cs,none,server,0.0,,19.720674846625766,2517.636331288343,runs\2. DOCKER\1. HOST\1. QoS1 C-_S\0. Server\server_json\session_7.json,,,
+DOCKER,HOST,QOS1 C-_S,cs,none,server,0.0,,19.720674846625766,2517.636331288343,runs\2. DOCKER\1. HOST\1. QoS1 C-_S\0. Server\server_json\session_8.json,,,
+DOCKER,HOST,QOS1 C-_S,cs,none,server,0.0,,19.720674846625766,2517.636331288343,runs\2. DOCKER\1. HOST\1. QoS1 C-_S\0. Server\server_json\session_9.json,,,
+DOCKER,HOST,QOS1 S-_C,sc,none,server,0.0,,19.720674846625766,2517.636331288343,runs\2. DOCKER\1. HOST\2. QoS1 S-_C\0. Server\server_json\session_1.json,,,
+DOCKER,HOST,QOS1 S-_C,sc,none,server,38.46026064253747,0.0,19.720674846625766,2517.636331288343,runs\2. DOCKER\1. HOST\2. QoS1 S-_C\0. Server\server_json\session_10.json,,,
+DOCKER,HOST,QOS1 S-_C,sc,none,server,37.12357153207214,0.0,19.720674846625766,2517.636331288343,runs\2. DOCKER\1. HOST\2. QoS1 S-_C\0. Server\server_json\session_11.json,,,
+DOCKER,HOST,QOS1 S-_C,sc,none,server,38.495196925728905,0.0,19.720674846625766,2517.636331288343,runs\2. DOCKER\1. HOST\2. QoS1 S-_C\0. Server\server_json\session_12.json,,,
+DOCKER,HOST,QOS1 S-_C,sc,none,server,38.65355302779343,0.0,19.720674846625766,2517.636331288343,runs\2. DOCKER\1. HOST\2. QoS1 S-_C\0. Server\server_json\session_13.json,,,
+DOCKER,HOST,QOS1 S-_C,sc,none,server,38.715614986428825,0.0,19.720674846625766,2517.636331288343,runs\2. DOCKER\1. HOST\2. QoS1 S-_C\0. Server\server_json\session_14.json,,,
+DOCKER,HOST,QOS1 S-_C,sc,none,server,37.64015242187128,1.0,19.720674846625766,2517.636331288343,runs\2. DOCKER\1. HOST\2. QoS1 S-_C\0. Server\server_json\session_15.json,,,
+DOCKER,HOST,QOS1 S-_C,sc,none,server,38.77346347309798,0.0,19.720674846625766,2517.636331288343,runs\2. DOCKER\1. HOST\2. QoS1 S-_C\0. Server\server_json\session_16.json,,,
+DOCKER,HOST,QOS1 S-_C,sc,none,server,,,19.720674846625766,2517.636331288343,runs\2. DOCKER\1. HOST\2. QoS1 S-_C\0. Server\server_json\session_17.json,,,
+DOCKER,HOST,QOS1 S-_C,sc,none,server,0.0,,19.720674846625766,2517.636331288343,runs\2. DOCKER\1. HOST\2. QoS1 S-_C\0. Server\server_json\session_2.json,,,
+DOCKER,HOST,QOS1 S-_C,sc,none,server,0.0,,19.720674846625766,2517.636331288343,runs\2. DOCKER\1. HOST\2. QoS1 S-_C\0. Server\server_json\session_3.json,,,
+DOCKER,HOST,QOS1 S-_C,sc,none,server,0.0,,19.720674846625766,2517.636331288343,runs\2. DOCKER\1. HOST\2. QoS1 S-_C\0. Server\server_json\session_4.json,,,
+DOCKER,HOST,QOS1 S-_C,sc,none,server,0.0,,19.720674846625766,2517.636331288343,runs\2. DOCKER\1. HOST\2. QoS1 S-_C\0. Server\server_json\session_5.json,,,
+DOCKER,HOST,QOS1 S-_C,sc,none,server,,,19.720674846625766,2517.636331288343,runs\2. DOCKER\1. HOST\2. QoS1 S-_C\0. Server\server_json\session_6.json,,,
+DOCKER,HOST,QOS1 S-_C,sc,none,server,38.382159887095845,0.0,19.720674846625766,2517.636331288343,runs\2. DOCKER\1. HOST\2. QoS1 S-_C\0. Server\server_json\session_7.json,,,
+DOCKER,HOST,QOS1 S-_C,sc,none,server,38.26182116492857,0.0,19.720674846625766,2517.636331288343,runs\2. DOCKER\1. HOST\2. QoS1 S-_C\0. Server\server_json\session_8.json,,,
+DOCKER,HOST,QOS1 S-_C,sc,none,server,38.662066360886335,0.0,19.720674846625766,2517.636331288343,runs\2. DOCKER\1. HOST\2. QoS1 S-_C\0. Server\server_json\session_9.json,,,
+DOCKER,HOST,QOS2 C-_S,cs,none,server,0.0,,15.40312199807877,2549.622007684918,runs\2. DOCKER\1. HOST\3. QoS2 C-_S\0. Server\server_json\session_1.json,,,
+DOCKER,HOST,QOS2 C-_S,cs,none,server,0.0,,15.40312199807877,2549.622007684918,runs\2. DOCKER\1. HOST\3. QoS2 C-_S\0. Server\server_json\session_10.json,,,
+DOCKER,HOST,QOS2 C-_S,cs,none,server,0.0,,15.40312199807877,2549.622007684918,runs\2. DOCKER\1. HOST\3. QoS2 C-_S\0. Server\server_json\session_2.json,,,
+DOCKER,HOST,QOS2 C-_S,cs,none,server,0.0,,15.40312199807877,2549.622007684918,runs\2. DOCKER\1. HOST\3. QoS2 C-_S\0. Server\server_json\session_3.json,,,
+DOCKER,HOST,QOS2 C-_S,cs,none,server,0.0,,15.40312199807877,2549.622007684918,runs\2. DOCKER\1. HOST\3. QoS2 C-_S\0. Server\server_json\session_4.json,,,
+DOCKER,HOST,QOS2 C-_S,cs,none,server,0.0,,15.40312199807877,2549.622007684918,runs\2. DOCKER\1. HOST\3. QoS2 C-_S\0. Server\server_json\session_5.json,,,
+DOCKER,HOST,QOS2 C-_S,cs,none,server,0.0,,15.40312199807877,2549.622007684918,runs\2. DOCKER\1. HOST\3. QoS2 C-_S\0. Server\server_json\session_6.json,,,
+DOCKER,HOST,QOS2 C-_S,cs,none,server,0.0,,15.40312199807877,2549.622007684918,runs\2. DOCKER\1. HOST\3. QoS2 C-_S\0. Server\server_json\session_7.json,,,
+DOCKER,HOST,QOS2 C-_S,cs,none,server,0.0,,15.40312199807877,2549.622007684918,runs\2. DOCKER\1. HOST\3. QoS2 C-_S\0. Server\server_json\session_8.json,,,
+DOCKER,HOST,QOS2 C-_S,cs,none,server,0.0,,15.40312199807877,2549.622007684918,runs\2. DOCKER\1. HOST\3. QoS2 C-_S\0. Server\server_json\session_9.json,,,
+DOCKER,HOST,QOS2 S-_C,sc,none,server,0.0,,15.40312199807877,2549.622007684918,runs\2. DOCKER\1. HOST\3. QoS2 S-_C\0. Server\server_json\session_1.json,,,
+DOCKER,HOST,QOS2 S-_C,sc,none,server,0.0,,15.40312199807877,2549.622007684918,runs\2. DOCKER\1. HOST\3. QoS2 S-_C\0. Server\server_json\session_10.json,,,
+DOCKER,HOST,QOS2 S-_C,sc,none,server,0.0,,15.40312199807877,2549.622007684918,runs\2. DOCKER\1. HOST\3. QoS2 S-_C\0. Server\server_json\session_2.json,,,
+DOCKER,HOST,QOS2 S-_C,sc,none,server,0.0,,15.40312199807877,2549.622007684918,runs\2. DOCKER\1. HOST\3. QoS2 S-_C\0. Server\server_json\session_3.json,,,
+DOCKER,HOST,QOS2 S-_C,sc,none,server,0.0,,15.40312199807877,2549.622007684918,runs\2. DOCKER\1. HOST\3. QoS2 S-_C\0. Server\server_json\session_4.json,,,
+DOCKER,HOST,QOS2 S-_C,sc,none,server,0.0,,15.40312199807877,2549.622007684918,runs\2. DOCKER\1. HOST\3. QoS2 S-_C\0. Server\server_json\session_5.json,,,
+DOCKER,HOST,QOS2 S-_C,sc,none,server,0.0,,15.40312199807877,2549.622007684918,runs\2. DOCKER\1. HOST\3. QoS2 S-_C\0. Server\server_json\session_6.json,,,
+DOCKER,HOST,QOS2 S-_C,sc,none,server,0.0,,15.40312199807877,2549.622007684918,runs\2. DOCKER\1. HOST\3. QoS2 S-_C\0. Server\server_json\session_7.json,,,
+DOCKER,HOST,QOS2 S-_C,sc,none,server,0.0,,15.40312199807877,2549.622007684918,runs\2. DOCKER\1. HOST\3. QoS2 S-_C\0. Server\server_json\session_8.json,,,
+DOCKER,HOST,QOS2 S-_C,sc,none,server,0.0,,15.40312199807877,2549.622007684918,runs\2. DOCKER\1. HOST\3. QoS2 S-_C\0. Server\server_json\session_9.json,,,
+DOCKER,MACVLAN,NOQOS,none,none,server,0.0,,21.025721784776902,2092.1897637795278,runs\2. DOCKER\3. MACVLAN\0. NoQoS\0. SERVER\server_json\session_01.json,,,
+DOCKER,MACVLAN,NOQOS,none,none,server,0.0,,21.025721784776902,2092.1897637795278,runs\2. DOCKER\3. MACVLAN\0. NoQoS\0. SERVER\server_json\session_02.json,,,
+DOCKER,MACVLAN,NOQOS,none,none,server,0.0,,21.025721784776902,2092.1897637795278,runs\2. DOCKER\3. MACVLAN\0. NoQoS\0. SERVER\server_json\session_03.json,,,
+DOCKER,MACVLAN,NOQOS,none,none,server,0.0,,21.025721784776902,2092.1897637795278,runs\2. DOCKER\3. MACVLAN\0. NoQoS\0. SERVER\server_json\session_04.json,,,
+DOCKER,MACVLAN,NOQOS,none,none,server,0.0,,21.025721784776902,2092.1897637795278,runs\2. DOCKER\3. MACVLAN\0. NoQoS\0. SERVER\server_json\session_05.json,,,
+DOCKER,MACVLAN,NOQOS,none,none,server,0.0,,21.025721784776902,2092.1897637795278,runs\2. DOCKER\3. MACVLAN\0. NoQoS\0. SERVER\server_json\session_06.json,,,
+DOCKER,MACVLAN,NOQOS,none,none,server,0.0,,21.025721784776902,2092.1897637795278,runs\2. DOCKER\3. MACVLAN\0. NoQoS\0. SERVER\server_json\session_07.json,,,
+DOCKER,MACVLAN,NOQOS,none,none,server,0.0,,21.025721784776902,2092.1897637795278,runs\2. DOCKER\3. MACVLAN\0. NoQoS\0. SERVER\server_json\session_08.json,,,
+DOCKER,MACVLAN,NOQOS,none,none,server,0.0,,21.025721784776902,2092.1897637795278,runs\2. DOCKER\3. MACVLAN\0. NoQoS\0. SERVER\server_json\session_09.json,,,
+DOCKER,MACVLAN,NOQOS,none,none,server,0.0,,21.025721784776902,2092.1897637795278,runs\2. DOCKER\3. MACVLAN\0. NoQoS\0. SERVER\server_json\session_10.json,,,
+DOCKER,MACVLAN,QOS1 C-_S,cs,none,server,0.0,,5.051012145748987,2196.29998264893,runs\2. DOCKER\3. MACVLAN\1. QoS1 C-_S\0. SERVER\server_json\session_01.json,,,
+DOCKER,MACVLAN,QOS1 C-_S,cs,none,server,0.0,,5.051012145748987,2196.29998264893,runs\2. DOCKER\3. MACVLAN\1. QoS1 C-_S\0. SERVER\server_json\session_02.json,,,
+DOCKER,MACVLAN,QOS1 C-_S,cs,none,server,0.0,,5.051012145748987,2196.29998264893,runs\2. DOCKER\3. MACVLAN\1. QoS1 C-_S\0. SERVER\server_json\session_03.json,,,
+DOCKER,MACVLAN,QOS1 C-_S,cs,none,server,0.0,,5.051012145748987,2196.29998264893,runs\2. DOCKER\3. MACVLAN\1. QoS1 C-_S\0. SERVER\server_json\session_04.json,,,
+DOCKER,MACVLAN,QOS1 C-_S,cs,none,server,0.0,,5.051012145748987,2196.29998264893,runs\2. DOCKER\3. MACVLAN\1. QoS1 C-_S\0. SERVER\server_json\session_05.json,,,
+DOCKER,MACVLAN,QOS1 C-_S,cs,none,server,0.0,,5.051012145748987,2196.29998264893,runs\2. DOCKER\3. MACVLAN\1. QoS1 C-_S\0. SERVER\server_json\session_06.json,,,
+DOCKER,MACVLAN,QOS1 C-_S,cs,none,server,0.0,,5.051012145748987,2196.29998264893,runs\2. DOCKER\3. MACVLAN\1. QoS1 C-_S\0. SERVER\server_json\session_07.json,,,
+DOCKER,MACVLAN,QOS1 C-_S,cs,none,server,0.0,,5.051012145748987,2196.29998264893,runs\2. DOCKER\3. MACVLAN\1. QoS1 C-_S\0. SERVER\server_json\session_08.json,,,
+DOCKER,MACVLAN,QOS1 C-_S,cs,none,server,0.0,,5.051012145748987,2196.29998264893,runs\2. DOCKER\3. MACVLAN\1. QoS1 C-_S\0. SERVER\server_json\session_09.json,,,
+DOCKER,MACVLAN,QOS1 C-_S,cs,none,server,0.0,,5.051012145748987,2196.29998264893,runs\2. DOCKER\3. MACVLAN\1. QoS1 C-_S\0. SERVER\server_json\session_10.json,,,
+DOCKER,MACVLAN,QOS1 C-_S,cs,none,server,,,5.051012145748987,2196.29998264893,runs\2. DOCKER\3. MACVLAN\1. QoS1 C-_S\0. SERVER\server_json\session_11.json,,,
+DOCKER,MACVLAN,QOS1 S-_C,sc,none,server,0.0,,13.406590257879655,2270.47361747851,runs\2. DOCKER\3. MACVLAN\2. QoS1 S-_C\0. SERVER\server_json\session_01.json,,,
+DOCKER,MACVLAN,QOS1 S-_C,sc,none,server,0.0,,13.406590257879655,2270.47361747851,runs\2. DOCKER\3. MACVLAN\2. QoS1 S-_C\0. SERVER\server_json\session_02.json,,,
+DOCKER,MACVLAN,QOS1 S-_C,sc,none,server,0.0,,13.406590257879655,2270.47361747851,runs\2. DOCKER\3. MACVLAN\2. QoS1 S-_C\0. SERVER\server_json\session_03.json,,,
+DOCKER,MACVLAN,QOS1 S-_C,sc,none,server,0.0,,13.406590257879655,2270.47361747851,runs\2. DOCKER\3. MACVLAN\2. QoS1 S-_C\0. SERVER\server_json\session_04.json,,,
+DOCKER,MACVLAN,QOS1 S-_C,sc,none,server,0.0,,13.406590257879655,2270.47361747851,runs\2. DOCKER\3. MACVLAN\2. QoS1 S-_C\0. SERVER\server_json\session_05.json,,,
+DOCKER,MACVLAN,QOS1 S-_C,sc,none,server,0.0,,13.406590257879655,2270.47361747851,runs\2. DOCKER\3. MACVLAN\2. QoS1 S-_C\0. SERVER\server_json\session_06.json,,,
+DOCKER,MACVLAN,QOS1 S-_C,sc,none,server,0.0,,13.406590257879655,2270.47361747851,runs\2. DOCKER\3. MACVLAN\2. QoS1 S-_C\0. SERVER\server_json\session_07.json,,,
+DOCKER,MACVLAN,QOS1 S-_C,sc,none,server,0.0,,13.406590257879655,2270.47361747851,runs\2. DOCKER\3. MACVLAN\2. QoS1 S-_C\0. SERVER\server_json\session_08.json,,,
+DOCKER,MACVLAN,QOS1 S-_C,sc,none,server,0.0,,13.406590257879655,2270.47361747851,runs\2. DOCKER\3. MACVLAN\2. QoS1 S-_C\0. SERVER\server_json\session_09.json,,,
+DOCKER,MACVLAN,QOS1 S-_C,sc,none,server,0.0,,13.406590257879655,2270.47361747851,runs\2. DOCKER\3. MACVLAN\2. QoS1 S-_C\0. SERVER\server_json\session_10.json,,,
+DOCKER,MACVLAN,QOS2 C-_S,cs,none,server,0.0,,10.986581013561743,2212.11011420414,runs\2. DOCKER\3. MACVLAN\3. QoS2 C-_S\0. SERVER\server_json\session_01.json,,,
+DOCKER,MACVLAN,QOS2 C-_S,cs,none,server,0.0,,10.986581013561743,2212.11011420414,runs\2. DOCKER\3. MACVLAN\3. QoS2 C-_S\0. SERVER\server_json\session_02.json,,,
+DOCKER,MACVLAN,QOS2 C-_S,cs,none,server,0.0,,10.986581013561743,2212.11011420414,runs\2. DOCKER\3. MACVLAN\3. QoS2 C-_S\0. SERVER\server_json\session_03.json,,,
+DOCKER,MACVLAN,QOS2 C-_S,cs,none,server,0.0,,10.986581013561743,2212.11011420414,runs\2. DOCKER\3. MACVLAN\3. QoS2 C-_S\0. SERVER\server_json\session_04.json,,,
+DOCKER,MACVLAN,QOS2 C-_S,cs,none,server,0.0,,10.986581013561743,2212.11011420414,runs\2. DOCKER\3. MACVLAN\3. QoS2 C-_S\0. SERVER\server_json\session_05.json,,,
+DOCKER,MACVLAN,QOS2 C-_S,cs,none,server,0.0,,10.986581013561743,2212.11011420414,runs\2. DOCKER\3. MACVLAN\3. QoS2 C-_S\0. SERVER\server_json\session_06.json,,,
+DOCKER,MACVLAN,QOS2 C-_S,cs,none,server,0.0,,10.986581013561743,2212.11011420414,runs\2. DOCKER\3. MACVLAN\3. QoS2 C-_S\0. SERVER\server_json\session_07.json,,,
+DOCKER,MACVLAN,QOS2 C-_S,cs,none,server,0.0,,10.986581013561743,2212.11011420414,runs\2. DOCKER\3. MACVLAN\3. QoS2 C-_S\0. SERVER\server_json\session_08.json,,,
+DOCKER,MACVLAN,QOS2 C-_S,cs,none,server,0.0,,10.986581013561743,2212.11011420414,runs\2. DOCKER\3. MACVLAN\3. QoS2 C-_S\0. SERVER\server_json\session_09.json,,,
+DOCKER,MACVLAN,QOS2 C-_S,cs,none,server,0.0,,10.986581013561743,2212.11011420414,runs\2. DOCKER\3. MACVLAN\3. QoS2 C-_S\0. SERVER\server_json\session_10.json,,,
+DOCKER,MACVLAN,QOS2 C-_S,cs,none,server,,,10.986581013561743,2212.11011420414,runs\2. DOCKER\3. MACVLAN\3. QoS2 C-_S\0. SERVER\server_json\session_11.json,,,
+DOCKER,MACVLAN,QOS2 S-_C,sc,none,server,36.111226568020285,0.0,,,runs\2. DOCKER\3. MACVLAN\4. QoS2 S-_C\0. SERVER\server_json\session_1.json,,,
+DOCKER,MACVLAN,QOS2 S-_C,sc,none,server,37.064368525750396,0.0,,,runs\2. DOCKER\3. MACVLAN\4. QoS2 S-_C\0. SERVER\server_json\session_10.json,,,
+DOCKER,MACVLAN,QOS2 S-_C,sc,none,server,37.6972697204177,0.0,,,runs\2. DOCKER\3. MACVLAN\4. QoS2 S-_C\0. SERVER\server_json\session_2.json,,,
+DOCKER,MACVLAN,QOS2 S-_C,sc,none,server,38.21054358882266,0.0,,,runs\2. DOCKER\3. MACVLAN\4. QoS2 S-_C\0. SERVER\server_json\session_3.json,,,
+DOCKER,MACVLAN,QOS2 S-_C,sc,none,server,37.88359335841164,0.0,,,runs\2. DOCKER\3. MACVLAN\4. QoS2 S-_C\0. SERVER\server_json\session_4.json,,,
+DOCKER,MACVLAN,QOS2 S-_C,sc,none,server,38.007888204169305,0.0,,,runs\2. DOCKER\3. MACVLAN\4. QoS2 S-_C\0. SERVER\server_json\session_5.json,,,
+DOCKER,MACVLAN,QOS2 S-_C,sc,none,server,37.41948443044497,0.0,,,runs\2. DOCKER\3. MACVLAN\4. QoS2 S-_C\0. SERVER\server_json\session_6.json,,,
+DOCKER,MACVLAN,QOS2 S-_C,sc,none,server,37.81253526145935,0.0,,,runs\2. DOCKER\3. MACVLAN\4. QoS2 S-_C\0. SERVER\server_json\session_7.json,,,
+DOCKER,MACVLAN,QOS2 S-_C,sc,none,server,38.01725766144483,0.0,,,runs\2. DOCKER\3. MACVLAN\4. QoS2 S-_C\0. SERVER\server_json\session_8.json,,,
+DOCKER,MACVLAN,QOS2 S-_C,sc,none,server,36.8470871114092,0.0,,,runs\2. DOCKER\3. MACVLAN\4. QoS2 S-_C\0. SERVER\server_json\session_9.json,,,
+NATIVE,NATIVE,NOQOS,none,none,client,51.5188,,89.435,23276.762,runs\0. NATIVE\0. NATIVE\1. CLIENT\run_01,6.0,0.0,93.0
+NATIVE,NATIVE,NOQOS,none,none,client,17.0574,,95.445,24316.7935,runs\0. NATIVE\0. NATIVE\1. CLIENT\run_02,9.0,0.0,119.0
+NATIVE,NATIVE,NOQOS,none,none,client,75.5688,,96.60499999999999,24115.999499999998,runs\0. NATIVE\0. NATIVE\1. CLIENT\run_03,7.0,0.0,115.0
+NATIVE,NATIVE,NOQOS,none,none,client,50.376,,81.56,24249.534999999996,runs\0. NATIVE\0. NATIVE\1. CLIENT\run_04,6.0,0.0,77.0
+NATIVE,NATIVE,NOQOS,none,none,client,61.208,,86.93499999999999,25249.801499999998,runs\0. NATIVE\0. NATIVE\1. CLIENT\run_05,4.0,0.0,22.0
+NATIVE,NATIVE,NOQOS,none,none,client,65.6425,,67.37,25890.513,runs\0. NATIVE\0. NATIVE\1. CLIENT\run_06,4.0,0.0,25.0
+NATIVE,NATIVE,NOQOS,none,none,client,15.2467,,68.45500000000001,25376.173,runs\0. NATIVE\0. NATIVE\1. CLIENT\run_07,4.0,0.0,34.0
+NATIVE,NATIVE,NOQOS,none,none,client,28.7958,,66.905,22411.443000000003,runs\0. NATIVE\0. NATIVE\1. CLIENT\run_08,5.0,0.0,36.0
+NATIVE,NATIVE,NOQOS,none,none,client,29.3631,,97.245,24364.042500000003,runs\0. NATIVE\0. NATIVE\1. CLIENT\run_09,10.0,0.0,528.0
+NATIVE,NATIVE,NOQOS,none,none,client,12.1263,,99.97999999999999,26530.690499999997,runs\0. NATIVE\0. NATIVE\1. CLIENT\run_10,5.0,0.0,50.0
+VM,CROSS-HOSTS,NOQOS,none,none,client,24.037386377545346,59.0,2.3266666666666667,928.818,runs\1. VM\0. CROSS-HOSTS\0. NoQoS\1. CLIENT\run_01,17.676,0.0,30.247
+VM,CROSS-HOSTS,NOQOS,none,none,client,29.60006930543534,79.0,2.8799999999999994,904.138,runs\1. VM\0. CROSS-HOSTS\0. NoQoS\1. CLIENT\run_02,11.272,0.0,13.957
+VM,CROSS-HOSTS,NOQOS,none,none,client,41.00071855854695,110.0,3.5233333333333325,906.2430000000002,runs\1. VM\0. CROSS-HOSTS\0. NoQoS\1. CLIENT\run_03,15.19,1.0,24.547
+VM,CROSS-HOSTS,NOQOS,none,none,client,31.19431132418205,97.0,2.6533333333333333,902.388,runs\1. VM\0. CROSS-HOSTS\0. NoQoS\1. CLIENT\run_04,16.875,0.0,26.257
+VM,CROSS-HOSTS,NOQOS,none,none,client,20.469934240155485,289.0,2.1599999999999997,892.3070000000001,runs\1. VM\0. CROSS-HOSTS\0. NoQoS\1. CLIENT\run_05,13.329,1.0,13.505
+VM,CROSS-HOSTS,NOQOS,none,none,client,28.548949532528347,226.0,2.6899999999999995,894.0980000000001,runs\1. VM\0. CROSS-HOSTS\0. NoQoS\1. CLIENT\run_06,27.366,1.0,87.038
+VM,CROSS-HOSTS,NOQOS,none,none,client,33.038168468190634,118.0,2.7199999999999993,905.8106666666666,runs\1. VM\0. CROSS-HOSTS\0. NoQoS\1. CLIENT\run_07,12.033,0.0,14.746
+VM,CROSS-HOSTS,NOQOS,none,none,client,29.78391613841404,117.0,2.776666666666666,901.6266666666666,runs\1. VM\0. CROSS-HOSTS\0. NoQoS\1. CLIENT\run_08,43.759,0.0,111.308
+VM,CROSS-HOSTS,NOQOS,none,none,client,27.99008301585969,99.0,2.876666666666666,893.7546666666665,runs\1. VM\0. CROSS-HOSTS\0. NoQoS\1. CLIENT\run_09,45.211,2.0,102.879
+VM,CROSS-HOSTS,NOQOS,none,none,client,13.66935668170028,184.0,1.6866666666666668,902.7053333333336,runs\1. VM\0. CROSS-HOSTS\0. NoQoS\1. CLIENT\run_10,17.386,1.0,26.46
+VM,CROSS-HOSTS,QOS3,none,none,client,5.632099122466493,168.0,1.3033333333333335,1289.0129999999997,runs\1. VM\0. CROSS-HOSTS\1. QoS3\1. CLIENT\run_01,145.76,0.0,369.846
+VM,CROSS-HOSTS,QOS3,none,none,client,9.753996760238985,281.0,1.5066666666666668,1300.1993333333332,runs\1. VM\0. CROSS-HOSTS\1. QoS3\1. CLIENT\run_02,96.195,1.0,147.505
+VM,CROSS-HOSTS,QOS3,none,none,client,5.18067149637039,200.0,1.2766666666666668,1296.3926666666666,runs\1. VM\0. CROSS-HOSTS\1. QoS3\1. CLIENT\run_03,121.467,4.0,254.548
+VM,CROSS-HOSTS,QOS3,none,none,client,7.086520817125422,234.0,19.673333333333336,1322.4443333333336,runs\1. VM\0. CROSS-HOSTS\1. QoS3\1. CLIENT\run_04,85.904,3.0,64.848
+VM,CROSS-HOSTS,QOS3,none,none,client,8.48868276324042,233.0,1.5266666666666666,1312.4426666666666,runs\1. VM\0. CROSS-HOSTS\1. QoS3\1. CLIENT\run_05,203.458,4.0,511.304
+VM,CROSS-HOSTS,QOS3,none,none,client,9.735110527056836,235.0,1.79,1313.1169999999997,runs\1. VM\0. CROSS-HOSTS\1. QoS3\1. CLIENT\run_06,82.458,2.0,84.488
+VM,CROSS-HOSTS,QOS3,none,none,client,10.715821530777134,243.0,2.1199999999999997,1303.6846666666665,runs\1. VM\0. CROSS-HOSTS\1. QoS3\1. CLIENT\run_07,96.92,1.0,142.12
+VM,CROSS-HOSTS,QOS3,none,none,client,8.100175193857725,204.0,1.5466666666666666,1299.8676666666663,runs\1. VM\0. CROSS-HOSTS\1. QoS3\1. CLIENT\run_08,159.393,3.0,230.433
+VM,CROSS-HOSTS,QOS3,none,none,client,6.602422560503014,203.0,15.606666666666666,1284.398,runs\1. VM\0. CROSS-HOSTS\1. QoS3\1. CLIENT\run_09,121.323,3.0,253.999
+VM,CROSS-HOSTS,QOS3,none,none,client,5.54750529751429,151.0,1.5533333333333335,1281.7700000000002,runs\1. VM\0. CROSS-HOSTS\1. QoS3\1. CLIENT\run_10,378.245,10.0,571.786
+VM,BRIDGED_LOCAL,NOQOS,none,none,client,2683.589470830777,1379.0,95.59666666666666,1272.74,runs\1. VM\1. BRIDGED_LOCAL\0. noQoS\1. Client\run_01,0.734,0.0,0.844
+VM,BRIDGED_LOCAL,NOQOS,none,none,client,4302.917735008405,2897.0,40.466666666666676,771.9989999999999,runs\1. VM\1. BRIDGED_LOCAL\0. noQoS\1. Client\run_02,0.67,0.0,0.179
+VM,BRIDGED_LOCAL,NOQOS,none,none,client,4423.176034280627,2565.0,41.166666666666664,771.0033333333333,runs\1. VM\1. BRIDGED_LOCAL\0. noQoS\1. Client\run_03,0.675,0.0,0.191
+VM,BRIDGED_LOCAL,NOQOS,none,none,client,4152.127896942864,1551.0,46.893333333333324,765.2223333333335,runs\1. VM\1. BRIDGED_LOCAL\0. noQoS\1. Client\run_04,0.997,0.0,2.957
+VM,BRIDGED_LOCAL,NOQOS,none,none,client,4141.3683290918625,2201.0,44.41333333333334,767.3463333333333,runs\1. VM\1. BRIDGED_LOCAL\0. noQoS\1. Client\run_05,4.288,0.0,35.69
+VM,BRIDGED_LOCAL,NOQOS,none,none,client,4327.017919099653,2894.0,44.28999999999999,772.0026666666668,runs\1. VM\1. BRIDGED_LOCAL\0. noQoS\1. Client\run_06,0.609,0.0,0.27
+VM,BRIDGED_LOCAL,NOQOS,none,none,client,4558.14140555964,2962.0,41.690000000000005,773.1410000000001,runs\1. VM\1. BRIDGED_LOCAL\0. noQoS\1. Client\run_07,0.782,0.0,1.484
+VM,BRIDGED_LOCAL,NOQOS,none,none,client,4619.790361767148,2642.0,41.973333333333336,772.1560000000001,runs\1. VM\1. BRIDGED_LOCAL\0. noQoS\1. Client\run_08,0.797,0.0,1.693
+VM,BRIDGED_LOCAL,NOQOS,none,none,client,4665.43620348565,3008.0,45.086666666666666,771.5286666666667,runs\1. VM\1. BRIDGED_LOCAL\0. noQoS\1. Client\run_09,0.643,0.0,0.201
+VM,BRIDGED_LOCAL,NOQOS,none,none,client,4240.7539067311145,2799.0,43.05666666666666,772.0239999999998,runs\1. VM\1. BRIDGED_LOCAL\0. noQoS\1. Client\run_10,0.655,0.0,0.27
+VM,BRIDGED_LOCAL,QOS1 C-_S,sc,none,client,38.664954822425166,0.0,13.346666666666666,1219.6196666666667,runs\1. VM\1. BRIDGED_LOCAL\1. QoS1 C-_S\1. Client\run_01,0.673,0.0,0.276
+VM,BRIDGED_LOCAL,QOS1 C-_S,sc,none,client,39.167156579854954,0.0,13.116666666666665,1236.5233333333333,runs\1. VM\1. BRIDGED_LOCAL\1. QoS1 C-_S\1. Client\run_02,0.669,0.0,0.251
+VM,BRIDGED_LOCAL,QOS1 C-_S,sc,none,client,39.0536992749006,0.0,12.216666666666669,1223.0073333333332,runs\1. VM\1. BRIDGED_LOCAL\1. QoS1 C-_S\1. Client\run_03,0.66,0.0,0.176
+VM,BRIDGED_LOCAL,QOS1 C-_S,sc,none,client,38.94989229207955,0.0,11.363333333333335,1217.7269999999999,runs\1. VM\1. BRIDGED_LOCAL\1. QoS1 C-_S\1. Client\run_04,0.655,0.0,0.204
+VM,BRIDGED_LOCAL,QOS1 C-_S,sc,none,client,39.17190505039562,0.0,11.546666666666665,1198.1423333333335,runs\1. VM\1. BRIDGED_LOCAL\1. QoS1 C-_S\1. Client\run_05,0.733,0.0,0.503
+VM,BRIDGED_LOCAL,QOS1 C-_S,sc,none,client,39.14320604504881,0.0,9.470000000000002,1212.3346666666666,runs\1. VM\1. BRIDGED_LOCAL\1. QoS1 C-_S\1. Client\run_06,0.668,0.0,0.196
+VM,BRIDGED_LOCAL,QOS1 C-_S,sc,none,client,39.1122725827588,0.0,10.780000000000001,1208.8793333333333,runs\1. VM\1. BRIDGED_LOCAL\1. QoS1 C-_S\1. Client\run_07,0.621,0.0,0.188
+VM,BRIDGED_LOCAL,QOS1 C-_S,sc,none,client,39.13929125018975,0.0,9.299999999999999,1204.5786666666668,runs\1. VM\1. BRIDGED_LOCAL\1. QoS1 C-_S\1. Client\run_08,0.61,0.0,0.148
+VM,BRIDGED_LOCAL,QOS1 C-_S,sc,none,client,39.06069520770045,0.0,10.846666666666664,1204.0386666666666,runs\1. VM\1. BRIDGED_LOCAL\1. QoS1 C-_S\1. Client\run_09,0.635,0.0,0.156
+VM,BRIDGED_LOCAL,QOS1 C-_S,sc,none,client,39.13403544322633,0.0,13.633333333333333,1202.9976666666666,runs\1. VM\1. BRIDGED_LOCAL\1. QoS1 C-_S\1. Client\run_10,0.669,0.0,0.201
+VM,BRIDGED_LOCAL,QOS2 C-_S,sc,none,client,1441.5692481003962,4515.0,12.276666666666664,1214.622,runs\1. VM\1. BRIDGED_LOCAL\2. QoS2 C-_S\1. Client\run_01,25.776,0.0,0.195
+VM,BRIDGED_LOCAL,QOS2 C-_S,sc,none,client,1597.9435172850665,4716.0,11.91,1187.5459999999998,runs\1. VM\1. BRIDGED_LOCAL\2. QoS2 C-_S\1. Client\run_02,25.9,0.0,0.616
+VM,BRIDGED_LOCAL,QOS2 C-_S,sc,none,client,1570.0355340164078,3928.0,12.393333333333333,1190.5373333333334,runs\1. VM\1. BRIDGED_LOCAL\2. QoS2 C-_S\1. Client\run_03,25.79,0.0,0.293
+VM,BRIDGED_LOCAL,QOS2 C-_S,sc,none,client,1196.372873673486,3615.0,9.57333333333333,1190.187666666667,runs\1. VM\1. BRIDGED_LOCAL\2. QoS2 C-_S\1. Client\run_04,25.766,0.0,0.191
+VM,BRIDGED_LOCAL,QOS2 C-_S,sc,none,client,1313.0733396932953,3982.0,9.733333333333336,1209.7466666666667,runs\1. VM\1. BRIDGED_LOCAL\2. QoS2 C-_S\1. Client\run_05,25.827,0.0,0.199
+VM,BRIDGED_LOCAL,QOS2 C-_S,sc,none,client,1444.744660995853,3476.0,10.583333333333334,1210.7126666666668,runs\1. VM\1. BRIDGED_LOCAL\2. QoS2 C-_S\1. Client\run_06,25.851,0.0,0.231
+VM,BRIDGED_LOCAL,QOS2 C-_S,sc,none,client,1482.8216831660495,2366.0,10.92,1210.8383333333331,runs\1. VM\1. BRIDGED_LOCAL\2. QoS2 C-_S\1. Client\run_07,25.78,0.0,0.272
+VM,BRIDGED_LOCAL,QOS2 C-_S,sc,none,client,1250.2850480063742,7527.0,9.806666666666668,1213.0516666666667,runs\1. VM\1. BRIDGED_LOCAL\2. QoS2 C-_S\1. Client\run_08,25.686,0.0,0.157
+VM,BRIDGED_LOCAL,QOS2 C-_S,sc,none,client,1377.072110686247,2998.0,10.056666666666667,1216.7186666666666,runs\1. VM\1. BRIDGED_LOCAL\2. QoS2 C-_S\1. Client\run_09,25.935,0.0,0.326
+VM,BRIDGED_LOCAL,QOS2 C-_S,sc,none,client,1357.153056800713,3870.0,12.313333333333333,1231.9843333333336,runs\1. VM\1. BRIDGED_LOCAL\2. QoS2 C-_S\1. Client\run_10,25.872,0.0,0.323
+VM,BRIDGED_LOCAL,QOS1 S-_C,sc,none,client,38.609276339096596,0.0,10.316666666666668,1261.5600000000004,runs\1. VM\1. BRIDGED_LOCAL\3. QoS1 S-_C\1. Client\run_01,0.736,0.0,0.314
+VM,BRIDGED_LOCAL,QOS1 S-_C,sc,none,client,38.9524348156989,0.0,14.046666666666665,1221.1070000000002,runs\1. VM\1. BRIDGED_LOCAL\3. QoS1 S-_C\1. Client\run_02,1.273,0.0,5.434
+VM,BRIDGED_LOCAL,QOS1 S-_C,sc,none,client,39.1465420835208,0.0,6.5266666666666655,1248.789,runs\1. VM\1. BRIDGED_LOCAL\3. QoS1 S-_C\1. Client\run_03,1.653,0.0,9.641
+VM,BRIDGED_LOCAL,QOS1 S-_C,sc,none,client,38.87357258652547,0.0,7.069999999999998,1229.5106666666663,runs\1. VM\1. BRIDGED_LOCAL\3. QoS1 S-_C\1. Client\run_04,1.194,0.0,4.548
+VM,BRIDGED_LOCAL,QOS1 S-_C,sc,none,client,38.8882676597368,0.0,6.653333333333332,1228.075666666667,runs\1. VM\1. BRIDGED_LOCAL\3. QoS1 S-_C\1. Client\run_05,1.236,0.0,4.6
+VM,BRIDGED_LOCAL,QOS1 S-_C,sc,none,client,39.07802785200827,0.0,5.959999999999999,1227.637,runs\1. VM\1. BRIDGED_LOCAL\3. QoS1 S-_C\1. Client\run_06,1.78,0.0,9.976
+VM,BRIDGED_LOCAL,QOS1 S-_C,sc,none,client,39.0111063332965,0.0,6.636666666666666,1225.2440000000004,runs\1. VM\1. BRIDGED_LOCAL\3. QoS1 S-_C\1. Client\run_07,2.033,0.0,6.227
+VM,BRIDGED_LOCAL,QOS1 S-_C,sc,none,client,35.295398313178374,0.0,11.046666666666663,1226.1529999999998,runs\1. VM\1. BRIDGED_LOCAL\3. QoS1 S-_C\1. Client\run_08,0.921,0.0,1.791
+VM,BRIDGED_LOCAL,QOS1 S-_C,sc,none,client,39.19028209865112,0.0,6.469999999999999,1222.5776666666668,runs\1. VM\1. BRIDGED_LOCAL\3. QoS1 S-_C\1. Client\run_09,1.718,0.0,10.078
+VM,BRIDGED_LOCAL,QOS1 S-_C,sc,none,client,38.741761931682866,0.0,6.996666666666666,1222.8026666666665,runs\1. VM\1. BRIDGED_LOCAL\3. QoS1 S-_C\1. Client\run_10,1.112,0.0,3.467
+VM,BRIDGED_LOCAL,QOS2 S-_C,sc,none,client,1559.8778233778169,6111.0,20.240000000000002,1210.279,runs\1. VM\1. BRIDGED_LOCAL\4. QoS2 S-_C\1. Client\run_01,26.305,0.0,0.823
+VM,BRIDGED_LOCAL,QOS2 S-_C,sc,none,client,1461.1395570283964,2214.0,18.90666666666667,1208.753333333333,runs\1. VM\1. BRIDGED_LOCAL\4. QoS2 S-_C\1. Client\run_02,26.017,0.0,0.274
+VM,BRIDGED_LOCAL,QOS2 S-_C,sc,none,client,1328.0701825499852,2593.0,18.343333333333337,1213.8110000000001,runs\1. VM\1. BRIDGED_LOCAL\4. QoS2 S-_C\1. Client\run_03,25.961,0.0,0.201
+VM,BRIDGED_LOCAL,QOS2 S-_C,sc,none,client,1301.8137719215981,3243.0,18.879999999999995,1211.5833333333335,runs\1. VM\1. BRIDGED_LOCAL\4. QoS2 S-_C\1. Client\run_04,25.893,0.0,0.181
+VM,BRIDGED_LOCAL,QOS2 S-_C,sc,none,client,1469.170184031766,5454.0,19.57,1212.2686666666666,runs\1. VM\1. BRIDGED_LOCAL\4. QoS2 S-_C\1. Client\run_05,25.962,0.0,0.214
+VM,BRIDGED_LOCAL,QOS2 S-_C,sc,none,client,1540.6581575370167,3074.0,18.083333333333336,1213.6103333333333,runs\1. VM\1. BRIDGED_LOCAL\4. QoS2 S-_C\1. Client\run_06,25.988,0.0,0.13
+VM,BRIDGED_LOCAL,QOS2 S-_C,sc,none,client,1774.34616849352,3846.0,21.58,1236.0906666666667,runs\1. VM\1. BRIDGED_LOCAL\4. QoS2 S-_C\1. Client\run_07,26.023,0.0,0.358
+VM,BRIDGED_LOCAL,QOS2 S-_C,sc,none,client,1412.0139977792478,3505.0,17.003333333333334,1215.1283333333336,runs\1. VM\1. BRIDGED_LOCAL\4. QoS2 S-_C\1. Client\run_08,25.947,0.0,0.202
+VM,BRIDGED_LOCAL,QOS2 S-_C,sc,none,client,1323.4298611512368,5894.0,18.34666666666666,1194.9476666666667,runs\1. VM\1. BRIDGED_LOCAL\4. QoS2 S-_C\1. Client\run_09,25.892,0.0,0.196
+VM,BRIDGED_LOCAL,QOS2 S-_C,sc,none,client,1316.1390707794646,4639.0,18.970000000000002,1209.373,runs\1. VM\1. BRIDGED_LOCAL\4. QoS2 S-_C\1. Client\run_10,25.951,0.0,0.247
+VM,NAT,NOQOS,none,none,client,4760.904947962717,2201.0,44.56666666666667,1241.206,runs\1. VM\2. NAT\0. NoQoS\1. Client\run_01,0.751,0.0,0.359
+VM,NAT,NOQOS,none,none,client,4233.058129057703,2157.0,45.24,1241.7936666666667,runs\1. VM\2. NAT\0. NoQoS\1. Client\run_02,0.819,0.0,0.429
+VM,NAT,NOQOS,none,none,client,4553.910865961435,2230.0,43.85333333333333,1201.2016666666668,runs\1. VM\2. NAT\0. NoQoS\1. Client\run_03,0.72,0.0,0.257
+VM,NAT,NOQOS,none,none,client,4409.5426529051365,2274.0,44.449999999999996,1202.9776666666667,runs\1. VM\2. NAT\0. NoQoS\1. Client\run_04,0.73,0.0,0.245
+VM,NAT,NOQOS,none,none,client,4542.504041513395,2649.0,46.11,1224.114,runs\1. VM\2. NAT\0. NoQoS\1. Client\run_05,0.677,0.0,0.181
+VM,NAT,NOQOS,none,none,client,4575.368845534196,2530.0,44.06666666666667,1224.9856666666667,runs\1. VM\2. NAT\0. NoQoS\1. Client\run_06,0.7,0.0,0.288
+VM,NAT,NOQOS,none,none,client,4185.8081592990775,2773.0,48.08000000000001,1235.4203333333332,runs\1. VM\2. NAT\0. NoQoS\1. Client\run_07,0.715,0.0,0.168
+VM,NAT,NOQOS,none,none,client,4375.852865350558,2340.0,45.99666666666668,1249.3130000000003,runs\1. VM\2. NAT\0. NoQoS\1. Client\run_08,0.774,0.0,0.22
+VM,NAT,NOQOS,none,none,client,4763.514257258937,3103.0,39.730000000000004,1252.044666666667,runs\1. VM\2. NAT\0. NoQoS\1. Client\run_09,0.717,0.0,0.195
+VM,NAT,NOQOS,none,none,client,4648.7762753444995,2150.0,44.96,1249.9643333333333,runs\1. VM\2. NAT\0. NoQoS\1. Client\run_10,0.71,0.0,0.184
+VM,NAT,QOS1 C-_S,sc,none,client,38.560953401771116,0.0,2.213333333333333,1258.9343333333334,runs\1. VM\2. NAT\1. QoS1 C-_S\1. Client\run_01,0.763,0.0,0.447
+VM,NAT,QOS1 C-_S,sc,none,client,39.05143585749418,0.0,1.6700000000000004,1257.5913333333335,runs\1. VM\2. NAT\1. QoS1 C-_S\1. Client\run_02,0.694,0.0,0.169
+VM,NAT,QOS1 C-_S,sc,none,client,39.085652244911785,0.0,1.4100000000000004,1255.4173333333335,runs\1. VM\2. NAT\1. QoS1 C-_S\1. Client\run_03,0.656,0.0,0.149
+VM,NAT,QOS1 C-_S,sc,none,client,39.0892181366857,0.0,1.4833333333333336,1249.2103333333332,runs\1. VM\2. NAT\1. QoS1 C-_S\1. Client\run_04,0.691,0.0,0.241
+VM,NAT,QOS1 C-_S,sc,none,client,39.15720985587335,0.0,1.2000000000000002,1256.7079999999999,runs\1. VM\2. NAT\1. QoS1 C-_S\1. Client\run_05,0.713,0.0,0.24
+VM,NAT,QOS1 C-_S,sc,none,client,39.01655914633687,0.0,1.1966666666666668,1242.0153333333333,runs\1. VM\2. NAT\1. QoS1 C-_S\1. Client\run_06,0.677,0.0,0.145
+VM,NAT,QOS1 C-_S,sc,none,client,39.10801472333808,0.0,1.2733333333333334,1257.1613333333332,runs\1. VM\2. NAT\1. QoS1 C-_S\1. Client\run_07,0.734,0.0,0.206
+VM,NAT,QOS1 C-_S,sc,none,client,38.98705468004696,0.0,1.4100000000000004,1256.3110000000001,runs\1. VM\2. NAT\1. QoS1 C-_S\1. Client\run_08,0.648,0.0,0.137
+VM,NAT,QOS1 C-_S,sc,none,client,38.91723409179386,0.0,1.3333333333333333,1256.576,runs\1. VM\2. NAT\1. QoS1 C-_S\1. Client\run_09,0.691,0.0,0.214
+VM,NAT,QOS1 C-_S,sc,none,client,38.7741506002219,0.0,1.2899999999999998,1253.4786666666666,runs\1. VM\2. NAT\1. QoS1 C-_S\1. Client\run_10,0.711,0.0,0.22
+VM,NAT,QOS2 C-_S,sc,none,client,1452.4638410680873,5475.0,18.196666666666665,1333.2856666666667,runs\1. VM\2. NAT\2. QoS2 C-_S\1. Client\run_01,25.946,0.0,0.691
+VM,NAT,QOS2 C-_S,sc,none,client,1529.8609116444425,4633.0,6.193333333333332,1344.8553333333332,runs\1. VM\2. NAT\2. QoS2 C-_S\1. Client\run_02,25.881,0.0,0.366
+VM,NAT,QOS2 C-_S,sc,none,client,1285.7474249559643,3200.0,10.663333333333332,1355.987,runs\1. VM\2. NAT\2. QoS2 C-_S\1. Client\run_03,25.816,0.0,0.341
+VM,NAT,QOS2 C-_S,sc,none,client,1352.78368632046,5147.0,5.593333333333334,1359.7603333333334,runs\1. VM\2. NAT\2. QoS2 C-_S\1. Client\run_04,26.084,0.0,2.004
+VM,NAT,QOS2 C-_S,sc,none,client,1483.33086029738,6157.0,7.166666666666668,1360.8446666666669,runs\1. VM\2. NAT\2. QoS2 C-_S\1. Client\run_05,25.866,0.0,0.288
+VM,NAT,QOS2 C-_S,sc,none,client,1344.2257480540943,5254.0,5.513333333333334,1361.4026666666664,runs\1. VM\2. NAT\2. QoS2 C-_S\1. Client\run_06,25.962,0.0,1.156
+VM,NAT,QOS2 C-_S,sc,none,client,752.4594481641304,8521.0,3.6433333333333335,1364.0449999999998,runs\1. VM\2. NAT\2. QoS2 C-_S\1. Client\run_07,26.012,0.0,0.502
+VM,NAT,QOS2 C-_S,sc,none,client,1326.4681457811519,4245.0,5.496666666666667,1363.5016666666666,runs\1. VM\2. NAT\2. QoS2 C-_S\1. Client\run_08,25.837,0.0,0.231
+VM,NAT,QOS2 C-_S,sc,none,client,1444.9214017792906,4722.0,6.560000000000001,1364.8423333333333,runs\1. VM\2. NAT\2. QoS2 C-_S\1. Client\run_09,25.85,0.0,0.209
+VM,NAT,QOS2 C-_S,sc,none,client,1409.2086264307231,4577.0,5.053333333333333,1365.305333333333,runs\1. VM\2. NAT\2. QoS2 C-_S\1. Client\run_10,26.313,0.0,0.783
+VM,NAT,QOS1 S-_C,sc,none,client,38.86741695481117,0.0,3.7299999999999995,1399.1180000000002,runs\1. VM\2. NAT\3. QoS1 S-_C\1. Client\run_01,0.746,0.0,0.299
+VM,NAT,QOS1 S-_C,sc,none,client,38.88335815310791,0.0,3.89,1376.8113333333336,runs\1. VM\2. NAT\3. QoS1 S-_C\1. Client\run_02,0.863,0.0,2.058
+VM,NAT,QOS1 S-_C,sc,none,client,38.873593342692466,0.0,4.816666666666666,1332.5073333333335,runs\1. VM\2. NAT\3. QoS1 S-_C\1. Client\run_03,0.928,0.0,2.585
+VM,NAT,QOS1 S-_C,sc,none,client,38.87759627290287,0.0,3.65,1319.4276666666667,runs\1. VM\2. NAT\3. QoS1 S-_C\1. Client\run_04,0.905,0.0,1.768
+VM,NAT,QOS1 S-_C,sc,none,client,39.009640221699996,0.0,4.776666666666667,1341.1326666666669,runs\1. VM\2. NAT\3. QoS1 S-_C\1. Client\run_05,1.156,0.0,4.863
+VM,NAT,QOS1 S-_C,sc,none,client,39.01397358894675,0.0,4.156666666666667,1325.7669999999998,runs\1. VM\2. NAT\3. QoS1 S-_C\1. Client\run_06,1.143,0.0,4.63
+VM,NAT,QOS1 S-_C,sc,none,client,39.31721731650609,0.0,4.196666666666667,1325.1933333333336,runs\1. VM\2. NAT\3. QoS1 S-_C\1. Client\run_07,0.681,0.0,0.155
+VM,NAT,QOS1 S-_C,sc,none,client,39.07368093768043,0.0,3.4266666666666663,1301.3026666666672,runs\1. VM\2. NAT\3. QoS1 S-_C\1. Client\run_08,1.336,0.0,6.288
+VM,NAT,QOS1 S-_C,sc,none,client,38.86859134571537,0.0,5.410000000000001,1302.997666666667,runs\1. VM\2. NAT\3. QoS1 S-_C\1. Client\run_09,1.074,0.0,4.087
+VM,NAT,QOS1 S-_C,sc,none,client,38.786027323943145,0.0,3.8133333333333335,1303.1203333333335,runs\1. VM\2. NAT\3. QoS1 S-_C\1. Client\run_10,2.11,0.0,8.337
+VM,NAT,QOS2 S-_C,sc,none,client,800.3790699022104,4976.0,41.81000000000001,1319.5053333333333,runs\1. VM\2. NAT\4. QoS2 S-_C\1. Client\run_01,34.5,0.0,85.762
+VM,NAT,QOS2 S-_C,sc,none,client,1656.4549561483952,2942.0,19.563333333333333,1305.8793333333335,runs\1. VM\2. NAT\4. QoS2 S-_C\1. Client\run_02,25.935,0.0,0.22
+VM,NAT,QOS2 S-_C,sc,none,client,1157.2676694761788,5837.0,42.75333333333334,1306.877,runs\1. VM\2. NAT\4. QoS2 S-_C\1. Client\run_03,52.646,0.0,199.761
+VM,NAT,QOS2 S-_C,sc,none,client,1438.321349487116,3555.0,17.77,1307.081,runs\1. VM\2. NAT\4. QoS2 S-_C\1. Client\run_04,25.961,0.0,0.296
+VM,NAT,QOS2 S-_C,sc,none,client,1570.9526137708235,4511.0,18.136666666666663,1306.8686666666665,runs\1. VM\2. NAT\4. QoS2 S-_C\1. Client\run_05,25.96,0.0,0.326
+VM,NAT,QOS2 S-_C,sc,none,client,1481.5623001197753,3240.0,16.726666666666667,1306.413,runs\1. VM\2. NAT\4. QoS2 S-_C\1. Client\run_06,25.938,0.0,0.224
+VM,NAT,QOS2 S-_C,sc,none,client,483.9449851464318,5436.0,55.73666666666666,1308.9260000000002,runs\1. VM\2. NAT\4. QoS2 S-_C\1. Client\run_07,34.291,0.0,82.689
+VM,NAT,QOS2 S-_C,sc,none,client,1140.9470364495344,4417.0,33.81333333333333,1309.958333333333,runs\1. VM\2. NAT\4. QoS2 S-_C\1. Client\run_08,55.576,0.0,220.009
+VM,NAT,QOS2 S-_C,sc,none,client,1626.704639037667,2867.0,18.90333333333334,1307.3339999999998,runs\1. VM\2. NAT\4. QoS2 S-_C\1. Client\run_09,25.915,0.0,0.158
+VM,NAT,QOS2 S-_C,sc,none,client,636.7874714800046,2913.0,11.103333333333332,1323.9343333333336,runs\1. VM\2. NAT\4. QoS2 S-_C\1. Client\run_10,26.647,0.0,1.328
+VM,HOST-ONLY,NOQOS,none,none,client,3225.2464828886377,1582.0,56.36666666666666,1395.1253333333332,runs\1. VM\3. HOST-ONLY\0. NoQoS\1. Client\run_01,1.921,0.0,10.491
+VM,HOST-ONLY,NOQOS,none,none,client,4285.979335004972,940.0,47.419999999999995,1400.318,runs\1. VM\3. HOST-ONLY\0. NoQoS\1. Client\run_02,0.672,0.0,0.142
+VM,HOST-ONLY,NOQOS,none,none,client,4655.808981511617,3166.0,39.84333333333333,1402.0716666666667,runs\1. VM\3. HOST-ONLY\0. NoQoS\1. Client\run_03,0.872,0.0,1.352
+VM,HOST-ONLY,NOQOS,none,none,client,4572.423627015293,2709.0,40.00999999999999,1401.8293333333336,runs\1. VM\3. HOST-ONLY\0. NoQoS\1. Client\run_04,1.056,0.0,1.928
+VM,HOST-ONLY,NOQOS,none,none,client,4840.443157026985,3225.0,38.50666666666666,1403.8673333333334,runs\1. VM\3. HOST-ONLY\0. NoQoS\1. Client\run_05,0.635,0.0,0.161
+VM,HOST-ONLY,NOQOS,none,none,client,4690.402488550627,3500.0,40.74999999999999,1403.5436666666667,runs\1. VM\3. HOST-ONLY\0. NoQoS\1. Client\run_06,0.698,0.0,0.174
+VM,HOST-ONLY,NOQOS,none,none,client,4845.4723685105255,4266.0,37.97666666666667,1406.9483333333333,runs\1. VM\3. HOST-ONLY\0. NoQoS\1. Client\run_07,0.696,0.0,0.259
+VM,HOST-ONLY,NOQOS,none,none,client,4756.113903545723,2592.0,41.63000000000001,1405.187333333333,runs\1. VM\3. HOST-ONLY\0. NoQoS\1. Client\run_08,0.71,0.0,0.152
+VM,HOST-ONLY,NOQOS,none,none,client,4615.153682718886,2176.0,43.11333333333334,1405.094,runs\1. VM\3. HOST-ONLY\0. NoQoS\1. Client\run_09,0.688,0.0,0.18
+VM,HOST-ONLY,NOQOS,none,none,client,4855.041695102714,2886.0,39.629999999999995,1408.6866666666663,runs\1. VM\3. HOST-ONLY\0. NoQoS\1. Client\run_10,0.824,0.0,0.764
+VM,HOST-ONLY,QOS1 C-_S,sc,none,client,38.935199814134144,0.0,1.736666666666667,1438.9913333333332,runs\1. VM\3. HOST-ONLY\1. QoS1 C-_S\1. Client\run_01,0.746,0.0,0.337
+VM,HOST-ONLY,QOS1 C-_S,sc,none,client,39.1076429327208,0.0,1.9033333333333333,1424.2113333333332,runs\1. VM\3. HOST-ONLY\1. QoS1 C-_S\1. Client\run_02,0.807,0.0,1.137
+VM,HOST-ONLY,QOS1 C-_S,sc,none,client,39.06416778860625,0.0,1.676666666666667,1422.8333333333328,runs\1. VM\3. HOST-ONLY\1. QoS1 C-_S\1. Client\run_03,1.064,0.0,1.856
+VM,HOST-ONLY,QOS1 C-_S,sc,none,client,39.081164095149596,0.0,1.5166666666666668,1431.1306666666667,runs\1. VM\3. HOST-ONLY\1. QoS1 C-_S\1. Client\run_04,0.71,0.0,0.2
+VM,HOST-ONLY,QOS1 C-_S,sc,none,client,38.742006136019825,0.0,4.12,1420.6096666666667,runs\1. VM\3. HOST-ONLY\1. QoS1 C-_S\1. Client\run_05,0.797,0.0,0.648
+VM,HOST-ONLY,QOS1 C-_S,sc,none,client,39.08921943965244,0.0,1.5166666666666668,1425.7726666666667,runs\1. VM\3. HOST-ONLY\1. QoS1 C-_S\1. Client\run_06,0.681,0.0,0.22
+VM,HOST-ONLY,QOS1 C-_S,sc,none,client,38.96139053294379,0.0,1.4633333333333334,1421.3413333333335,runs\1. VM\3. HOST-ONLY\1. QoS1 C-_S\1. Client\run_07,1.111,0.0,2.328
+VM,HOST-ONLY,QOS1 C-_S,sc,none,client,39.01971712488915,0.0,1.5433333333333337,1424.1759999999997,runs\1. VM\3. HOST-ONLY\1. QoS1 C-_S\1. Client\run_08,0.775,0.0,0.665
+VM,HOST-ONLY,QOS1 C-_S,sc,none,client,38.9977362441239,0.0,1.2033333333333334,1426.6440000000002,runs\1. VM\3. HOST-ONLY\1. QoS1 C-_S\1. Client\run_09,0.937,0.0,1.294
+VM,HOST-ONLY,QOS1 C-_S,sc,none,client,38.86705019423654,0.0,1.5300000000000002,1426.0833333333335,runs\1. VM\3. HOST-ONLY\1. QoS1 C-_S\1. Client\run_10,0.695,0.0,0.297
+VM,HOST-ONLY,QOS2 C-_S,sc,none,client,1649.548843697342,4175.0,7.223333333333333,1429.1413333333333,runs\1. VM\3. HOST-ONLY\2. QoS2 C-_S\1. Client\run_01,25.933,0.0,0.319
+VM,HOST-ONLY,QOS2 C-_S,sc,none,client,1545.8668259013837,5748.0,6.9433333333333325,1426.064,runs\1. VM\3. HOST-ONLY\2. QoS2 C-_S\1. Client\run_02,25.926,0.0,0.441
+VM,HOST-ONLY,QOS2 C-_S,sc,none,client,1523.9366895608694,5927.0,6.086666666666665,1427.3709999999996,runs\1. VM\3. HOST-ONLY\2. QoS2 C-_S\1. Client\run_03,25.868,0.0,0.234
+VM,HOST-ONLY,QOS2 C-_S,sc,none,client,973.1281931488318,8268.0,4.33,1426.5459999999998,runs\1. VM\3. HOST-ONLY\2. QoS2 C-_S\1. Client\run_04,25.886,0.0,0.213
+VM,HOST-ONLY,QOS2 C-_S,sc,none,client,1526.8735169743147,4866.0,6.386666666666668,1429.216666666667,runs\1. VM\3. HOST-ONLY\2. QoS2 C-_S\1. Client\run_05,25.936,0.0,0.338
+VM,HOST-ONLY,QOS2 C-_S,sc,none,client,1250.009298646856,7755.0,5.743333333333334,1430.2850000000003,runs\1. VM\3. HOST-ONLY\2. QoS2 C-_S\1. Client\run_06,25.813,0.0,0.17
+VM,HOST-ONLY,QOS2 C-_S,sc,none,client,1541.2312704186752,4501.0,6.6833333333333345,1431.1956666666665,runs\1. VM\3. HOST-ONLY\2. QoS2 C-_S\1. Client\run_07,25.803,0.0,0.166
+VM,HOST-ONLY,QOS2 C-_S,sc,none,client,1274.3507484494767,5791.0,5.409999999999999,1431.8483333333331,runs\1. VM\3. HOST-ONLY\2. QoS2 C-_S\1. Client\run_08,25.84,0.0,0.158
+VM,HOST-ONLY,QOS2 C-_S,sc,none,client,1656.4205980097454,6526.0,6.673333333333333,1433.1899999999998,runs\1. VM\3. HOST-ONLY\2. QoS2 C-_S\1. Client\run_09,25.928,0.0,0.176
+VM,HOST-ONLY,QOS2 C-_S,sc,none,client,1510.801819610654,8634.0,8.270000000000001,1432.7593333333336,runs\1. VM\3. HOST-ONLY\2. QoS2 C-_S\1. Client\run_10,26.272,0.0,1.98
+VM,HOST-ONLY,QOS1 S-_C,sc,none,client,38.515101045304284,0.0,3.7900000000000005,1456.6756666666668,runs\1. VM\3. HOST-ONLY\3. QoS1 S-_C\1. Client\run_01,1.218,0.0,4.424
+VM,HOST-ONLY,QOS1 S-_C,sc,none,client,38.595963427835244,0.0,3.67,1456.7636666666665,runs\1. VM\3. HOST-ONLY\3. QoS1 S-_C\1. Client\run_02,1.364,0.0,4.9
+VM,HOST-ONLY,QOS1 S-_C,sc,none,client,38.74516505847076,0.0,3.549999999999999,1457.7436666666665,runs\1. VM\3. HOST-ONLY\3. QoS1 S-_C\1. Client\run_03,0.86,0.0,0.85
+VM,HOST-ONLY,QOS1 S-_C,sc,none,client,38.80383953406047,0.0,3.63,1457.0120000000002,runs\1. VM\3. HOST-ONLY\3. QoS1 S-_C\1. Client\run_04,1.196,0.0,4.107
+VM,HOST-ONLY,QOS1 S-_C,sc,none,client,38.73537739516385,0.0,3.086666666666667,1459.3613333333337,runs\1. VM\3. HOST-ONLY\3. QoS1 S-_C\1. Client\run_05,1.235,0.0,2.425
+VM,HOST-ONLY,QOS1 S-_C,sc,none,client,38.73013415499414,0.0,3.7266666666666666,1459.4023333333332,runs\1. VM\3. HOST-ONLY\3. QoS1 S-_C\1. Client\run_06,1.263,0.0,3.263
+VM,HOST-ONLY,QOS1 S-_C,sc,none,client,33.70470895347658,3.0,2.986666666666666,1461.1396666666667,runs\1. VM\3. HOST-ONLY\3. QoS1 S-_C\1. Client\run_07,3.051,0.0,11.334
+VM,HOST-ONLY,QOS1 S-_C,sc,none,client,39.0457438562758,0.0,3.4,1461.3210000000001,runs\1. VM\3. HOST-ONLY\3. QoS1 S-_C\1. Client\run_08,1.854,0.0,7.204
+VM,HOST-ONLY,QOS1 S-_C,sc,none,client,39.048951946411385,0.0,3.4,1463.4253333333331,runs\1. VM\3. HOST-ONLY\3. QoS1 S-_C\1. Client\run_09,1.191,0.0,1.846
+VM,HOST-ONLY,QOS1 S-_C,sc,none,client,38.87204718623876,0.0,3.6466666666666674,1457.597666666667,runs\1. VM\3. HOST-ONLY\3. QoS1 S-_C\1. Client\run_10,1.254,0.0,5.12
+VM,HOST-ONLY,QOS2 S-_C,sc,none,client,1163.0710082113985,5977.0,14.183333333333335,1460.080333333333,runs\1. VM\3. HOST-ONLY\4. QoS2 S-_C\1. Client\run_01,26.024,0.0,0.211
+VM,HOST-ONLY,QOS2 S-_C,sc,none,client,1279.2768166737617,9121.0,15.366666666666669,1459.549,runs\1. VM\3. HOST-ONLY\4. QoS2 S-_C\1. Client\run_02,26.098,0.0,0.233
+VM,HOST-ONLY,QOS2 S-_C,sc,none,client,975.9741247556519,4793.0,11.479999999999997,1460.5693333333336,runs\1. VM\3. HOST-ONLY\4. QoS2 S-_C\1. Client\run_03,26.042,0.0,0.264
+VM,HOST-ONLY,QOS2 S-_C,sc,none,client,1436.3465943855915,4692.0,17.94,1461.2730000000004,runs\1. VM\3. HOST-ONLY\4. QoS2 S-_C\1. Client\run_04,26.054,0.0,0.254
+VM,HOST-ONLY,QOS2 S-_C,sc,none,client,1681.7041434371442,2556.0,20.21,1461.6766666666665,runs\1. VM\3. HOST-ONLY\4. QoS2 S-_C\1. Client\run_05,26.576,0.0,2.086
+VM,HOST-ONLY,QOS2 S-_C,sc,none,client,1229.802269834255,5827.0,14.516666666666667,1462.7823333333333,runs\1. VM\3. HOST-ONLY\4. QoS2 S-_C\1. Client\run_06,26.145,0.0,0.772
+VM,HOST-ONLY,QOS2 S-_C,sc,none,client,1225.6499221445265,6158.0,13.873333333333333,1461.888,runs\1. VM\3. HOST-ONLY\4. QoS2 S-_C\1. Client\run_07,26.072,0.0,0.251
+VM,HOST-ONLY,QOS2 S-_C,sc,none,client,1352.8272636821355,9010.0,15.593333333333332,1463.6913333333332,runs\1. VM\3. HOST-ONLY\4. QoS2 S-_C\1. Client\run_08,26.08,0.0,0.192
+VM,HOST-ONLY,QOS2 S-_C,sc,none,client,1457.111454719813,4277.0,17.443333333333335,1462.6406666666667,runs\1. VM\3. HOST-ONLY\4. QoS2 S-_C\1. Client\run_09,27.777,0.0,13.188
+VM,HOST-ONLY,QOS2 S-_C,sc,none,client,1131.5682930213359,5379.0,12.733333333333333,1494.5149999999999,runs\1. VM\3. HOST-ONLY\4. QoS2 S-_C\1. Client\run_10,26.008,0.0,0.213
+DOCKER,BRIDGED,NOQOS,none,none,client,34604.223016483484,80.0,99.7,1281.0600000000002,runs\2. DOCKER\0. BRIDGED\0. NoQoS\1. Client\run_01,0.085,0.0,0.078
+DOCKER,BRIDGED,NOQOS,none,none,client,40129.50691928093,17.0,99.75,1276.1176666666665,runs\2. DOCKER\0. BRIDGED\0. NoQoS\1. Client\run_02,0.078,0.0,0.036
+DOCKER,BRIDGED,NOQOS,none,none,client,41390.22803705373,5.0,99.78333333333333,1267.4123333333334,runs\2. DOCKER\0. BRIDGED\0. NoQoS\1. Client\run_03,0.074,0.0,0.054
+DOCKER,BRIDGED,NOQOS,none,none,client,40759.89862528404,29.0,99.76666666666667,1259.734,runs\2. DOCKER\0. BRIDGED\0. NoQoS\1. Client\run_04,0.098,0.0,0.109
+DOCKER,BRIDGED,NOQOS,none,none,client,39912.93191722792,1808.0,99.63333333333334,1345.1486666666665,runs\2. DOCKER\0. BRIDGED\0. NoQoS\1. Client\run_05,0.082,0.0,0.063
+DOCKER,BRIDGED,NOQOS,none,none,client,39322.025520682684,18.0,99.59666666666666,1345.8110000000001,runs\2. DOCKER\0. BRIDGED\0. NoQoS\1. Client\run_06,0.096,0.0,0.094
+DOCKER,BRIDGED,NOQOS,none,none,client,43470.632762572,14.0,99.71666666666667,1346.2196666666666,runs\2. DOCKER\0. BRIDGED\0. NoQoS\1. Client\run_07,0.096,0.0,0.112
+DOCKER,BRIDGED,NOQOS,none,none,client,46648.74592896067,12.0,99.78333333333333,1346.0516666666667,runs\2. DOCKER\0. BRIDGED\0. NoQoS\1. Client\run_08,0.098,0.0,0.064
+DOCKER,BRIDGED,NOQOS,none,none,client,46673.512926785625,239.0,99.76666666666667,1349.9263333333333,runs\2. DOCKER\0. BRIDGED\0. NoQoS\1. Client\run_09,0.092,0.0,0.047
+DOCKER,BRIDGED,NOQOS,none,none,client,46670.612221835436,18.0,99.71666666666667,1350.5713333333333,runs\2. DOCKER\0. BRIDGED\0. NoQoS\1. Client\run_10,0.095,0.0,0.074
+DOCKER,BRIDGED,QOS1 C-_S,sc,none,client,38.85171264320785,0.0,2.11,2317.637,runs\2. DOCKER\0. BRIDGED\1. QoS1 C-_S\1. Client\run_01,0.102,0.0,0.114
+DOCKER,BRIDGED,QOS1 C-_S,sc,none,client,38.970689908151925,0.0,1.4000000000000001,2304.7719999999995,runs\2. DOCKER\0. BRIDGED\1. QoS1 C-_S\1. Client\run_02,0.086,0.0,0.021
+DOCKER,BRIDGED,QOS1 C-_S,sc,none,client,38.79501533509217,0.0,0.9066666666666666,2301.11,runs\2. DOCKER\0. BRIDGED\1. QoS1 C-_S\1. Client\run_03,0.129,0.0,0.302
+DOCKER,BRIDGED,QOS1 C-_S,sc,none,client,39.14369279001253,0.0,0.9866666666666667,2255.241,runs\2. DOCKER\0. BRIDGED\1. QoS1 C-_S\1. Client\run_04,0.089,0.0,0.115
+DOCKER,BRIDGED,QOS1 C-_S,sc,none,client,39.03981822873074,0.0,28.823333333333334,2286.076333333333,runs\2. DOCKER\0. BRIDGED\1. QoS1 C-_S\1. Client\run_05,0.09,0.0,0.053
+DOCKER,BRIDGED,QOS1 C-_S,sc,none,client,35.40558619681187,2.0,4.01,2257.311333333333,runs\2. DOCKER\0. BRIDGED\1. QoS1 C-_S\1. Client\run_06,0.075,0.0,0.023
+DOCKER,BRIDGED,QOS1 C-_S,sc,none,client,34.28630487759027,5.0,4.493333333333331,2260.585,runs\2. DOCKER\0. BRIDGED\1. QoS1 C-_S\1. Client\run_07,0.105,0.0,0.091
+DOCKER,BRIDGED,QOS1 C-_S,sc,none,client,38.93549592745343,0.0,15.853333333333335,2272.619,runs\2. DOCKER\0. BRIDGED\1. QoS1 C-_S\1. Client\run_08,0.086,0.0,0.091
+DOCKER,BRIDGED,QOS1 C-_S,sc,none,client,35.8582835183561,16.0,3.1233333333333335,2300.002333333333,runs\2. DOCKER\0. BRIDGED\1. QoS1 C-_S\1. Client\run_09,0.085,0.0,0.051
+DOCKER,BRIDGED,QOS1 C-_S,sc,none,client,38.830587051972685,0.0,1.0766666666666667,2299.1406666666667,runs\2. DOCKER\0. BRIDGED\1. QoS1 C-_S\1. Client\run_10,0.098,0.0,0.038
+DOCKER,BRIDGED,QOS1 S-_C,sc,none,client,39.00483122800186,0.0,2.286666666666666,2436.6079999999997,runs\2. DOCKER\0. BRIDGED\1. QoS1 S-_C\1. Client\run_01,0.833,0.0,7.487
+DOCKER,BRIDGED,QOS1 S-_C,sc,none,client,39.11024608068922,0.0,0.7900000000000003,2435.1573333333336,runs\2. DOCKER\0. BRIDGED\1. QoS1 S-_C\1. Client\run_02,1.121,0.0,8.575
+DOCKER,BRIDGED,QOS1 S-_C,sc,none,client,34.356094523288,0.0,4.706666666666666,2422.8660000000004,runs\2. DOCKER\0. BRIDGED\1. QoS1 S-_C\1. Client\run_03,1.069,0.0,9.801
+DOCKER,BRIDGED,QOS1 S-_C,sc,none,client,34.07832809922686,5.0,4.46,2396.0803333333333,runs\2. DOCKER\0. BRIDGED\1. QoS1 S-_C\1. Client\run_04,0.839,0.0,7.396
+DOCKER,BRIDGED,QOS1 S-_C,sc,none,client,37.92149893962259,0.0,2.8033333333333332,2398.881666666667,runs\2. DOCKER\0. BRIDGED\1. QoS1 S-_C\1. Client\run_05,0.996,0.0,9.141
+DOCKER,BRIDGED,QOS1 S-_C,sc,none,client,37.85312926828097,0.0,3.0366666666666675,2400.396666666667,runs\2. DOCKER\0. BRIDGED\1. QoS1 S-_C\1. Client\run_06,0.942,0.0,8.556
+DOCKER,BRIDGED,QOS1 S-_C,sc,none,client,38.445969453843816,2.0,3.496666666666667,2422.834666666667,runs\2. DOCKER\0. BRIDGED\1. QoS1 S-_C\1. Client\run_07,0.794,0.0,6.883
+DOCKER,BRIDGED,QOS1 S-_C,sc,none,client,37.748121963882724,0.0,2.1300000000000003,2430.3276666666666,runs\2. DOCKER\0. BRIDGED\1. QoS1 S-_C\1. Client\run_08,1.116,0.0,10.408
+DOCKER,BRIDGED,QOS1 S-_C,sc,none,client,39.214183020988166,0.0,0.8400000000000001,2436.428,runs\2. DOCKER\0. BRIDGED\1. QoS1 S-_C\1. Client\run_09,0.993,0.0,9.127
+DOCKER,BRIDGED,QOS1 S-_C,sc,none,client,39.1810166946039,0.0,0.9466666666666668,2410.8876666666665,runs\2. DOCKER\0. BRIDGED\1. QoS1 S-_C\1. Client\run_10,1.086,0.0,9.979
+DOCKER,BRIDGED,QOS2 C-_S,sc,none,client,24090.701312054338,45.0,99.37666666666668,2342.308666666667,runs\2. DOCKER\0. BRIDGED\3. QoS2 C-_S\1. Client\run_01,0.077,0.0,0.034
+DOCKER,BRIDGED,QOS2 C-_S,sc,none,client,41985.57244918088,27.0,99.73333333333333,2340.0756666666666,runs\2. DOCKER\0. BRIDGED\3. QoS2 C-_S\1. Client\run_02,0.076,0.0,0.02
+DOCKER,BRIDGED,QOS2 C-_S,sc,none,client,42766.058536166216,13.0,99.78333333333333,2318.759,runs\2. DOCKER\0. BRIDGED\3. QoS2 C-_S\1. Client\run_03,0.167,0.0,0.624
+DOCKER,BRIDGED,QOS2 C-_S,sc,none,client,40725.68973754144,8.0,99.75,2298.178333333333,runs\2. DOCKER\0. BRIDGED\3. QoS2 C-_S\1. Client\run_04,0.081,0.0,0.027
+DOCKER,BRIDGED,QOS2 C-_S,sc,none,client,29109.200741670968,605.0,99.04,2301.337,runs\2. DOCKER\0. BRIDGED\3. QoS2 C-_S\1. Client\run_05,0.11,0.0,0.164
+DOCKER,BRIDGED,QOS2 C-_S,sc,none,client,33371.26145105827,715.0,99.68,2307.3903333333337,runs\2. DOCKER\0. BRIDGED\3. QoS2 C-_S\1. Client\run_06,0.09,0.0,0.067
+DOCKER,BRIDGED,QOS2 C-_S,sc,none,client,23854.036201085586,100.0,98.43666666666668,2329.7026666666666,runs\2. DOCKER\0. BRIDGED\3. QoS2 C-_S\1. Client\run_07,0.077,0.0,0.042
+DOCKER,BRIDGED,QOS2 C-_S,sc,none,client,27370.64159483112,31.0,99.66666666666667,2334.2473333333332,runs\2. DOCKER\0. BRIDGED\3. QoS2 C-_S\1. Client\run_08,0.066,0.0,0.033
+DOCKER,BRIDGED,QOS2 C-_S,sc,none,client,24368.616079911368,42.0,99.61666666666666,2334.1536666666666,runs\2. DOCKER\0. BRIDGED\3. QoS2 C-_S\1. Client\run_09,0.061,0.0,0.013
+DOCKER,BRIDGED,QOS2 C-_S,sc,none,client,27513.229035980163,14.0,99.66666666666667,2324.484,runs\2. DOCKER\0. BRIDGED\3. QoS2 C-_S\1. Client\run_10,0.067,0.0,0.017
+DOCKER,BRIDGED,QOS2 S-_C,sc,none,client,34702.16406534076,119.0,99.76,2494.2276666666667,runs\2. DOCKER\0. BRIDGED\4. QoS2 S-_C\1. Client\run_01,0.096,0.0,0.069
+DOCKER,BRIDGED,QOS2 S-_C,sc,none,client,44724.261943239995,6.0,99.9,2494.2980000000002,runs\2. DOCKER\0. BRIDGED\4. QoS2 S-_C\1. Client\run_02,0.081,0.0,0.028
+DOCKER,BRIDGED,QOS2 S-_C,sc,none,client,44402.3565898914,102.0,99.93333333333334,2486.5766666666664,runs\2. DOCKER\0. BRIDGED\4. QoS2 S-_C\1. Client\run_03,0.074,0.0,0.026
+DOCKER,BRIDGED,QOS2 S-_C,sc,none,client,41679.22050455568,65.0,99.88333333333334,2460.105666666666,runs\2. DOCKER\0. BRIDGED\4. QoS2 S-_C\1. Client\run_04,0.082,0.0,0.025
+DOCKER,BRIDGED,QOS2 S-_C,sc,none,client,38801.86941349841,21.0,99.86666666666666,2467.258666666667,runs\2. DOCKER\0. BRIDGED\4. QoS2 S-_C\1. Client\run_05,0.091,0.0,0.085
+DOCKER,BRIDGED,QOS2 S-_C,sc,none,client,42553.93442550826,27.0,99.91666666666667,2503.0943333333335,runs\2. DOCKER\0. BRIDGED\4. QoS2 S-_C\1. Client\run_06,0.094,0.0,0.074
+DOCKER,BRIDGED,QOS2 S-_C,sc,none,client,32273.01446556849,141.0,99.9,2503.339333333334,runs\2. DOCKER\0. BRIDGED\4. QoS2 S-_C\1. Client\run_07,0.078,0.0,0.044
+DOCKER,BRIDGED,QOS2 S-_C,sc,none,client,12737.504639975037,871.0,97.60333333333331,2484.5570000000002,runs\2. DOCKER\0. BRIDGED\4. QoS2 S-_C\1. Client\run_08,0.139,0.0,0.241
+DOCKER,BRIDGED,QOS2 S-_C,sc,none,client,12668.682815514961,1212.0,97.50333333333333,2485.5829999999996,runs\2. DOCKER\0. BRIDGED\4. QoS2 S-_C\1. Client\run_09,0.212,0.0,0.528
+DOCKER,BRIDGED,QOS2 S-_C,sc,none,client,12347.443016684314,2166.0,98.91666666666669,2484.542333333333,runs\2. DOCKER\0. BRIDGED\4. QoS2 S-_C\1. Client\run_10,0.126,0.0,0.225
+DOCKER,HOST,NOQOS,none,none,client,14609.870230277025,165.0,95.25,2574.6990000000005,runs\2. DOCKER\1. HOST\0. NoQoS\1. Client\run_01,0.074,0.0,0.083
+DOCKER,HOST,NOQOS,none,none,client,34608.535048525075,19.0,99.65,2505.976,runs\2. DOCKER\1. HOST\0. NoQoS\1. Client\run_02,0.061,0.0,0.042
+DOCKER,HOST,NOQOS,none,none,client,34257.804617512935,20.0,99.73333333333333,2503.4873333333335,runs\2. DOCKER\1. HOST\0. NoQoS\1. Client\run_03,0.069,0.0,0.1
+DOCKER,HOST,NOQOS,none,none,client,27239.24981898634,45.0,99.48666666666668,2479.6786666666667,runs\2. DOCKER\1. HOST\0. NoQoS\1. Client\run_04,0.064,0.0,0.118
+DOCKER,HOST,NOQOS,none,none,client,33540.57229462035,61.0,99.50333333333333,2478.5673333333334,runs\2. DOCKER\1. HOST\0. NoQoS\1. Client\run_05,0.069,0.0,0.095
+DOCKER,HOST,NOQOS,none,none,client,28635.323483915217,76.0,99.13333333333334,2487.7673333333337,runs\2. DOCKER\1. HOST\0. NoQoS\1. Client\run_06,0.103,0.0,0.3
+DOCKER,HOST,NOQOS,none,none,client,15808.796933196596,129.0,98.11333333333332,2506.538666666667,runs\2. DOCKER\1. HOST\0. NoQoS\1. Client\run_07,0.089,0.0,0.118
+DOCKER,HOST,NOQOS,none,none,client,13855.794057816795,101.0,96.19333333333334,2508.097666666667,runs\2. DOCKER\1. HOST\0. NoQoS\1. Client\run_08,0.102,0.0,0.187
+DOCKER,HOST,NOQOS,none,none,client,12127.474133490368,174.0,97.37666666666664,2495.381,runs\2. DOCKER\1. HOST\0. NoQoS\1. Client\run_09,0.06,0.0,0.039
+DOCKER,HOST,NOQOS,none,none,client,12185.022719503759,227.0,98.26666666666667,2487.355,runs\2. DOCKER\1. HOST\0. NoQoS\1. Client\run_10,0.102,0.0,0.137
+DOCKER,HOST,QOS1 C-_S,sc,none,client,27401.586874432338,159.0,99.02,2585.0660000000003,runs\2. DOCKER\1. HOST\1. QoS1 C-_S\1. Client\run_01,0.077,0.0,0.135
+DOCKER,HOST,QOS1 C-_S,sc,none,client,30982.169369540403,97.0,99.22666666666667,2580.5696666666668,runs\2. DOCKER\1. HOST\1. QoS1 C-_S\1. Client\run_02,0.063,0.0,0.044
+DOCKER,HOST,QOS1 C-_S,sc,none,client,34988.419465102976,100.0,99.44,2508.114,runs\2. DOCKER\1. HOST\1. QoS1 C-_S\1. Client\run_03,0.058,0.0,0.033
+DOCKER,HOST,QOS1 C-_S,sc,none,client,37627.084432564385,84.0,99.54666666666667,2509.9553333333333,runs\2. DOCKER\1. HOST\1. QoS1 C-_S\1. Client\run_04,0.058,0.0,0.026
+DOCKER,HOST,QOS1 C-_S,sc,none,client,37163.54624383549,86.0,99.32666666666667,2516.5686666666666,runs\2. DOCKER\1. HOST\1. QoS1 C-_S\1. Client\run_05,0.056,0.0,0.033
+DOCKER,HOST,QOS1 C-_S,sc,none,client,43618.67923288759,25.0,99.66666666666667,2526.362333333333,runs\2. DOCKER\1. HOST\1. QoS1 C-_S\1. Client\run_06,0.057,0.0,0.048
+DOCKER,HOST,QOS1 C-_S,sc,none,client,35879.522944495795,42.0,99.61999999999999,2486.385666666667,runs\2. DOCKER\1. HOST\1. QoS1 C-_S\1. Client\run_07,0.052,0.0,0.022
+DOCKER,HOST,QOS1 C-_S,sc,none,client,44526.970134348616,18.0,99.66666666666667,2489.6176666666665,runs\2. DOCKER\1. HOST\1. QoS1 C-_S\1. Client\run_08,0.064,0.0,0.066
+DOCKER,HOST,QOS1 C-_S,sc,none,client,43763.101117140366,26.0,99.71666666666667,2496.296666666667,runs\2. DOCKER\1. HOST\1. QoS1 C-_S\1. Client\run_09,0.054,0.0,0.02
+DOCKER,HOST,QOS1 C-_S,sc,none,client,44614.83979256675,34.0,99.6,2492.3743333333337,runs\2. DOCKER\1. HOST\1. QoS1 C-_S\1. Client\run_10,0.117,0.0,0.409
+DOCKER,HOST,QOS1 S-_C,sc,none,client,38.382159887095845,0.0,8.540000000000001,2101.4116666666673,runs\2. DOCKER\1. HOST\2. QoS1 S-_C\1. Client\run_01,1.138,0.0,10.047
+DOCKER,HOST,QOS1 S-_C,sc,none,client,38.26182116492857,0.0,14.506666666666664,2101.7283333333335,runs\2. DOCKER\1. HOST\2. QoS1 S-_C\1. Client\run_02,0.988,0.0,8.929
+DOCKER,HOST,QOS1 S-_C,sc,none,client,38.662066360886335,0.0,6.203333333333333,2084.4086666666667,runs\2. DOCKER\1. HOST\2. QoS1 S-_C\1. Client\run_03,0.859,0.0,7.552
+DOCKER,HOST,QOS1 S-_C,sc,none,client,38.46026064253747,0.0,4.246666666666666,2009.9056666666665,runs\2. DOCKER\1. HOST\2. QoS1 S-_C\1. Client\run_04,0.946,0.0,8.373
+DOCKER,HOST,QOS1 S-_C,sc,none,client,37.12357153207214,0.0,4.986666666666667,2023.4769999999999,runs\2. DOCKER\1. HOST\2. QoS1 S-_C\1. Client\run_05,1.002,0.0,9.052
+DOCKER,HOST,QOS1 S-_C,sc,none,client,38.495196925728905,0.0,9.176666666666666,2014.0040000000001,runs\2. DOCKER\1. HOST\2. QoS1 S-_C\1. Client\run_06,0.984,0.0,8.819
+DOCKER,HOST,QOS1 S-_C,sc,none,client,38.65355302779343,0.0,5.380000000000001,2016.9586666666664,runs\2. DOCKER\1. HOST\2. QoS1 S-_C\1. Client\run_07,0.694,0.0,5.635
+DOCKER,HOST,QOS1 S-_C,sc,none,client,38.715614986428825,0.0,3.5866666666666673,2006.5946666666666,runs\2. DOCKER\1. HOST\2. QoS1 S-_C\1. Client\run_08,1.09,0.0,9.75
+DOCKER,HOST,QOS1 S-_C,sc,none,client,37.64015242187128,1.0,7.976666666666668,2009.7926666666667,runs\2. DOCKER\1. HOST\2. QoS1 S-_C\1. Client\run_09,1.115,0.0,9.962
+DOCKER,HOST,QOS1 S-_C,sc,none,client,38.77346347309798,0.0,3.816666666666666,1985.661333333333,runs\2. DOCKER\1. HOST\2. QoS1 S-_C\1. Client\run_10,0.981,0.0,8.654
+DOCKER,HOST,QOS2 C-_S,sc,none,client,39288.632911762004,48.0,99.19000000000001,2609.187,runs\2. DOCKER\1. HOST\3. QoS2 C-_S\1. Client\run_01,0.055,0.0,0.024
+DOCKER,HOST,QOS2 C-_S,sc,none,client,43273.9513901372,14.0,99.71333333333334,2616.211333333333,runs\2. DOCKER\1. HOST\3. QoS2 C-_S\1. Client\run_02,0.05,0.0,0.016
+DOCKER,HOST,QOS2 C-_S,sc,none,client,13391.991643631318,285.0,93.20666666666666,2560.5296666666673,runs\2. DOCKER\1. HOST\3. QoS2 C-_S\1. Client\run_03,0.092,0.0,0.321
+DOCKER,HOST,QOS2 C-_S,sc,none,client,26731.328619678334,77.0,98.05666666666666,2538.9106666666657,runs\2. DOCKER\1. HOST\3. QoS2 C-_S\1. Client\run_04,0.408,0.0,2.836
+DOCKER,HOST,QOS2 C-_S,sc,none,client,24809.32365691499,48.0,99.06,2543.956,runs\2. DOCKER\1. HOST\3. QoS2 C-_S\1. Client\run_05,0.139,0.0,0.755
+DOCKER,HOST,QOS2 C-_S,sc,none,client,44743.85034087252,5.0,99.78333333333333,2543.366,runs\2. DOCKER\1. HOST\3. QoS2 C-_S\1. Client\run_06,0.059,0.0,0.026
+DOCKER,HOST,QOS2 C-_S,sc,none,client,47138.77182653399,14.0,99.71666666666667,2542.7356666666665,runs\2. DOCKER\1. HOST\3. QoS2 C-_S\1. Client\run_07,0.056,0.0,0.019
+DOCKER,HOST,QOS2 C-_S,sc,none,client,43781.335365758954,45.0,99.6,2545.0153333333337,runs\2. DOCKER\1. HOST\3. QoS2 C-_S\1. Client\run_08,0.06,0.0,0.018
+DOCKER,HOST,QOS2 C-_S,sc,none,client,45313.506171975336,11.0,99.73333333333333,2542.9293333333335,runs\2. DOCKER\1. HOST\3. QoS2 C-_S\1. Client\run_09,0.06,0.0,0.027
+DOCKER,HOST,QOS2 C-_S,sc,none,client,48239.29196189714,6.0,99.73333333333333,2543.667333333333,runs\2. DOCKER\1. HOST\3. QoS2 C-_S\1. Client\run_10,0.091,0.0,0.206
+DOCKER,HOST,QOS2 S-_C,sc,none,client,39288.632911762004,48.0,99.19000000000001,2609.187,runs\2. DOCKER\1. HOST\3. QoS2 S-_C\1. Client\run_01,0.055,0.0,0.024
+DOCKER,HOST,QOS2 S-_C,sc,none,client,43273.9513901372,14.0,99.71333333333334,2616.211333333333,runs\2. DOCKER\1. HOST\3. QoS2 S-_C\1. Client\run_02,0.05,0.0,0.016
+DOCKER,HOST,QOS2 S-_C,sc,none,client,13391.991643631318,285.0,93.20666666666666,2560.5296666666673,runs\2. DOCKER\1. HOST\3. QoS2 S-_C\1. Client\run_03,0.092,0.0,0.321
+DOCKER,HOST,QOS2 S-_C,sc,none,client,26731.328619678334,77.0,98.05666666666666,2538.9106666666657,runs\2. DOCKER\1. HOST\3. QoS2 S-_C\1. Client\run_04,0.408,0.0,2.836
+DOCKER,HOST,QOS2 S-_C,sc,none,client,24809.32365691499,48.0,99.06,2543.956,runs\2. DOCKER\1. HOST\3. QoS2 S-_C\1. Client\run_05,0.139,0.0,0.755
+DOCKER,HOST,QOS2 S-_C,sc,none,client,44743.85034087252,5.0,99.78333333333333,2543.366,runs\2. DOCKER\1. HOST\3. QoS2 S-_C\1. Client\run_06,0.059,0.0,0.026
+DOCKER,HOST,QOS2 S-_C,sc,none,client,47138.77182653399,14.0,99.71666666666667,2542.7356666666665,runs\2. DOCKER\1. HOST\3. QoS2 S-_C\1. Client\run_07,0.056,0.0,0.019
+DOCKER,HOST,QOS2 S-_C,sc,none,client,43781.335365758954,45.0,99.6,2545.0153333333337,runs\2. DOCKER\1. HOST\3. QoS2 S-_C\1. Client\run_08,0.06,0.0,0.018
+DOCKER,HOST,QOS2 S-_C,sc,none,client,45313.506171975336,11.0,99.73333333333333,2542.9293333333335,runs\2. DOCKER\1. HOST\3. QoS2 S-_C\1. Client\run_09,0.06,0.0,0.027
+DOCKER,HOST,QOS2 S-_C,sc,none,client,48239.29196189714,6.0,99.73333333333333,2543.667333333333,runs\2. DOCKER\1. HOST\3. QoS2 S-_C\1. Client\run_10,0.091,0.0,0.206
+DOCKER,MACVLAN,NOQOS,none,none,client,11627.518764890792,6369.0,80.26206896551726,2054.2320689655176,runs\2. DOCKER\3. MACVLAN\0. NoQoS\1. CLIENT\run_01,0.184,0.0,0.482
+DOCKER,MACVLAN,NOQOS,none,none,client,7497.147502207528,3466.0,71.68333333333332,2059.6696666666667,runs\2. DOCKER\3. MACVLAN\0. NoQoS\1. CLIENT\run_02,0.08,0.0,0.06
+DOCKER,MACVLAN,NOQOS,none,none,client,13526.557055355417,6688.0,83.73666666666668,2060.273,runs\2. DOCKER\3. MACVLAN\0. NoQoS\1. CLIENT\run_03,0.232,0.0,0.896
+DOCKER,MACVLAN,NOQOS,none,none,client,10960.651810445503,4747.0,92.91666666666669,2111.841333333333,runs\2. DOCKER\3. MACVLAN\0. NoQoS\1. CLIENT\run_04,0.114,0.0,0.169
+DOCKER,MACVLAN,NOQOS,none,none,client,13332.501337400688,16920.0,83.25333333333333,2095.4850000000006,runs\2. DOCKER\3. MACVLAN\0. NoQoS\1. CLIENT\run_05,0.081,0.0,0.063
+DOCKER,MACVLAN,NOQOS,none,none,client,16015.871219494245,7107.0,88.56,2081.3016666666667,runs\2. DOCKER\3. MACVLAN\0. NoQoS\1. CLIENT\run_06,0.238,0.0,1.442
+DOCKER,MACVLAN,NOQOS,none,none,client,15963.89393916869,21285.0,90.24,2077.0696666666668,runs\2. DOCKER\3. MACVLAN\0. NoQoS\1. CLIENT\run_07,0.097,0.0,0.166
+DOCKER,MACVLAN,NOQOS,none,none,client,16373.799578719354,7290.0,89.72333333333334,2052.086333333333,runs\2. DOCKER\3. MACVLAN\0. NoQoS\1. CLIENT\run_08,0.144,0.0,0.716
+DOCKER,MACVLAN,NOQOS,none,none,client,8308.356414615095,3229.0,68.97241379310346,2126.9655172413795,runs\2. DOCKER\3. MACVLAN\0. NoQoS\1. CLIENT\run_09,0.461,0.0,3.442
+DOCKER,MACVLAN,NOQOS,none,none,client,15055.160280707461,6463.0,86.39333333333333,2116.883,runs\2. DOCKER\3. MACVLAN\0. NoQoS\1. CLIENT\run_10,0.077,0.0,0.06
+DOCKER,MACVLAN,QOS1 C-_S,sc,none,client,21.323141202563768,16.0,15.931034482758621,2229.3341379310345,runs\2. DOCKER\3. MACVLAN\1. QoS1 C-_S\1. CLIENT\run_01,0.228,0.0,0.882
+DOCKER,MACVLAN,QOS1 C-_S,sc,none,client,27.567081069066727,8.0,37.88666666666666,2222.392333333334,runs\2. DOCKER\3. MACVLAN\1. QoS1 C-_S\1. CLIENT\run_02,0.216,0.0,0.851
+DOCKER,MACVLAN,QOS1 C-_S,sc,none,client,31.864711691859497,3.0,11.753333333333334,2219.963666666667,runs\2. DOCKER\3. MACVLAN\1. QoS1 C-_S\1. CLIENT\run_03,0.166,0.0,0.289
+DOCKER,MACVLAN,QOS1 C-_S,sc,none,client,21.95511018335606,9.0,8.837037037037035,2223.9911111111105,runs\2. DOCKER\3. MACVLAN\1. QoS1 C-_S\1. CLIENT\run_04,0.123,0.0,0.254
+DOCKER,MACVLAN,QOS1 C-_S,sc,none,client,30.971613414606956,5.0,7.903333333333332,2159.864,runs\2. DOCKER\3. MACVLAN\1. QoS1 C-_S\1. CLIENT\run_05,0.187,0.0,0.389
+DOCKER,MACVLAN,QOS1 C-_S,sc,none,client,26.022510249931667,11.0,8.370000000000001,2161.1249999999995,runs\2. DOCKER\3. MACVLAN\1. QoS1 C-_S\1. CLIENT\run_06,0.14,0.0,0.371
+DOCKER,MACVLAN,QOS1 C-_S,sc,none,client,26.52558746262862,14.0,8.383333333333335,2162.734,runs\2. DOCKER\3. MACVLAN\1. QoS1 C-_S\1. CLIENT\run_07,0.128,0.0,0.227
+DOCKER,MACVLAN,QOS1 C-_S,sc,none,client,30.23562831592037,4.0,9.253333333333334,2173.905666666667,runs\2. DOCKER\3. MACVLAN\1. QoS1 C-_S\1. CLIENT\run_08,0.136,0.0,0.205
+DOCKER,MACVLAN,QOS1 C-_S,sc,none,client,31.82696888588034,2.0,7.966666666666666,2187.027,runs\2. DOCKER\3. MACVLAN\1. QoS1 C-_S\1. CLIENT\run_09,0.114,0.0,0.345
+DOCKER,MACVLAN,QOS1 C-_S,sc,none,client,28.402555544457016,6.0,8.753333333333334,2206.773666666667,runs\2. DOCKER\3. MACVLAN\1. QoS1 C-_S\1. CLIENT\run_10,0.108,0.0,0.162
+DOCKER,MACVLAN,QOS1 S-_C,sc,none,client,2128.538544435415,46.0,15.123333333333333,1080.5503333333334,runs\2. DOCKER\3. MACVLAN\2. QoS1 S-_C\1. CLIENT\run_01,50.482,0.0,0.394
+DOCKER,MACVLAN,QOS1 S-_C,sc,none,client,2365.097785554158,227.0,12.26666666666667,1083.3196666666668,runs\2. DOCKER\3. MACVLAN\2. QoS1 S-_C\1. CLIENT\run_02,51.671,0.0,6.191
+DOCKER,MACVLAN,QOS1 S-_C,sc,none,client,2133.772775248191,0.0,91.27666666666667,1270.0356666666667,runs\2. DOCKER\3. MACVLAN\2. QoS1 S-_C\1. CLIENT\run_03,351.248,21.0,553.835
+DOCKER,MACVLAN,QOS1 S-_C,sc,none,client,,,1.05,1524.502666666667,runs\2. DOCKER\3. MACVLAN\2. QoS1 S-_C\1. CLIENT\run_04,1034.476,0.0,643.968
+DOCKER,MACVLAN,QOS1 S-_C,sc,none,client,,,2.816666666666667,1522.5213333333334,runs\2. DOCKER\3. MACVLAN\2. QoS1 S-_C\1. CLIENT\run_05,1007.776,0.0,572.02
+DOCKER,MACVLAN,QOS1 S-_C,sc,none,client,,,42.13999999999999,1835.8340000000003,runs\2. DOCKER\3. MACVLAN\2. QoS1 S-_C\1. CLIENT\run_06,1003.374,0.0,570.661
+DOCKER,MACVLAN,QOS1 S-_C,sc,none,client,,,64.56,2072.8636666666666,runs\2. DOCKER\3. MACVLAN\2. QoS1 S-_C\1. CLIENT\run_07,1019.274,6.0,574.501
+DOCKER,MACVLAN,QOS1 S-_C,sc,none,client,,,46.486666666666665,2134.838666666667,runs\2. DOCKER\3. MACVLAN\2. QoS1 S-_C\1. CLIENT\run_08,1004.663,0.0,573.703
+DOCKER,MACVLAN,QOS1 S-_C,sc,none,client,,,48.21333333333333,2175.32,runs\2. DOCKER\3. MACVLAN\2. QoS1 S-_C\1. CLIENT\run_09,1025.423,0.0,566.611
+DOCKER,MACVLAN,QOS1 S-_C,sc,none,client,,,10.163333333333332,2220.0456666666664,runs\2. DOCKER\3. MACVLAN\2. QoS1 S-_C\1. CLIENT\run_10,1008.488,2.0,574.065
+DOCKER,MACVLAN,QOS2 C-_S,sc,none,client,1701.548956684109,126.0,50.26666666666667,2258.31,runs\2. DOCKER\3. MACVLAN\3. QoS2 C-_S\1. CLIENT\run_01,51.811,0.0,4.128
+DOCKER,MACVLAN,QOS2 C-_S,sc,none,client,1495.8663351703228,227.0,17.220000000000002,2263.858,runs\2. DOCKER\3. MACVLAN\3. QoS2 C-_S\1. CLIENT\run_02,57.888,0.0,15.681
+DOCKER,MACVLAN,QOS2 C-_S,sc,none,client,1826.09083257034,931.0,17.203333333333333,2246.2149999999997,runs\2. DOCKER\3. MACVLAN\3. QoS2 C-_S\1. CLIENT\run_03,61.04,0.0,29.748
+DOCKER,MACVLAN,QOS2 C-_S,sc,none,client,696.0704461499961,598.0,28.11481481481481,2245.786666666667,runs\2. DOCKER\3. MACVLAN\3. QoS2 C-_S\1. CLIENT\run_04,58.78,0.0,32.904
+DOCKER,MACVLAN,QOS2 C-_S,sc,none,client,1963.1731256379094,115.0,15.840000000000002,2214.4570000000003,runs\2. DOCKER\3. MACVLAN\3. QoS2 C-_S\1. CLIENT\run_05,59.826,0.0,31.916
+DOCKER,MACVLAN,QOS2 C-_S,sc,none,client,2246.7804735220498,91.0,35.03333333333334,2242.1639999999998,runs\2. DOCKER\3. MACVLAN\3. QoS2 C-_S\1. CLIENT\run_06,60.55,0.0,45.323
+DOCKER,MACVLAN,QOS2 C-_S,sc,none,client,1693.196679235804,820.0,14.38,2192.865,runs\2. DOCKER\3. MACVLAN\3. QoS2 C-_S\1. CLIENT\run_07,55.218,0.0,12.172
+DOCKER,MACVLAN,QOS2 C-_S,sc,none,client,2230.8492183094922,181.0,16.563333333333336,2194.8329999999996,runs\2. DOCKER\3. MACVLAN\3. QoS2 C-_S\1. CLIENT\run_08,57.382,0.0,19.138
+DOCKER,MACVLAN,QOS2 C-_S,sc,none,client,1670.6511567473008,158.0,14.673333333333334,2171.103666666667,runs\2. DOCKER\3. MACVLAN\3. QoS2 C-_S\1. CLIENT\run_09,55.428,0.0,16.188
+DOCKER,MACVLAN,QOS2 C-_S,sc,none,client,2191.4488787228074,136.0,16.233333333333334,2172.3563333333336,runs\2. DOCKER\3. MACVLAN\3. QoS2 C-_S\1. CLIENT\run_10,60.994,0.0,33.313
+DOCKER,MACVLAN,QOS2 S-_C,sc,none,client,36.111226568020285,0.0,26.063333333333333,2178.5606666666667,runs\2. DOCKER\3. MACVLAN\4. QoS2 S-_C\1. CLIENT\run_01,25.278,3.0,0.3
+DOCKER,MACVLAN,QOS2 S-_C,sc,none,client,37.6972697204177,0.0,4.35,2209.590666666666,runs\2. DOCKER\3. MACVLAN\4. QoS2 S-_C\1. CLIENT\run_02,25.341,0.0,0.464
+DOCKER,MACVLAN,QOS2 S-_C,sc,none,client,38.21054358882266,0.0,4.123333333333333,2209.6580000000004,runs\2. DOCKER\3. MACVLAN\4. QoS2 S-_C\1. CLIENT\run_03,25.273,0.0,0.183
+DOCKER,MACVLAN,QOS2 S-_C,sc,none,client,37.88359335841164,0.0,4.503333333333333,2197.8356666666664,runs\2. DOCKER\3. MACVLAN\4. QoS2 S-_C\1. CLIENT\run_04,25.234,0.0,0.193
+DOCKER,MACVLAN,QOS2 S-_C,sc,none,client,38.007888204169305,0.0,4.136666666666667,2199.855,runs\2. DOCKER\3. MACVLAN\4. QoS2 S-_C\1. CLIENT\run_05,25.389,19.0,0.687
+DOCKER,MACVLAN,QOS2 S-_C,sc,none,client,37.41948443044497,0.0,18.053333333333335,2211.0306666666665,runs\2. DOCKER\3. MACVLAN\4. QoS2 S-_C\1. CLIENT\run_06,25.316,0.0,0.409
+DOCKER,MACVLAN,QOS2 S-_C,sc,none,client,37.81253526145935,0.0,4.36,2203.502,runs\2. DOCKER\3. MACVLAN\4. QoS2 S-_C\1. CLIENT\run_07,25.345,0.0,0.411
+DOCKER,MACVLAN,QOS2 S-_C,sc,none,client,38.01725766144483,0.0,3.6166666666666667,2203.4506666666666,runs\2. DOCKER\3. MACVLAN\4. QoS2 S-_C\1. CLIENT\run_08,25.256,0.0,0.193
+DOCKER,MACVLAN,QOS2 S-_C,sc,none,client,36.8470871114092,0.0,5.423333333333333,2186.4726666666666,runs\2. DOCKER\3. MACVLAN\4. QoS2 S-_C\1. CLIENT\run_09,25.397,0.0,0.757
+DOCKER,MACVLAN,QOS2 S-_C,sc,none,client,37.064368525750396,0.0,4.8066666666666675,2207.6086666666665,runs\2. DOCKER\3. MACVLAN\4. QoS2 S-_C\1. CLIENT\run_10,25.262,0.0,0.233
+KUBERNETES,unknown,NOQOS,none,1 POD,client,28.23692477827958,316.0,74.35333333333334,1800.373,runs\3. KUBERNETES\0. 1 POD\0. NoQoS\1. Client\run_01,7.734,0.0,6.675
+KUBERNETES,unknown,NOQOS,none,1 POD,client,62.50401379264755,169.0,94.13333333333334,2653.7366666666667,runs\3. KUBERNETES\0. 1 POD\0. NoQoS\1. Client\run_02,7.153,1.0,4.206
+KUBERNETES,unknown,NOQOS,none,1 POD,client,31.6629438827893,186.0,98.53666666666668,3830.3043333333335,runs\3. KUBERNETES\0. 1 POD\0. NoQoS\1. Client\run_03,8.026,0.0,16.434
+KUBERNETES,unknown,NOQOS,none,1 POD,client,38.470206054048056,273.0,99.33333333333333,3834.626333333334,runs\3. KUBERNETES\0. 1 POD\0. NoQoS\1. Client\run_04,27.069,0.0,106.473
+KUBERNETES,unknown,NOQOS,none,1 POD,client,0.0,0.0,,,runs\3. KUBERNETES\0. 1 POD\0. NoQoS\1. Client\run_05,10.993,2.0,46.772
+KUBERNETES,unknown,NOQOS,none,1 POD,client,3.3550276239116514,273.0,,,runs\3. KUBERNETES\0. 1 POD\0. NoQoS\1. Client\run_06,8.675,0.0,12.854
+KUBERNETES,unknown,NOQOS,none,1 POD,client,2.6560950506876564,249.0,,,runs\3. KUBERNETES\0. 1 POD\0. NoQoS\1. Client\run_07,9.264,0.0,17.017
+KUBERNETES,unknown,NOQOS,none,1 POD,client,64.6244100466143,641.0,12.700000000000001,1465.8986666666667,runs\3. KUBERNETES\0. 1 POD\0. NoQoS\1. Client\run_08,7.091,0.0,4.843
+KUBERNETES,unknown,NOQOS,none,1 POD,client,70.8091638491302,148.0,12.700000000000001,1465.8986666666667,runs\3. KUBERNETES\0. 1 POD\0. NoQoS\1. Client\run_09,8.526,0.0,13.34
+KUBERNETES,unknown,NOQOS,none,1 POD,client,77.65814556710106,2507.0,12.700000000000001,1465.8986666666667,runs\3. KUBERNETES\0. 1 POD\0. NoQoS\1. Client\run_10,9.25,3.0,17.765
+KUBERNETES,unknown,QOS1 C-_S,sc,1 POD,client,34.94258517933278,140.0,3.8746835443037977,554.8313924050631,runs\3. KUBERNETES\0. 1 POD\1. QoS1 C-_S\1. Client\run_01,,,
+KUBERNETES,unknown,QOS1 C-_S,sc,1 POD,client,9.40173442830656,186.0,3.8746835443037977,554.8313924050631,runs\3. KUBERNETES\0. 1 POD\1. QoS1 C-_S\1. Client\run_02,15.278,0.0,71.602
+KUBERNETES,unknown,QOS1 C-_S,sc,1 POD,client,13.315897865403082,453.0,3.8746835443037977,554.8313924050631,runs\3. KUBERNETES\0. 1 POD\1. QoS1 C-_S\1. Client\run_03,11.277,0.0,35.816
+KUBERNETES,unknown,QOS1 C-_S,sc,1 POD,client,19.536665503996048,240.0,3.8746835443037977,554.8313924050631,runs\3. KUBERNETES\0. 1 POD\1. QoS1 C-_S\1. Client\run_04,18.761,0.0,107.323
+KUBERNETES,unknown,QOS1 C-_S,sc,1 POD,client,11.916733205049066,155.0,3.8746835443037977,554.8313924050631,runs\3. KUBERNETES\0. 1 POD\1. QoS1 C-_S\1. Client\run_05,6.912,0.0,4.689
+KUBERNETES,unknown,QOS1 C-_S,sc,1 POD,client,73.50880107501273,1890.0,3.8746835443037977,554.8313924050631,runs\3. KUBERNETES\0. 1 POD\1. QoS1 C-_S\1. Client\run_06,8.395,3.0,7.366
+KUBERNETES,unknown,QOS1 C-_S,sc,1 POD,client,76.84253718958139,358.0,3.8746835443037977,554.8313924050631,runs\3. KUBERNETES\0. 1 POD\1. QoS1 C-_S\1. Client\run_07,45.241,2.0,211.556
+KUBERNETES,unknown,QOS1 C-_S,sc,1 POD,client,82.44478715093739,390.0,,,runs\3. KUBERNETES\0. 1 POD\1. QoS1 C-_S\1. Client\run_08,10.116,0.0,15.916
+KUBERNETES,unknown,QOS1 C-_S,sc,1 POD,client,48.6516154482662,268.0,3.8746835443037977,554.8313924050631,runs\3. KUBERNETES\0. 1 POD\1. QoS1 C-_S\1. Client\run_09,11.502,0.0,19.811
+KUBERNETES,unknown,QOS1 C-_S,sc,1 POD,client,72.37256699583685,476.0,3.8746835443037977,554.8313924050631,runs\3. KUBERNETES\0. 1 POD\1. QoS1 C-_S\1. Client\run_10,20.573,2.0,70.601
+KUBERNETES,unknown,QOS1 S-_C,sc,1 POD,client,54.144287798928296,774.0,99.05622156810276,1631.0463687449826,runs\3. KUBERNETES\0. 1 POD\1. QoS1 S-_C\1. Client\run_01,9.646,0.0,11.113
+KUBERNETES,unknown,QOS1 S-_C,sc,1 POD,client,80.6739522450425,284.0,99.05622156810276,1631.0463687449826,runs\3. KUBERNETES\0. 1 POD\1. QoS1 S-_C\1. Client\run_02,8.555,0.0,7.735
+KUBERNETES,unknown,QOS1 S-_C,sc,1 POD,client,78.90845124681594,229.0,99.05622156810276,1631.0463687449826,runs\3. KUBERNETES\0. 1 POD\1. QoS1 S-_C\1. Client\run_03,7.987,1.0,5.677
+KUBERNETES,unknown,QOS1 S-_C,sc,1 POD,client,79.8551883347623,305.0,99.05622156810276,1631.0463687449826,runs\3. KUBERNETES\0. 1 POD\1. QoS1 S-_C\1. Client\run_04,10.429,1.0,11.438
+KUBERNETES,unknown,QOS1 S-_C,sc,1 POD,client,84.9081491846818,347.0,99.05622156810276,1631.0463687449826,runs\3. KUBERNETES\0. 1 POD\1. QoS1 S-_C\1. Client\run_05,7.827,0.0,8.194
+KUBERNETES,unknown,QOS1 S-_C,sc,1 POD,client,76.81853704478895,197.0,99.05622156810276,1631.0463687449826,runs\3. KUBERNETES\0. 1 POD\1. QoS1 S-_C\1. Client\run_06,8.805,0.0,8.004
+KUBERNETES,unknown,QOS1 S-_C,sc,1 POD,client,62.134446827009675,943.0,99.05622156810276,1631.0463687449826,runs\3. KUBERNETES\0. 1 POD\1. QoS1 S-_C\1. Client\run_07,9.811,1.0,13.812
+KUBERNETES,unknown,QOS1 S-_C,sc,1 POD,client,76.0441654462122,139.0,99.05622156810276,1631.0463687449826,runs\3. KUBERNETES\0. 1 POD\1. QoS1 S-_C\1. Client\run_08,8.299,0.0,9.222
+KUBERNETES,unknown,QOS1 S-_C,sc,1 POD,client,46.821300344687586,171.0,99.05622156810276,1631.0463687449826,runs\3. KUBERNETES\0. 1 POD\1. QoS1 S-_C\1. Client\run_09,10.372,0.0,16.893
+KUBERNETES,unknown,QOS1 S-_C,sc,1 POD,client,75.62898801942822,140.0,99.05622156810276,1631.0463687449826,runs\3. KUBERNETES\0. 1 POD\1. QoS1 S-_C\1. Client\run_10,8.564,0.0,7.639
+KUBERNETES,unknown,QOS2 C-_S,sc,1 POD,client,57.14267011069319,395.0,99.71566416040099,1577.4862197159564,runs\3. KUBERNETES\0. 1 POD\3. QoS2 C-_S\1. Client\run_01,9.494,0.0,16.71
+KUBERNETES,unknown,QOS2 C-_S,sc,1 POD,client,40.530432824758684,804.0,99.71566416040099,1577.4862197159564,runs\3. KUBERNETES\0. 1 POD\3. QoS2 C-_S\1. Client\run_02,10.912,1.0,13.468
+KUBERNETES,unknown,QOS2 C-_S,sc,1 POD,client,63.433849412666284,200.0,99.71566416040099,1577.4862197159564,runs\3. KUBERNETES\0. 1 POD\3. QoS2 C-_S\1. Client\run_03,11.251,2.0,12.838
+KUBERNETES,unknown,QOS2 C-_S,sc,1 POD,client,43.53192014806893,183.0,99.71566416040099,1577.4862197159564,runs\3. KUBERNETES\0. 1 POD\3. QoS2 C-_S\1. Client\run_04,13.034,2.0,23.377
+KUBERNETES,unknown,QOS2 C-_S,sc,1 POD,client,50.74261284075774,1080.0,99.71566416040099,1577.4862197159564,runs\3. KUBERNETES\0. 1 POD\3. QoS2 C-_S\1. Client\run_05,10.213,0.0,9.664
+KUBERNETES,unknown,QOS2 C-_S,sc,1 POD,client,58.926877538929205,730.0,99.71566416040099,1577.4862197159564,runs\3. KUBERNETES\0. 1 POD\3. QoS2 C-_S\1. Client\run_06,6.728,0.0,4.099
+KUBERNETES,unknown,QOS2 C-_S,sc,1 POD,client,56.02107918646306,141.0,99.71566416040099,1577.4862197159564,runs\3. KUBERNETES\0. 1 POD\3. QoS2 C-_S\1. Client\run_07,7.472,0.0,5.749
+KUBERNETES,unknown,QOS2 C-_S,sc,1 POD,client,58.15666147127785,703.0,99.71566416040099,1577.4862197159564,runs\3. KUBERNETES\0. 1 POD\3. QoS2 C-_S\1. Client\run_08,9.293,0.0,10.724
+KUBERNETES,unknown,QOS2 C-_S,sc,1 POD,client,52.94716497714455,183.0,99.71566416040099,1577.4862197159564,runs\3. KUBERNETES\0. 1 POD\3. QoS2 C-_S\1. Client\run_09,7.646,0.0,5.048
+KUBERNETES,unknown,QOS2 C-_S,sc,1 POD,client,35.364551323375956,160.0,99.71566416040099,1577.4862197159564,runs\3. KUBERNETES\0. 1 POD\3. QoS2 C-_S\1. Client\run_10,15.71,0.0,47.834
+KUBERNETES,unknown,QOS2 S-_C,sc,1 POD,client,70.26162964703492,301.0,99.71566416040099,1577.4862197159564,runs\3. KUBERNETES\0. 1 POD\4. QoS2 S-_C\1. Client\run_01,10.035,0.0,12.692
+KUBERNETES,unknown,QOS2 S-_C,sc,1 POD,client,83.0029454289082,273.0,99.71566416040099,1577.4862197159564,runs\3. KUBERNETES\0. 1 POD\4. QoS2 S-_C\1. Client\run_02,11.954,0.0,13.984
+KUBERNETES,unknown,QOS2 S-_C,sc,1 POD,client,101.93956085638106,346.0,99.71566416040099,1577.4862197159564,runs\3. KUBERNETES\0. 1 POD\4. QoS2 S-_C\1. Client\run_03,7.684,2.0,6.693
+KUBERNETES,unknown,QOS2 S-_C,sc,1 POD,client,80.2335285662347,367.0,99.71566416040099,1577.4862197159564,runs\3. KUBERNETES\0. 1 POD\4. QoS2 S-_C\1. Client\run_04,10.628,1.0,13.058
+KUBERNETES,unknown,QOS2 S-_C,sc,1 POD,client,93.11211622205097,444.0,99.71566416040099,1577.4862197159564,runs\3. KUBERNETES\0. 1 POD\4. QoS2 S-_C\1. Client\run_05,7.012,0.0,3.414
+KUBERNETES,unknown,QOS2 S-_C,sc,1 POD,client,74.6679395797338,288.0,99.71566416040099,1577.4862197159564,runs\3. KUBERNETES\0. 1 POD\4. QoS2 S-_C\1. Client\run_06,9.509,0.0,9.413
+KUBERNETES,unknown,QOS2 S-_C,sc,1 POD,client,92.7429608572787,296.0,99.71566416040099,1577.4862197159564,runs\3. KUBERNETES\0. 1 POD\4. QoS2 S-_C\1. Client\run_07,8.641,0.0,7.873
+KUBERNETES,unknown,NOQOS,none,5 POD,client,12.721083233776715,176.0,5.366666666666666,1918.5009999999997,runs\3. KUBERNETES\1. 5 POD\0. NoQoS\1. Client\run_01,2720.403,5.0,6202.823
+KUBERNETES,unknown,NOQOS,none,5 POD,client,,,20.743333333333332,2345.832666666667,runs\3. KUBERNETES\1. 5 POD\0. NoQoS\1. Client\run_02,376.636,2.0,777.912
+KUBERNETES,unknown,NOQOS,none,5 POD,client,,,6.623333333333332,2253.2509999999997,runs\3. KUBERNETES\1. 5 POD\0. NoQoS\1. Client\run_03,580.487,1.0,1077.914
+KUBERNETES,unknown,NOQOS,none,5 POD,client,,,8.389999999999999,2422.953666666667,runs\3. KUBERNETES\1. 5 POD\0. NoQoS\1. Client\run_04,200.819,2.0,390.373
+KUBERNETES,unknown,NOQOS,none,5 POD,client,,,3.5166666666666666,2274.9313333333334,runs\3. KUBERNETES\1. 5 POD\0. NoQoS\1. Client\run_05,,,
+KUBERNETES,unknown,NOQOS,none,5 POD,client,,,3.4833333333333334,2274.9313333333334,runs\3. KUBERNETES\1. 5 POD\0. NoQoS\1. Client\run_06,,,
+KUBERNETES,unknown,NOQOS,none,5 POD,client,,,3.8666666666666667,2272.7699999999995,runs\3. KUBERNETES\1. 5 POD\0. NoQoS\1. Client\run_07,,,
+KUBERNETES,unknown,NOQOS,none,5 POD,client,3.984416806007874,311.0,16.986666666666668,1927.538666666667,runs\3. KUBERNETES\1. 5 POD\0. NoQoS\1. Client\run_08,1227.289,7.0,1761.879
+KUBERNETES,unknown,NOQOS,none,5 POD,client,2.5511758978453103,1248.0,3.5833333333333335,1916.3393333333333,runs\3. KUBERNETES\1. 5 POD\0. NoQoS\1. Client\run_09,490.394,2.0,762.301
+KUBERNETES,unknown,NOQOS,none,5 POD,client,3.9842388510209186,198.0,5.09,1921.8433333333335,runs\3. KUBERNETES\1. 5 POD\0. NoQoS\1. Client\run_10,304.76,0.0,512.496
+KUBERNETES,unknown,QOS1 C-_S,sc,5 POD,client,4.718205421702448,112.0,5.793333333333333,3026.4963333333335,runs\3. KUBERNETES\1. 5 POD\1. QoS1 C-_S\1. Client\run_01,168.094,0.0,250.831
+KUBERNETES,unknown,QOS1 C-_S,sc,5 POD,client,4.61290192496594,146.0,8.33,1753.4213333333332,runs\3. KUBERNETES\1. 5 POD\1. QoS1 C-_S\1. Client\run_02,927.365,3.0,1367.184
+KUBERNETES,unknown,QOS1 C-_S,sc,5 POD,client,,,39.93,2008.570666666667,runs\3. KUBERNETES\1. 5 POD\1. QoS1 C-_S\1. Client\run_03,228.641,2.0,329.965
+KUBERNETES,unknown,QOS1 C-_S,sc,5 POD,client,1.048456510906307,124.0,,,runs\3. KUBERNETES\1. 5 POD\1. QoS1 C-_S\1. Client\run_04,538.892,0.0,880.102
+KUBERNETES,unknown,QOS1 C-_S,sc,5 POD,client,,,9.036666666666669,1775.6743333333332,runs\3. KUBERNETES\1. 5 POD\1. QoS1 C-_S\1. Client\run_05,746.52,4.0,842.249
+KUBERNETES,unknown,QOS1 C-_S,sc,5 POD,client,0.6989713334203235,91.0,,,runs\3. KUBERNETES\1. 5 POD\1. QoS1 C-_S\1. Client\run_06,327.321,8.0,655.122
+KUBERNETES,unknown,QOS1 C-_S,sc,5 POD,client,0.5241997422367319,122.0,103.47806451612902,2189.4746666666665,runs\3. KUBERNETES\1. 5 POD\1. QoS1 C-_S\1. Client\run_07,543.13,3.0,1498.399
+KUBERNETES,unknown,QOS1 C-_S,sc,5 POD,client,0.8387297624534461,53.0,3.0633333333333326,2191.4046666666673,runs\3. KUBERNETES\1. 5 POD\1. QoS1 C-_S\1. Client\run_08,396.818,2.0,680.859
+KUBERNETES,unknown,QOS1 C-_S,sc,5 POD,client,0.594122326501658,83.0,2.67,1765.2920000000001,runs\3. KUBERNETES\1. 5 POD\1. QoS1 C-_S\1. Client\run_09,1055.81,10.0,1112.617
+KUBERNETES,unknown,QOS1 C-_S,sc,5 POD,client,0.34948284786846073,83.0,3.8533333333333326,1763.0353333333335,runs\3. KUBERNETES\1. 5 POD\1. QoS1 C-_S\1. Client\run_10,728.632,2.0,1367.223
+KUBERNETES,unknown,QOS1 S-_C,sc,5 POD,client,9.66981711285672,613.0,13.600000000000001,2093.1136666666666,runs\3. KUBERNETES\1. 5 POD\2. QoS1 S-_C\1. Client\run_01,1032.742,7.0,998.727
+KUBERNETES,unknown,QOS1 S-_C,sc,5 POD,client,,,3.83,2148.17,runs\3. KUBERNETES\1. 5 POD\2. QoS1 S-_C\1. Client\run_02,505.653,11.0,2175.417
+KUBERNETES,unknown,QOS1 S-_C,sc,5 POD,client,3.6323095706272026,247.0,2.9733333333333336,2172.9093333333326,runs\3. KUBERNETES\1. 5 POD\2. QoS1 S-_C\1. Client\run_03,1081.966,5.0,2466.248
+KUBERNETES,unknown,QOS1 S-_C,sc,5 POD,client,,,,,runs\3. KUBERNETES\1. 5 POD\2. QoS1 S-_C\1. Client\run_04,97.473,0.0,121.517
+KUBERNETES,unknown,QOS1 S-_C,sc,5 POD,client,4.821657711272567,93.0,,,runs\3. KUBERNETES\1. 5 POD\2. QoS1 S-_C\1. Client\run_05,868.655,22.0,1535.963
+KUBERNETES,unknown,QOS1 S-_C,sc,5 POD,client,23.609446011644557,115.0,17.543333333333337,2454.2423333333336,runs\3. KUBERNETES\1. 5 POD\2. QoS1 S-_C\1. Client\run_06,136.47,1.0,205.602
+KUBERNETES,unknown,QOS1 S-_C,sc,5 POD,client,,,15.596666666666671,2710.584333333334,runs\3. KUBERNETES\1. 5 POD\2. QoS1 S-_C\1. Client\run_07,80.863,2.0,84.93
+KUBERNETES,unknown,QOS1 S-_C,sc,5 POD,client,28.1263571767263,122.0,6.986666666666666,2522.1540000000014,runs\3. KUBERNETES\1. 5 POD\2. QoS1 S-_C\1. Client\run_08,176.077,2.0,224.334
+KUBERNETES,unknown,QOS1 S-_C,sc,5 POD,client,19.246084429617536,205.0,7.036666666666666,2528.5816666666665,runs\3. KUBERNETES\1. 5 POD\2. QoS1 S-_C\1. Client\run_09,177.5,1.0,273.816
+KUBERNETES,unknown,QOS1 S-_C,sc,5 POD,client,,,2.789999999999999,2536.510666666667,runs\3. KUBERNETES\1. 5 POD\2. QoS1 S-_C\1. Client\run_10,1783.705,13.0,1856.731
+KUBERNETES,unknown,QOS2 C-_S,sc,5 POD,client,3.3201056450820254,62.0,5.896666666666666,2653.358333333334,runs\3. KUBERNETES\1. 5 POD\3. QoS2 C-_S\1. Client\run_01,625.208,3.0,1008.207
+KUBERNETES,unknown,QOS2 C-_S,sc,5 POD,client,2.6562378517490997,78.0,22.45,2568.3766666666675,runs\3. KUBERNETES\1. 5 POD\3. QoS2 C-_S\1. Client\run_02,2170.964,11.0,2963.587
+KUBERNETES,unknown,QOS2 C-_S,sc,5 POD,client,0.38442949262217835,27.0,7.499999999999999,2544.4313333333334,runs\3. KUBERNETES\1. 5 POD\3. QoS2 C-_S\1. Client\run_03,1368.82,8.0,1159.395
+KUBERNETES,unknown,QOS2 C-_S,sc,5 POD,client,0.6290684971711967,50.0,3.4999999999999996,2550.600333333334,runs\3. KUBERNETES\1. 5 POD\3. QoS2 C-_S\1. Client\run_04,5043.44,16.0,5980.728
+KUBERNETES,unknown,QOS2 C-_S,sc,5 POD,client,,,3.3799999999999994,2550.8399999999992,runs\3. KUBERNETES\1. 5 POD\3. QoS2 C-_S\1. Client\run_05,1578.668,2.0,1526.444
+KUBERNETES,unknown,QOS2 C-_S,sc,5 POD,client,,,3.336666666666666,2539.205,runs\3. KUBERNETES\1. 5 POD\3. QoS2 C-_S\1. Client\run_06,1603.487,5.0,1661.933
+KUBERNETES,unknown,QOS2 C-_S,sc,5 POD,client,,,3.586666666666666,2560.795333333333,runs\3. KUBERNETES\1. 5 POD\3. QoS2 C-_S\1. Client\run_07,1124.366,22.0,1548.086
+KUBERNETES,unknown,QOS2 C-_S,sc,5 POD,client,1.188253959884529,80.0,4.5666666666666655,2556.5016666666666,runs\3. KUBERNETES\1. 5 POD\3. QoS2 C-_S\1. Client\run_08,728.112,6.0,773.609
+KUBERNETES,unknown,QOS2 C-_S,sc,5 POD,client,0.7337259249729527,83.0,5.306666666666667,2549.589333333334,runs\3. KUBERNETES\1. 5 POD\3. QoS2 C-_S\1. Client\run_09,818.612,5.0,1054.331
+KUBERNETES,unknown,QOS2 C-_S,sc,5 POD,client,0.3145303803360387,71.0,3.1633333333333327,2544.4679999999994,runs\3. KUBERNETES\1. 5 POD\3. QoS2 C-_S\1. Client\run_10,788.32,6.0,819.928
+KUBERNETES,unknown,QOS2 S-_C,sc,5 POD,client,9.097857446198471,128.0,37.436666666666675,2785.794666666666,runs\3. KUBERNETES\1. 5 POD\4. QoS2 S-_C\1. Client\run_01,360.9,1.0,922.164
+KUBERNETES,unknown,QOS2 S-_C,sc,5 POD,client,8.96544814293774,282.0,3.7466666666666657,2677.3980000000006,runs\3. KUBERNETES\1. 5 POD\4. QoS2 S-_C\1. Client\run_02,358.849,3.0,546.388
+KUBERNETES,unknown,QOS2 S-_C,sc,5 POD,client,,,20.05666666666667,2681.4903333333345,runs\3. KUBERNETES\1. 5 POD\4. QoS2 S-_C\1. Client\run_03,6161.614,58.0,4886.042
+KUBERNETES,unknown,QOS2 S-_C,sc,5 POD,client,,,3.9199999999999995,2671.565333333334,runs\3. KUBERNETES\1. 5 POD\4. QoS2 S-_C\1. Client\run_04,289.226,2.0,517.357
+KUBERNETES,unknown,QOS2 S-_C,sc,5 POD,client,,,3.806666666666666,2638.276,runs\3. KUBERNETES\1. 5 POD\4. QoS2 S-_C\1. Client\run_05,697.73,14.0,958.657
+KUBERNETES,unknown,QOS2 S-_C,sc,5 POD,client,,,95.05387096774194,2799.6606666666657,runs\3. KUBERNETES\1. 5 POD\4. QoS2 S-_C\1. Client\run_06,484.585,3.0,689.421
+KUBERNETES,unknown,QOS2 S-_C,sc,5 POD,client,,,3.1499999999999995,2785.674,runs\3. KUBERNETES\1. 5 POD\4. QoS2 S-_C\1. Client\run_07,257.88,4.0,542.244
+KUBERNETES,unknown,QOS2 S-_C,sc,5 POD,client,,,93.3558064516129,2783.101666666666,runs\3. KUBERNETES\1. 5 POD\4. QoS2 S-_C\1. Client\run_08,5910.12,59.0,4611.106
+KUBERNETES,unknown,QOS2 S-_C,sc,5 POD,client,,,3.6833333333333322,2763.3586666666665,runs\3. KUBERNETES\1. 5 POD\4. QoS2 S-_C\1. Client\run_09,10671.604,79.0,6246.693
+KUBERNETES,unknown,QOS2 S-_C,sc,5 POD,client,,,3.9566666666666666,2719.3160000000003,runs\3. KUBERNETES\1. 5 POD\4. QoS2 S-_C\1. Client\run_10,5917.837,84.0,4230.408
+KUBERNETES,unknown,NOQOS,none,10 POD,client,0.17475299117605522,95.0,3.319999999999999,2210.9846666666663,runs\3. KUBERNETES\2. 10 POD\0. NoQoS\1. Client\run_01,837.188,9.0,826.355
+KUBERNETES,unknown,NOQOS,none,10 POD,client,0.1048446936182156,82.0,16.59,2275.496333333334,runs\3. KUBERNETES\2. 10 POD\0. NoQoS\1. Client\run_02,518.823,5.0,715.432
+KUBERNETES,unknown,NOQOS,none,10 POD,client,0.3844215873462792,107.0,11.163333333333336,2379.1940000000004,runs\3. KUBERNETES\2. 10 POD\0. NoQoS\1. Client\run_03,1137.733,3.0,1549.116
+KUBERNETES,unknown,NOQOS,none,10 POD,client,,,3.6833333333333327,2358.3363333333336,runs\3. KUBERNETES\2. 10 POD\0. NoQoS\1. Client\run_04,1270.349,7.0,1556.91
+KUBERNETES,unknown,NOQOS,none,10 POD,client,0.45435132562611397,62.0,3.986666666666666,2335.798666666667,runs\3. KUBERNETES\2. 10 POD\0. NoQoS\1. Client\run_05,1038.249,6.0,1106.613
+KUBERNETES,unknown,NOQOS,none,10 POD,client,,,6.966666666666666,2321.7019999999998,runs\3. KUBERNETES\2. 10 POD\0. NoQoS\1. Client\run_06,1373.504,5.0,1169.608
+KUBERNETES,unknown,NOQOS,none,10 POD,client,0.5592015569848114,92.0,3.6399999999999997,2300.0346666666665,runs\3. KUBERNETES\2. 10 POD\0. NoQoS\1. Client\run_07,988.87,7.0,1096.439
+KUBERNETES,unknown,NOQOS,none,10 POD,client,,,3.5199999999999987,2298.330333333334,runs\3. KUBERNETES\2. 10 POD\0. NoQoS\1. Client\run_08,736.066,4.0,830.364
+KUBERNETES,unknown,NOQOS,none,10 POD,client,,,3.573333333333332,2301.7633333333333,runs\3. KUBERNETES\2. 10 POD\0. NoQoS\1. Client\run_09,1040.966,7.0,1254.926
+KUBERNETES,unknown,NOQOS,none,10 POD,client,,,8.223333333333333,2303.031666666667,runs\3. KUBERNETES\2. 10 POD\0. NoQoS\1. Client\run_10,966.305,3.0,1417.379
+KUBERNETES,unknown,QOS1 C-_S,sc,10 POD,client,,,4.426666666666666,2305.772333333333,runs\3. KUBERNETES\2. 10 POD\1. QoS1 C-_S\1. Client\run_01,3000.873,6.0,2915.773
+KUBERNETES,unknown,QOS1 C-_S,sc,10 POD,client,,,5.049999999999999,2305.288666666667,runs\3. KUBERNETES\2. 10 POD\1. QoS1 C-_S\1. Client\run_02,2109.951,7.0,1832.207
+KUBERNETES,unknown,QOS1 C-_S,sc,10 POD,client,,,3.256666666666666,2304.0673333333334,runs\3. KUBERNETES\2. 10 POD\1. QoS1 C-_S\1. Client\run_03,1318.618,9.0,1374.78
+KUBERNETES,unknown,QOS1 C-_S,sc,10 POD,client,,,12.54,2304.3669999999997,runs\3. KUBERNETES\2. 10 POD\1. QoS1 C-_S\1. Client\run_04,3503.061,10.0,1734.521
+KUBERNETES,unknown,QOS1 C-_S,sc,10 POD,client,,,,,runs\3. KUBERNETES\2. 10 POD\1. QoS1 C-_S\1. Client\run_05,5090.397,10.0,3441.693
+KUBERNETES,unknown,QOS1 C-_S,sc,10 POD,client,,,43.20666666666666,2643.9379999999996,runs\3. KUBERNETES\2. 10 POD\1. QoS1 C-_S\1. Client\run_06,2416.247,17.0,2133.885
+KUBERNETES,unknown,QOS1 C-_S,sc,10 POD,client,0.244644092559189,95.0,3.9866666666666664,2669.1006666666663,runs\3. KUBERNETES\2. 10 POD\1. QoS1 C-_S\1. Client\run_07,976.373,4.0,1132.136
+KUBERNETES,unknown,QOS1 C-_S,sc,10 POD,client,0.4543488723128723,81.0,54.586666666666666,2886.5239999999994,runs\3. KUBERNETES\2. 10 POD\1. QoS1 C-_S\1. Client\run_08,4346.093,4.0,3765.874
+KUBERNETES,unknown,QOS1 C-_S,sc,10 POD,client,0.314542174076984,81.0,3.849999999999999,2729.8940000000002,runs\3. KUBERNETES\2. 10 POD\1. QoS1 C-_S\1. Client\run_09,862.614,3.0,1574.9
+KUBERNETES,unknown,QOS1 C-_S,sc,10 POD,client,,,9.293333333333335,2834.25,runs\3. KUBERNETES\2. 10 POD\1. QoS1 C-_S\1. Client\run_10,507.154,8.0,678.168
+KUBERNETES,unknown,QOS1 S-_C,sc,10 POD,client,6.689581476086764,325.0,51.933333333333344,2816.5513333333333,runs\3. KUBERNETES\2. 10 POD\2. QoS1 S-_C\1. Client\run_01,509.699,4.0,484.272
+KUBERNETES,unknown,QOS1 S-_C,sc,10 POD,client,3.2307583284463797,249.0,4.056666666666667,2688.094666666666,runs\3. KUBERNETES\2. 10 POD\2. QoS1 S-_C\1. Client\run_02,489.118,5.0,445.975
+KUBERNETES,unknown,QOS1 S-_C,sc,10 POD,client,,,7.62,2688.2779999999993,runs\3. KUBERNETES\2. 10 POD\2. QoS1 S-_C\1. Client\run_03,776.096,3.0,677.455
+KUBERNETES,unknown,QOS1 S-_C,sc,10 POD,client,,,15.216666666666667,2686.587,runs\3. KUBERNETES\2. 10 POD\2. QoS1 S-_C\1. Client\run_04,670.575,6.0,988.361
+KUBERNETES,unknown,QOS1 S-_C,sc,10 POD,client,,,8.006666666666666,2716.944333333334,runs\3. KUBERNETES\2. 10 POD\2. QoS1 S-_C\1. Client\run_05,338.82,1.0,416.204
+KUBERNETES,unknown,QOS1 S-_C,sc,10 POD,client,,,3.7933333333333326,2704.2843333333326,runs\3. KUBERNETES\2. 10 POD\2. QoS1 S-_C\1. Client\run_06,539.459,1.0,666.791
+KUBERNETES,unknown,QOS1 S-_C,sc,10 POD,client,,,7.946666666666666,2709.1336666666666,runs\3. KUBERNETES\2. 10 POD\2. QoS1 S-_C\1. Client\run_07,6397.799,3.0,4822.115
+KUBERNETES,unknown,QOS1 S-_C,sc,10 POD,client,,,5.799999999999999,2697.028333333333,runs\3. KUBERNETES\2. 10 POD\2. QoS1 S-_C\1. Client\run_08,3354.762,11.0,2513.438
+KUBERNETES,unknown,QOS1 S-_C,sc,10 POD,client,,,12.886666666666667,2691.968333333333,runs\3. KUBERNETES\2. 10 POD\2. QoS1 S-_C\1. Client\run_09,4665.182,9.0,2618.902
+KUBERNETES,unknown,QOS1 S-_C,sc,10 POD,client,0.23881346017070856,111.0,6.89,2688.5466666666666,runs\3. KUBERNETES\2. 10 POD\2. QoS1 S-_C\1. Client\run_10,1084.72,11.0,1186.729
+KUBERNETES,unknown,QOS2 C-_S,sc,10 POD,client,,,,,runs\3. KUBERNETES\2. 10 POD\3. QoS2 C-_S\1. Client\run_01,861.149,13.0,796.03
+KUBERNETES,unknown,QOS2 C-_S,sc,10 POD,client,0.3145281055562004,95.0,5.843333333333333,2683.580666666667,runs\3. KUBERNETES\2. 10 POD\3. QoS2 C-_S\1. Client\run_02,1085.186,10.0,1427.304
+KUBERNETES,unknown,QOS2 C-_S,sc,10 POD,client,,,4.443333333333333,2684.1756666666656,runs\3. KUBERNETES\2. 10 POD\3. QoS2 C-_S\1. Client\run_03,2536.772,8.0,4261.226
+KUBERNETES,unknown,QOS2 C-_S,sc,10 POD,client,0.24463769182477726,79.0,6.893333333333332,2688.853333333334,runs\3. KUBERNETES\2. 10 POD\3. QoS2 C-_S\1. Client\run_04,2493.421,28.0,2836.508
+KUBERNETES,unknown,QOS2 C-_S,sc,10 POD,client,,,4.723333333333333,2687.6560000000004,runs\3. KUBERNETES\2. 10 POD\3. QoS2 C-_S\1. Client\run_05,3930.488,6.0,4542.328
+KUBERNETES,unknown,QOS2 C-_S,sc,10 POD,client,,,3.7833333333333323,2683.572666666667,runs\3. KUBERNETES\2. 10 POD\3. QoS2 C-_S\1. Client\run_06,2236.427,10.0,3800.215
+KUBERNETES,unknown,QOS2 C-_S,sc,10 POD,client,,,3.6699999999999995,2682.928,runs\3. KUBERNETES\2. 10 POD\3. QoS2 C-_S\1. Client\run_07,3766.701,13.0,4715.183
+KUBERNETES,unknown,QOS2 C-_S,sc,10 POD,client,,,3.7433333333333327,2687.54,runs\3. KUBERNETES\2. 10 POD\3. QoS2 C-_S\1. Client\run_08,716.407,3.0,1049.809
+KUBERNETES,unknown,QOS2 C-_S,sc,10 POD,client,0.5591687547041877,66.0,,,runs\3. KUBERNETES\2. 10 POD\3. QoS2 C-_S\1. Client\run_09,637.456,2.0,918.579
+KUBERNETES,unknown,QOS2 C-_S,sc,10 POD,client,,,4.7,2690.219666666666,runs\3. KUBERNETES\2. 10 POD\3. QoS2 C-_S\1. Client\run_10,2658.297,5.0,3225.148
+KUBERNETES,unknown,QOS2 S-_C,sc,10 POD,client,,,89.54156250000001,2705.6680645161287,runs\3. KUBERNETES\2. 10 POD\4. QoS2 S-_C\1. Client\run_01,13246.662,17.0,8321.119
+KUBERNETES,unknown,QOS2 S-_C,sc,10 POD,client,0.6616972530768443,143.0,5.87,2700.115666666666,runs\3. KUBERNETES\2. 10 POD\4. QoS2 S-_C\1. Client\run_02,1935.104,9.0,2176.315
+KUBERNETES,unknown,QOS2 S-_C,sc,10 POD,client,0.2091405514780555,99.0,2.9266666666666667,2700.1613333333325,runs\3. KUBERNETES\2. 10 POD\4. QoS2 S-_C\1. Client\run_03,889.861,8.0,1028.643
+KUBERNETES,unknown,QOS2 S-_C,sc,10 POD,client,0.13944820017804455,43.0,4.709999999999998,2712.891,runs\3. KUBERNETES\2. 10 POD\4. QoS2 S-_C\1. Client\run_04,462.315,7.0,594.188
+KUBERNETES,unknown,QOS2 S-_C,sc,10 POD,client,,,3.863333333333333,2706.1186666666667,runs\3. KUBERNETES\2. 10 POD\4. QoS2 S-_C\1. Client\run_05,3451.502,5.0,4332.446
+KUBERNETES,unknown,QOS2 S-_C,sc,10 POD,client,,,4.476666666666666,2707.398,runs\3. KUBERNETES\2. 10 POD\4. QoS2 S-_C\1. Client\run_06,1634.501,6.0,2094.318
+KUBERNETES,unknown,QOS2 S-_C,sc,10 POD,client,,,3.669999999999999,2718.4006666666664,runs\3. KUBERNETES\2. 10 POD\4. QoS2 S-_C\1. Client\run_07,1352.508,7.0,2475.965
+KUBERNETES,unknown,QOS2 S-_C,sc,10 POD,client,2.7636287831435946,226.0,8.426666666666668,2718.467666666666,runs\3. KUBERNETES\2. 10 POD\4. QoS2 S-_C\1. Client\run_08,3777.177,12.0,6021.569
+KUBERNETES,unknown,QOS2 S-_C,sc,10 POD,client,,,20.266666666666666,2741.4049999999997,runs\3. KUBERNETES\2. 10 POD\4. QoS2 S-_C\1. Client\run_09,,,
+KUBERNETES,unknown,QOS2 S-_C,sc,10 POD,client,,,24.080000000000002,2019.3430000000003,runs\3. KUBERNETES\2. 10 POD\4. QoS2 S-_C\1. Client\run_10,,,

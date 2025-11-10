@@ -1,0 +1,8 @@
+role=client
+server_ip=192.168.0.160
+duration=20
+timestamp=2025-11-07 18:24:05
+platform=Windows
+repeat_index=run_03
+qos=noqos
+direction=cs

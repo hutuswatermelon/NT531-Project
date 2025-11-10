@@ -1,0 +1,5 @@
+PING 10.244.1.29 (10.244.1.29) 56(84) bytes of data.
+
+--- 10.244.1.29 ping statistics ---
+100 packets transmitted, 0 received, 100% packet loss, time 101370ms
+

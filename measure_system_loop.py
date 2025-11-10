@@ -29,15 +29,15 @@ def apply_qos():
         return
 
     # Xóa QoS cũ nếu có
-    subprocess.run(["tc", "qdisc", "del", "dev", args.iface, "root"], stderr=subprocess.DEVNULL)
+    subprocess.run(["sudo", "tc", "qdisc", "del", "dev", args.iface, "root"], stderr=subprocess.DEVNULL)
 
     # Chọn loại QoS
     if args.qos == "qos1":
-        cmd = f"tc qdisc add dev {args.iface} root tbf rate 40mbit burst 32kbit latency 400ms"
+        cmd = f"sudo tc qdisc add dev {args.iface} root tbf rate 40mbit burst 32kbit latency 400ms"
     elif args.qos == "qos2":
-        cmd = f"tc qdisc add dev {args.iface} root netem delay 25ms"
+        cmd = f"sudo tc qdisc add dev {args.iface} root netem delay 25ms"
     elif args.qos == "qos3":
-        cmd = f"tc qdisc add dev {args.iface} root netem delay 25ms loss 1%"
+        cmd = f"sudo tc qdisc add dev {args.iface} root netem delay 25ms loss 1%"
     else:
         print("QoS: không áp dụng (noqos).")
         return
@@ -67,7 +67,7 @@ def monitor(out_path, duration=None):
 # ---------------- Server -----------------
 def start_iperf_server_in_new_window():
     """Mở iperf3 server sinh log JSON cho từng client kết nối"""
-    print("📡 Mở iperf3 server, sinh JSON cho từng session...")
+    print("Mở iperf3 server, sinh JSON cho từng session...")
 
     if platform.system() == "Windows":
         server_logs = BASE / "server_json"
@@ -80,18 +80,15 @@ def start_iperf_server_in_new_window():
         )
         os.system(cmd)
     else:
-        os.makedirs(BASE / "server_json", exist_ok=True)
-        print("Chạy iperf3 server nền trong container (không cần gnome-terminal).")
         subprocess.Popen(
             [
-                "bash", "-c",
-                f'i=1; while true; do '
+                "gnome-terminal", "--", "bash", "-c",
+                f'mkdir -p {BASE}/server_json; i=1; while true; do '
                 f'echo "[SERVER] Waiting $i..."; '
                 f'iperf3 -s -1 -J > {BASE}/server_json/session_$i.json; '
                 f'echo "[SERVER] Session $i done."; sleep 3; i=$((i+1)); done'
             ]
         )
-
 
 # ---------------- Client -----------------
 def client_run(run_dir):

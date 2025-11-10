@@ -1,0 +1,11 @@
+{
+	"start":	{
+		"connected":	[],
+		"version":	"iperf 3.18",
+		"system_info":	"Linux iperf-client-10-phr4x 6.8.0-87-generic #88~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Tue Oct 14 14:03:14 UTC 2 x86_64"
+	},
+	"intervals":	[],
+	"end":	{
+	},
+	"error":	"unable to receive control message - port may not be available, the other side may have stopped running, etc.: Connection reset by peer"
+}

@@ -1,0 +1,21 @@
+{
+	"start":	{
+		"connected":	[],
+		"version":	"iperf 3.18",
+		"system_info":	"Linux iperf-client-10-fxt5g 6.8.0-87-generic #88~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Tue Oct 14 14:03:14 UTC 2 x86_64"
+	},
+	"intervals":	[],
+	"end":	{
+	},
+	"error":	"unable to receive control message - port may not be available, the other side may have stopped running, etc.: Connection reset by peer"
+}
+jhab3ejfp2iqigfjlo25pxy2q",
+		"tcp_mss_default":	1398,
+		"target_bitrate":	0,
+		"fq_rate":	0
+	},
+	"intervals":	[],
+	"end":	{
+	},
+	"error":	"control socket has closed unexpectedly"
+}

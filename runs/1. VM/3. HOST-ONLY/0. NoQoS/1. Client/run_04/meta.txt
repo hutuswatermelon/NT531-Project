@@ -1,0 +1,8 @@
+role=client
+server_ip=192.168.10.128
+duration=30
+timestamp=2025-11-02 23:30:57
+platform=Linux
+repeat_index=run_04
+qos=noqos
+direction=cs

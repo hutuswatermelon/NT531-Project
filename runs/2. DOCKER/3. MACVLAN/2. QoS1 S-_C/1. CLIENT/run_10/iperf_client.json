@@ -1,0 +1,11 @@
+{
+	"start":	{
+		"connected":	[],
+		"version":	"iperf 3.9",
+		"system_info":	"Linux df447f58b1ad 6.8.0-87-generic #88~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Tue Oct 14 14:03:14 UTC 2 x86_64"
+	},
+	"intervals":	[],
+	"end":	{
+	}
+}
+iperf3: error - unable to send control message: Bad file descriptor
