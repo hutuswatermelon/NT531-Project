@@ -23,6 +23,17 @@ env_df = df[df["category"] == "ENV_FAIR"]
 qos_df = df[df["category"] == "QOS_EFFECT"]
 k8s_df = df[df["category"] == "K8S_POD_SCALING"]
 
+# Lọc representative nic_mode cho QoS comparison
+if not qos_df.empty:
+    qos_representative = qos_df[
+        ((qos_df["env"] == "DOCKER") & (qos_df["nic_mode"] == "BRIDGED")) |
+        ((qos_df["env"] == "VM") & (qos_df["nic_mode"] == "CROSS-HOSTS")) |
+        ((qos_df["env"] == "KUBERNETES") & (qos_df["nic_mode"] == "K8S_1 POD")) |
+        (qos_df["env"] == "NATIVE")
+    ].copy()
+else:
+    qos_representative = qos_df
+
 # ---------------- VẼ 6 BIỂU ĐỒ TRÊN 1 BẢNG ----------------
 fig, axes = plt.subplots(3, 2, figsize=(13, 12))
 fig.subplots_adjust(hspace=0.4, wspace=0.25)
@@ -34,17 +45,19 @@ if not env_df.empty:
     sns.barplot(data=env_df, x="env", y="cpu_mean_mean", ax=axes[0,1])
     axes[0,1].set_title("ENV – CPU trung bình (%)")
 
-# QoS Effect – Throughput normalized (%)
-if not qos_df.empty:
-    sns.barplot(data=qos_df, x="qos", y="throughput_norm", hue="env", ax=axes[1,0])
-    axes[1,0].set_title("QoS ảnh hưởng – Throughput (%)")
-    axes[1,0].legend(fontsize=8)
+# QoS Effect – Throughput (% so với NOQOS cùng env) - dùng representative
+if not qos_representative.empty:
+    sns.barplot(data=qos_representative, x="qos", y="qos_effect_pct", hue="env", ax=axes[1,0])
+    axes[1,0].set_title("QoS Effect – Throughput (% NOQOS)")
+    axes[1,0].axhline(y=100, color='red', linestyle='--', linewidth=0.8, alpha=0.5)
+    axes[1,0].legend(fontsize=7, loc='best')
+    axes[1,0].set_ylim(bottom=0)
 
-# QoS Effect – Latency (ms)
-if not qos_df.empty:
-    sns.barplot(data=qos_df, x="qos", y="latency_ms_mean", hue="env", ax=axes[1,1])
+# QoS Effect – Latency (ms) - dùng representative
+if not qos_representative.empty:
+    sns.barplot(data=qos_representative, x="qos", y="latency_ms_mean", hue="env", ax=axes[1,1])
     axes[1,1].set_title("QoS ảnh hưởng – Latency (ms)")
-    axes[1,1].legend(fontsize=8)
+    axes[1,1].legend(fontsize=7, loc='best')
 
 # K8S Scaling – Pod throughput
 if not k8s_df.empty:

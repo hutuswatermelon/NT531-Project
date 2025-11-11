@@ -74,16 +74,27 @@ print(f"Loại bỏ {before - after} bản ghi không hợp lệ ({before} → {
 # Bỏ chiều với NoQoS hoặc Native
 df.loc[(df["qos"] == "NOQOS") | (df["env"] == "NATIVE"), "direction"] = "none"
 
-# ---------------- PHÂN LOẠI FAIR ----------------
-def classify_fair(row):
-    env, nic = row["env"], row["nic_mode"]
-    if "NATIVE" in env or "K8S" in env or "KUBERNETES" in env:
-        return True
-    if "VM" in env and "CROSS" in nic:
-        return True
-    return False
+# ---------------- PHÂN LOẠI NETWORK TYPE ----------------
+# Fair comparison (cross-host, real network): NATIVE, VM CROSS-HOSTS, K8S
+# Internal (same-host, virtual): DOCKER all, VM BRIDGED/NAT/HOST-ONLY, K8S internal
 
-df["is_fair"] = df.apply(classify_fair, axis=1)
+def classify_network_type(row):
+    """
+    Phân loại: 'external' (cross-host) vs 'internal' (same-host virtual)
+    """
+    env, nic = row["env"], row["nic_mode"]
+    if "NATIVE" in env:
+        return "external"
+    if "VM" in env and "CROSS" in nic:
+        return "external"
+    if "K8S" in env or "KUBERNETES" in env:
+        return "external"  # K8S có thể cross-node
+    return "internal"
+
+df["network_type"] = df.apply(classify_network_type, axis=1)
+
+# Legacy is_fair column (for backward compatibility)
+df["is_fair"] = df["network_type"] == "external"
 
 # ---------------- CHUẨN HÓA NIC CHO K8S ----------------
 mask_k8s = df["env"].str.contains("K8S|KUBERNETES", na=False)
@@ -99,7 +110,7 @@ df.loc[mask_k8s, "nic_mode"] = df.loc[mask_k8s, "pod_config"].apply(
 # ---------------- GROUP ----------------
 agg_cols = ["throughput_mbps","latency_ms","packet_loss_pct","jitter_ms","cpu_mean","ram_mean"]
 agg_df = (
-    df.groupby(["env","nic_mode","qos","direction","pod_config","is_fair"],dropna=False)[agg_cols]
+    df.groupby(["env","nic_mode","qos","direction","pod_config","is_fair","network_type"],dropna=False)[agg_cols]
     .agg(["mean","std","count","sem"])
 )
 agg_df.columns = ["_".join(c) for c in agg_df.columns]
@@ -110,12 +121,83 @@ for col in ["throughput_mbps","latency_ms","jitter_ms","cpu_mean"]:
 
 agg_df["cpu_per_mbps"] = agg_df["cpu_mean_mean"]/agg_df["throughput_mbps_mean"]
 
-# normalize throughput theo Native
-native_ref = agg_df[agg_df["env"].str.contains("NATIVE")].groupby("qos")["throughput_mbps_mean"].mean().to_dict()
-agg_df["throughput_norm"] = agg_df.apply(
-    lambda r: r["throughput_mbps_mean"]/native_ref.get(r["qos"],np.nan)*100 if r["qos"] in native_ref and native_ref[r["qos"]]>0 else np.nan,
-    axis=1
+# ===== NORMALIZE THROUGHPUT =====
+# Tính baseline riêng cho external và internal
+# External: so với NATIVE NOQOS
+# Internal: so với DOCKER/VM internal NOQOS (avg của chính group đó)
+
+# 1. External baseline (NATIVE NOQOS only)
+external_baseline = agg_df[
+    (agg_df["env"]=="NATIVE") & (agg_df["qos"]=="NOQOS")
+]["throughput_mbps_mean"].mean()
+
+# 2. Internal baseline (DOCKER/VM internal NOQOS - avg của nhóm)
+internal_noqos = agg_df[
+    (agg_df["network_type"]=="internal") & (agg_df["qos"]=="NOQOS")
+].groupby("env")["throughput_mbps_mean"].mean().to_dict()
+
+def calc_throughput_norm(row):
+    """
+    Normalize throughput:
+    - External → so với NATIVE NOQOS
+    - Internal → so với chính env đó NOQOS (nếu có)
+    - QoS != NOQOS → so với NOQOS cùng env
+    """
+    env, qos, net_type = row["env"], row["qos"], row["network_type"]
+    throughput = row["throughput_mbps_mean"]
+    
+    if pd.isna(throughput) or throughput <= 0:
+        return np.nan
+    
+    # External: so với NATIVE
+    if net_type == "external":
+        if pd.notna(external_baseline) and external_baseline > 0:
+            return throughput / external_baseline * 100
+        return np.nan
+    
+    # Internal: so với chính env NOQOS
+    if qos == "NOQOS":
+        # Tự nó là baseline
+        return 100.0
+    else:
+        # QoS effect: so với NOQOS cùng env
+        baseline = internal_noqos.get(env, np.nan)
+        if pd.notna(baseline) and baseline > 0:
+            return throughput / baseline * 100
+        return np.nan
+
+agg_df["throughput_norm"] = agg_df.apply(calc_throughput_norm, axis=1)
+
+# ===== QoS EFFECT (so với NOQOS cùng env + nic_mode) =====
+# Tính baseline NOQOS chi tiết cho MỖI (env, nic_mode)
+# Điều này quan trọng cho K8S vì có nhiều pod_config khác nhau
+env_nic_noqos_baseline = (
+    agg_df[agg_df["qos"]=="NOQOS"]
+    .groupby(["env","nic_mode"])["throughput_mbps_mean"]
+    .mean()
+    .to_dict()
 )
+
+def calc_qos_effect(row):
+    """
+    Tính % throughput so với NOQOS của chính (env, nic_mode) đó
+    - NOQOS: 100%
+    - QoS1/QoS2/QoS3: % so với NOQOS cùng env+nic_mode
+    """
+    env, nic, qos = row["env"], row["nic_mode"], row["qos"]
+    throughput = row["throughput_mbps_mean"]
+    
+    if pd.isna(throughput) or throughput <= 0:
+        return np.nan
+    
+    # Tìm baseline cho (env, nic_mode)
+    baseline = env_nic_noqos_baseline.get((env, nic), np.nan)
+    
+    if pd.notna(baseline) and baseline > 0:
+        return throughput / baseline * 100
+    return np.nan
+
+agg_df["qos_effect_pct"] = agg_df.apply(calc_qos_effect, axis=1)
 
 # ---------------- TIỆN ÍCH ----------------
 def plot_bar(data,x,y,hue,title,fname,ylabel,log=False):
@@ -135,8 +217,12 @@ def plot_box(data,x,y,hue,title,fname,ylabel):
     plt.tight_layout(); plt.savefig(OUT_DIR/fname); plt.close()
 
 # ---------------- TÁCH DỮ LIỆU ----------------
-internal_df = agg_df[~agg_df["is_fair"]]
-fair_df = agg_df[(agg_df["is_fair"]) & (agg_df["qos"]=="NOQOS")]
+# Tách internal (same-host virtual) vs external (cross-host real network)
+internal_df = agg_df[agg_df["network_type"]=="internal"]
+external_df = agg_df[agg_df["network_type"]=="external"]
+
+# Fair comparison (external + NOQOS only)
+fair_df = agg_df[(agg_df["network_type"]=="external") & (agg_df["qos"]=="NOQOS")]
 
 # ---------------- PHẦN A: INTERNAL ----------------
 plot_bar(internal_df,"env","throughput_mbps_mean","qos","A1. Internal Throughput","1_internal_throughput.png","Mbps",log=True)
@@ -144,17 +230,27 @@ plot_bar(internal_df,"env","latency_ms_mean","qos","A2. Internal Latency","2_int
 plot_bar(internal_df,"env","cpu_mean_mean","qos","A3. Internal CPU","3_internal_cpu.png","%")
 plot_bar(internal_df,"env","jitter_ms_mean","qos","A4. Internal Jitter","4_internal_jitter.png","ms")
 
-# ---------------- PHẦN B: FAIR ----------------
-plot_bar(fair_df,"env","throughput_mbps_mean",None,"B1. Fair Throughput (NOQOS only)","5_fair_throughput.png","Mbps")
-plot_bar(fair_df,"env","latency_ms_mean",None,"B2. Fair Latency (NOQOS only)","6_fair_latency.png","ms")
-plot_bar(fair_df,"env","cpu_mean_mean",None,"B3. Fair CPU (NOQOS only)","7_fair_cpu.png","%")
-plot_bar(fair_df,"env","jitter_ms_mean",None,"B4. Fair Jitter (NOQOS only)","8_fair_jitter.png","ms")
+# ---------------- PHẦN B: FAIR (EXTERNAL NOQOS) ----------------
+plot_bar(fair_df,"env","throughput_mbps_mean",None,"B1. External Network Throughput (NOQOS)","5_fair_throughput.png","Mbps")
+plot_bar(fair_df,"env","latency_ms_mean",None,"B2. External Network Latency (NOQOS)","6_fair_latency.png","ms")
+plot_bar(fair_df,"env","cpu_mean_mean",None,"B3. External Network CPU (NOQOS)","7_fair_cpu.png","%")
+plot_bar(fair_df,"env","jitter_ms_mean",None,"B4. External Network Jitter (NOQOS)","8_fair_jitter.png","ms")
 
-# ---------------- PHẦN C: QoS normalized ----------------
-qos_df = agg_df[agg_df["qos"]!="NOQOS"]
-plot_bar(qos_df,"qos","throughput_norm","env","C1. QoS ảnh hưởng – Throughput (%)","9_qos_effect_throughput_norm.png","%")
-plot_bar(qos_df,"qos","latency_ms_mean","env","C2. QoS ảnh hưởng – Latency","9b_qos_effect_latency_norm.png","ms")
-plot_bar(qos_df,"qos","jitter_ms_mean","env","C3. QoS ảnh hưởng – Jitter","9c_qos_effect_jitter_norm.png","ms")
+# ---------------- PHẦN B2: EXTERNAL ALL QoS ----------------
+plot_bar(external_df,"env","throughput_mbps_mean","qos","B5. External Network - All QoS","5b_external_all_qos.png","Mbps")
+plot_bar(external_df,"env","latency_ms_mean","qos","B6. External Latency - All QoS","6b_external_latency_qos.png","ms")
+
+# ---------------- PHẦN C: QoS Effect (so với NOQOS cùng env) ----------------
+# Hiển thị TẤT CẢ QoS (bao gồm NOQOS = 100%) để dễ so sánh
+plot_bar(agg_df,"qos","qos_effect_pct","env","C1. QoS Effect – Throughput (% so với NOQOS)","9_qos_effect_throughput.png","% của NOQOS")
+plot_bar(agg_df,"qos","latency_ms_mean","env","C2. QoS Effect – Latency","9b_qos_effect_latency.png","ms")
+plot_bar(agg_df,"qos","jitter_ms_mean","env","C3. QoS Effect – Jitter","9c_qos_effect_jitter.png","ms")
+
+# Biểu đồ riêng cho từng env (dễ nhìn hơn)
+for env_name in ["DOCKER", "VM", "KUBERNETES"]:
+    env_qos = agg_df[agg_df["env"]==env_name]
+    if not env_qos.empty:
+        plot_bar(env_qos,"qos","qos_effect_pct",None,f"QoS Effect – {env_name} (% so với NOQOS)",f"qos_effect_{env_name}.png","% của NOQOS")
 
 # ---------------- PHẦN D: NIC TRONG TỪNG ENV ----------------
 for env_name in sorted(agg_df["env"].unique()):
@@ -236,32 +332,46 @@ print(f"Đã sinh biểu đồ đầy đủ tại: {OUT_DIR.resolve()}")
 # ---------------- BẢNG GỘP SO SÁNH TỔNG HỢP ----------------
 summary_tables = []
 
-# So sánh ENV (NOQOS, FAIR only)
+# ===== 1. So sánh ENV (NOQOS, EXTERNAL only - fair comparison) =====
 env_summary = (
-    agg_df[(agg_df["qos"]=="NOQOS") & (agg_df["is_fair"])]
-    .groupby("env")[["throughput_mbps_mean","latency_ms_mean","cpu_mean_mean","jitter_ms_mean"]]
-    .mean()
-    .reset_index()
+    agg_df[(agg_df["qos"]=="NOQOS") & (agg_df["network_type"]=="external")]
+    .groupby("env", as_index=False)
+    .apply(lambda g: pd.Series({
+        "throughput_mbps_mean": np.average(g["throughput_mbps_mean"], weights=g["throughput_mbps_count"]),
+        "latency_ms_mean": np.average(g["latency_ms_mean"], weights=g["latency_ms_count"]),
+        "cpu_mean_mean": np.average(g["cpu_mean_mean"], weights=g["cpu_mean_count"]),
+        "jitter_ms_mean": np.average(g["jitter_ms_mean"], weights=g["jitter_ms_count"])
+    }))
+    .reset_index(drop=True)
 )
 env_summary["category"] = "ENV_FAIR"
 summary_tables.append(env_summary)
 
-# So sánh ảnh hưởng QoS normalized
-qos_summary = (
-    agg_df.groupby(["env","qos"])[["throughput_norm","latency_ms_mean","jitter_ms_mean","cpu_mean_mean"]]
-    .mean()
-    .reset_index()
-)
+# ===== 2. So sánh ảnh hưởng QoS =====
+# KHÔNG average qua nic_mode vì mỗi nic_mode có baseline khác nhau
+# Giữ chi tiết (env, nic_mode, qos) để so sánh chính xác
+qos_summary = agg_df[["env", "nic_mode", "qos", "qos_effect_pct", "latency_ms_mean", "jitter_ms_mean", "cpu_mean_mean"]].copy()
 qos_summary["category"] = "QOS_EFFECT"
+
+# Chỉ lấy các cột cần thiết cho summary
+qos_summary = qos_summary[[
+    "env", "nic_mode", "qos", "qos_effect_pct", 
+    "latency_ms_mean", "jitter_ms_mean", "cpu_mean_mean", "category"
+]]
 summary_tables.append(qos_summary)
 
-# So sánh K8S theo Pod (chỉ nếu có)
-k8s_summary = agg_df[agg_df["env"].str.contains("K8S|KUBERNETES",na=False)]
-if not k8s_summary.empty:
+# ===== 3. So sánh K8S theo Pod (nếu có) =====
+k8s_data = agg_df[agg_df["env"].str.contains("K8S|KUBERNETES",na=False)]
+if not k8s_data.empty:
     k8s_summary = (
-        k8s_summary.groupby("pod_config")[["throughput_mbps_mean","latency_ms_mean","cpu_mean_mean","jitter_ms_mean"]]
-        .mean()
-        .reset_index()
+        k8s_data.groupby("pod_config", as_index=False)
+        .apply(lambda g: pd.Series({
+            "throughput_mbps_mean": np.average(g["throughput_mbps_mean"], weights=g["throughput_mbps_count"]),
+            "latency_ms_mean": np.average(g["latency_ms_mean"], weights=g["latency_ms_count"]),
+            "cpu_mean_mean": np.average(g["cpu_mean_mean"], weights=g["cpu_mean_count"]),
+            "jitter_ms_mean": np.average(g["jitter_ms_mean"], weights=g["jitter_ms_count"])
+        }))
+        .reset_index(drop=True)
     )
     k8s_summary["category"] = "K8S_POD_SCALING"
     summary_tables.append(k8s_summary)

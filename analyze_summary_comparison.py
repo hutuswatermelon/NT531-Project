@@ -55,20 +55,46 @@ if not env_df.empty:
     ax.set_title("Độ ổn định truyền (Jitter trung bình, ms)")
     save_plot(fig, "2_env_fair_jitter.png")
 
-# QoS – Throughput normalized (%)
+# QoS – Throughput effect (% so với NOQOS cùng env)
+# Lọc representative nic_mode cho mỗi env để tránh average sai
 if not qos_df.empty:
-    fig, ax = plt.subplots(figsize=(8,5))
-    sns.barplot(data=qos_df, x="qos", y="throughput_norm", hue="env")
-    ax.set_title("Ảnh hưởng QoS – Throughput normalized (%)")
-    ax.set_ylabel("Throughput so với Native (%)")
-    save_plot(fig, "3_qos_throughput_norm.png")
+    # Chọn nic_mode chính cho mỗi env
+    representative = qos_df[
+        ((qos_df["env"] == "DOCKER") & (qos_df["nic_mode"] == "BRIDGED")) |
+        ((qos_df["env"] == "VM") & (qos_df["nic_mode"] == "CROSS-HOSTS")) |
+        ((qos_df["env"] == "KUBERNETES") & (qos_df["nic_mode"] == "K8S_1 POD")) |
+        (qos_df["env"] == "NATIVE")
+    ].copy()
+    
+    if not representative.empty:
+        fig, ax = plt.subplots(figsize=(11,6))
+        sns.barplot(data=representative, x="qos", y="qos_effect_pct", hue="env", ax=ax)
+        ax.set_title("Ảnh hưởng QoS – Throughput (% so với NOQOS)", fontsize=14)
+        ax.set_ylabel("% so với NOQOS cùng môi trường")
+        ax.set_xlabel("QoS Level")
+        ax.axhline(y=100, color='red', linestyle='--', linewidth=1, alpha=0.7)
+        ax.legend(title="Environment", loc='best')
+        ax.set_ylim(bottom=0)
+        save_plot(fig, "3_qos_throughput_norm.png")
+    
+    # Vẽ riêng từng env (detailed)
+    for env_name in ["DOCKER", "VM", "KUBERNETES"]:
+        env_data = qos_df[qos_df["env"] == env_name]
+        if not env_data.empty and len(env_data["nic_mode"].unique()) > 1:
+            fig, ax = plt.subplots(figsize=(10,6))
+            sns.barplot(data=env_data, x="qos", y="qos_effect_pct", hue="nic_mode", ax=ax)
+            ax.set_title(f"QoS Effect – {env_name} (chi tiết theo NIC/Pod)")
+            ax.set_ylabel("% so với NOQOS")
+            ax.axhline(y=100, color='red', linestyle='--', linewidth=1, alpha=0.5)
+            ax.legend(title="NIC Mode", loc='best', fontsize=8)
+            save_plot(fig, f"3_qos_detail_{env_name}.png")
 
-# QoS – Latency & Jitter
-if not qos_df.empty:
+# QoS – Latency & Jitter (dùng representative data)
+if not qos_df.empty and not representative.empty:
     fig, axes = plt.subplots(1, 2, figsize=(12,5))
-    sns.barplot(data=qos_df, x="qos", y="latency_ms_mean", hue="env", ax=axes[0])
+    sns.barplot(data=representative, x="qos", y="latency_ms_mean", hue="env", ax=axes[0])
     axes[0].set_title("Độ trễ (ms)")
-    sns.barplot(data=qos_df, x="qos", y="jitter_ms_mean", hue="env", ax=axes[1])
+    sns.barplot(data=representative, x="qos", y="jitter_ms_mean", hue="env", ax=axes[1])
     axes[1].set_title("Độ dao động Jitter (ms)")
     fig.suptitle("Ảnh hưởng QoS – Latency & Jitter")
     save_plot(fig, "4_qos_latency_jitter.png")
@@ -86,8 +112,9 @@ if not k8s_df.empty:
 # Tổng hợp – ENV vs CPU efficiency
 if not env_df.empty:
     fig, ax = plt.subplots(figsize=(6,5))
-    env_df["cpu_efficiency"] = env_df["cpu_mean_mean"] / env_df["throughput_mbps_mean"]
-    sns.barplot(data=env_df, x="env", y="cpu_efficiency", ax=ax)
+    env_df_copy = env_df.copy()
+    env_df_copy["cpu_efficiency"] = env_df_copy["cpu_mean_mean"] / env_df_copy["throughput_mbps_mean"]
+    sns.barplot(data=env_df_copy, x="env", y="cpu_efficiency", ax=ax)
     ax.set_title("Hiệu suất CPU (% CPU per Mbps)")
     save_plot(fig, "6_cpu_efficiency.png")
 
